@@ -4,7 +4,7 @@ const path = require('path');
 
 const DB_PATH = path.join(__dirname, '../db.json');
 
-// Vole Scraper Function
+// Vole Scraper Function - Modified to scrape latest result from Vole
 const scrapeVoleData = async (page, url) => {
     console.log(`Using Vole scraper for: ${url}`);
 
@@ -29,8 +29,6 @@ const scrapeVoleData = async (page, url) => {
             const cells = Array.from(beitarRow.querySelectorAll('td')).map(td => td.innerText.trim());
             const data = cells.filter(c => c.length > 0);
 
-            // Standard Vole Layout: Rank, Team, Games, Wins, Draws, Losses, Goals, Points
-            // |17| בית"ר חיפה |10|1|1|8|7 - 29|4
             const goalsIndex = data.findIndex(c => c.includes('-'));
 
             return {
@@ -47,7 +45,8 @@ const scrapeVoleData = async (page, url) => {
 
         console.log('Vole Standings:', standings);
 
-        // --- 2. Scrape Games ---
+        // --- 2. Scrape Latest Game Result ---
+        // We look for a game with a score in the current view
         console.log('Fetching Games...');
         await page.evaluate(() => {
             const tabs = Array.from(document.querySelectorAll('li'));
@@ -56,26 +55,27 @@ const scrapeVoleData = async (page, url) => {
         });
         await new Promise(r => setTimeout(r, 4000));
 
-        const games = await page.evaluate(() => {
-            // Find game containers
-            // Using generic class match for robustness
+        const latestGame = await page.evaluate(() => {
             const gameDivs = Array.from(document.querySelectorAll('div[class*="game_container"]')).filter(el =>
                 el.innerText.includes('בית"ר חיפה') || el.innerText.includes('בית”ר חיפה')
             );
 
-            return gameDivs.map(el => {
+            // Find just the first game that has a score (format X - Y or X:Y)
+            const gamesWithScore = gameDivs.map(el => {
                 const text = el.innerText.replace(/\n/g, ' ').replace(/\t/g, ' ');
+
+                // Check score
+                const scoreMatch = text.match(/\d+\s*-\s*\d+/);
+                if (!scoreMatch) return null;
+
+                // Parse
                 const timeMatch = text.match(/\d{2}:\d{2}/);
                 const time = timeMatch ? timeMatch[0] : '00:00';
 
-                // Extract Date
                 const dateMatch = text.match(/\d{1,2}\.\d{1,2}/);
                 const dateRaw = dateMatch ? dateMatch[0] : '';
-                const date = dateRaw ? `${dateRaw}.2026` : '2025/26';
 
-                // Extract Score
-                const scoreMatch = text.match(/\d+\s*-\s*\d+/);
-                const result_score = scoreMatch ? scoreMatch[0] : '';
+                const result_score = scoreMatch[0];
 
                 let clean = text
                     .replace('בית"ר חיפה', '')
@@ -87,15 +87,14 @@ const scrapeVoleData = async (page, url) => {
                     .replace('סיכום', '')
                     .replace('שבת', '')
                     .replace('שישי', '')
-                    .replace(/\d+/g, '') // Remove round number integers
+                    .replace(/\d+/g, '')
                     .trim();
 
                 const opponent = clean.replace(/[-–]/g, '').trim();
 
-                const beitarIdx = text.indexOf('בית"ר חיפה');
                 let homeTeam, awayTeam;
                 // Heuristic: Beitar appears early in string = Home
-                if (beitarIdx < 50) {
+                if (text.indexOf('בית"ר חיפה') < 50) {
                     homeTeam = 'בית"ר חיפה';
                     awayTeam = opponent;
                 } else {
@@ -104,23 +103,24 @@ const scrapeVoleData = async (page, url) => {
                 }
 
                 return {
-                    date,
-                    time,
-                    opponent: opponent || 'Unknown Match',
+                    dateRaw, // "DD.MM"
+                    opponent,
                     result_score,
-                    homeTeam: homeTeam || 'בית"ר חיפה',
-                    awayTeam: awayTeam || opponent
+                    homeTeam,
+                    awayTeam
                 };
-            });
+            }).filter(g => g !== null);
+
+            return gamesWithScore.length > 0 ? gamesWithScore[0] : null;
         });
 
-        console.log('Vole Games:', games);
+        console.log('Vole Latest Result:', latestGame);
 
-        return { standings: standings ? [standings] : [], games: games || [] };
+        return { standings: standings ? [standings] : [], latestGame };
 
     } catch (e) {
         console.error('Error in Vole scraper:', e);
-        return { standings: [], games: [] };
+        return { standings: [], latestGame: null };
     }
 };
 
@@ -153,26 +153,14 @@ async function syncData() {
             const team = teams[i];
             console.log(`[${i + 1}/${teams.length}] Syncing ${team.name}...`);
 
-            // SPECIAL HANDLER: Yeladim A Sharon -> Vole
+            let voleData = null;
+
+            // SPECIAL PRE-FETCH for Yeladim A Sharon from Vole
             if (team.name === 'ילדים א שרון') {
-                const voleData = await scrapeVoleData(page, 'https://vole.one.co.il/league/1169');
-                if (voleData.standings.length > 0) team.standings = voleData.standings;
-                if (voleData.games.length > 0) {
-                    team.games = voleData.games.map(g => ({
-                        date: g.date,
-                        time: g.time,
-                        homeTeam: g.homeTeam || 'Unknown',
-                        awayTeam: g.awayTeam || 'Unknown',
-                        opponent: g.opponent || 'Unknown',
-                        result_score: g.result_score,
-                        home_away: 'Unknown'
-                    }));
-                    console.log(`Updated ${team.games.length} games for ${team.name}`);
-                }
-                continue; // Skip standard scraper
+                voleData = await scrapeVoleData(page, 'https://vole.one.co.il/league/1169');
             }
 
-            // Standard IFA Scraper Logic
+            // Standard IFA Scraper Logic (Executed for ALL teams, including Yeladim A Sharon as base)
             const urlObj = new URL(team.url);
             const teamId = urlObj.searchParams.get('team_id');
             const seasonId = urlObj.searchParams.get('season_id') || '27';
@@ -182,7 +170,7 @@ async function syncData() {
                 continue;
             }
 
-            // --- 1. Fetch Games ---
+            // --- 1. Fetch Games from IFA (Schedule Base) ---
             const gamesUrl = `https://www.football.org.il/team-details/team-games/?team_id=${teamId}&season_id=${seasonId}`;
 
             try {
@@ -243,58 +231,93 @@ async function syncData() {
 
                 if (games.length > 0) {
                     team.games = games;
-                    console.log(`  -> Found ${games.length} games.`);
+                    console.log(`  -> Found ${games.length} games from IFA.`);
                 } else {
-                    console.log(`  -> No games found.`);
+                    console.log(`  -> No games found from IFA.`);
                 }
 
             } catch (e) {
                 console.error(`  -> Error scraping games: ${e.message}`);
             }
 
-            // --- 2. Fetch Standings ---
-            const tableUrl = `https://www.football.org.il/team-details/team-table/?team_id=${teamId}&season_id=${seasonId}`;
-
-            try {
-                await page.goto(tableUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-
-                const standings = await page.evaluate(() => {
-                    const rows = Array.from(document.querySelectorAll('tr'));
-                    const cleanTeamName = (name) => {
-                        let cleaned = name.trim();
-                        cleaned = cleaned.replace(/^אבי רן[-.]?\s*|אבי-רן\s*/, '');
-                        if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
-                            return 'בית"ר חיפה';
-                        }
-                        return cleaned;
-                    };
-
-                    const myRow = rows.find(r => r.innerText.includes('בית"ר חיפה') || r.innerText.includes('ב.חיפה') || r.innerText.includes('בית"ר יעקב'));
-
-                    if (myRow) {
-                        const cells = Array.from(myRow.querySelectorAll('td')).map(c => c.innerText.trim());
-                        return {
-                            rank: cells[0] || '-',
-                            team: cleanTeamName(cells[1] || 'Unknown'),
-                            games: cells[2] || '0',
-                            pts: cells[cells.length - 1] || '0',
-                            wins: cells[3] || '0',
-                            draws: cells[4] || '0',
-                            losses: cells[5] || '0',
-                            goals: cells[6] || '0-0',
-                            points: cells[cells.length - 1] || '0'
-                        };
-                    }
-                    return null;
-                });
-
-                if (standings) {
-                    team.standings = [standings];
-                    console.log(`  -> Found standings: Rank ${standings.rank}`);
+            // --- MERGE LOGIC for Yeladim A Sharon ---
+            if (voleData) {
+                // 1. Overwrite Standings
+                if (voleData.standings.length > 0) {
+                    team.standings = voleData.standings;
+                    console.log(`  -> Overwrote standings with Vole data.`);
                 }
 
-            } catch (e) {
-                console.error(`  -> Error scraping table: ${e.message}`);
+                // 2. Update Latest Result
+                if (voleData.latestGame && team.games.length > 0) {
+                    // Need to fuzzy match the Vole latest game to an IFA game
+                    // Vole Date: "27.12" (DD.MM)
+                    // IFA Date: "27/12/2025"
+
+                    const voleDateParts = voleData.latestGame.dateRaw.split('.');
+                    if (voleDateParts.length == 2) {
+                        // Build regex or check string includes
+                        const day = voleDateParts[0].padStart(2, '0');
+                        const month = voleDateParts[1].padStart(2, '0');
+                        const fuzzyDate = `${day}/${month}`;
+
+                        const matchIndex = team.games.findIndex(g => g.date.includes(fuzzyDate));
+
+                        if (matchIndex !== -1) {
+                            console.log(`  -> Found matching game on ${team.games[matchIndex].date}. Updating score to ${voleData.latestGame.result_score}`);
+                            team.games[matchIndex].result_score = voleData.latestGame.result_score;
+                        } else {
+                            console.log(`  -> Could not find matching game for Vole result date ${fuzzyDate}`);
+                        }
+                    }
+                }
+            }
+
+            // --- 2. Fetch Standings (Standard for others) ---
+            if (!voleData) {
+                const tableUrl = `https://www.football.org.il/team-details/team-table/?team_id=${teamId}&season_id=${seasonId}`;
+
+                try {
+                    await page.goto(tableUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+
+                    const standings = await page.evaluate(() => {
+                        const rows = Array.from(document.querySelectorAll('tr'));
+                        const cleanTeamName = (name) => {
+                            let cleaned = name.trim();
+                            cleaned = cleaned.replace(/^אבי רן[-.]?\s*|אבי-רן\s*/, '');
+                            if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
+                                return 'בית"ר חיפה';
+                            }
+                            return cleaned;
+                        };
+
+                        const myRow = rows.find(r => r.innerText.includes('בית"ר חיפה') || r.innerText.includes('ב.חיפה') || r.innerText.includes('בית"ר יעקב'));
+
+                        if (myRow) {
+                            const cells = Array.from(myRow.querySelectorAll('td')).map(c => c.innerText.trim());
+                            return {
+                                rank: cells[0] || '-',
+                                team: cleanTeamName(cells[1] || 'Unknown'),
+                                games: cells[2] || '0',
+                                pts: cells[cells.length - 1] || '0',
+                                wins: cells[3] || '0',
+                                draws: cells[4] || '0',
+                                losses: cells[5] || '0',
+                                goals: cells[6] || '0-0',
+                                points: cells[cells.length - 1] || '0'
+                            };
+                        }
+                        return null;
+                    });
+
+                    if (standings) {
+                        team.standings = [standings];
+                        console.log(`  -> Found standings: Rank ${standings.rank}`);
+                    }
+
+                } catch (e) {
+                    console.error(`  -> Error scraping table: ${e.message}`);
+                }
             }
         }
 
