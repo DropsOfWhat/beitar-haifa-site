@@ -47,8 +47,8 @@ export default function SidebarClient({ teams }: SidebarClientProps) {
 
             {/* Sidebar Container */}
             <aside className={`
-                w-72 md:w-64 bg-white border-l border-gray-200 h-screen overflow-y-auto
-                fixed top-0 right-0 z-50 shadow-2xl md:shadow-none md:static md:block
+                w-72 md:w-64 bg-white border-l border-gray-200 h-screen md:h-[calc(100vh-100px)] overflow-y-auto
+                fixed top-0 right-0 z-50 shadow-2xl md:shadow-none md:sticky md:top-20 md:block
                 transition-transform duration-300 ease-in-out
                 ${isOpen ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}
             `}>
