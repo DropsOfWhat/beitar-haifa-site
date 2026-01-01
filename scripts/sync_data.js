@@ -4,6 +4,134 @@ const path = require('path');
 
 const DB_PATH = path.join(__dirname, '../db.json');
 
+// Vole Scraper Function
+const scrapeVoleData = async (page, url) => {
+    console.log(`Using Vole scraper for: ${url}`);
+
+    try {
+        await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+
+        // 1. Scrape Standings (Table)
+        const standings = await page.evaluate(() => {
+            const rows = Array.from(document.querySelectorAll('tr'));
+
+            // Find Beitar row
+            const beitarRow = rows.find(tr => tr.innerText.includes('בית"ר חיפה') || tr.innerText.includes('בית”ר חיפה'));
+
+            if (!beitarRow) return null;
+
+            const cells = Array.from(beitarRow.querySelectorAll('td')).map(td => td.innerText.trim());
+            // Filter empty cells
+            const data = cells.filter(c => c.length > 0);
+
+            // Standard Vole Layout: Rank, Team, Games, Wins, Draws, Losses, Goals, Points
+            // |17| בית"ר חיפה |10|1|1|8|7 - 29|4
+            const goalsIndex = data.findIndex(c => c.includes('-'));
+
+            return {
+                rank: data[0],
+                team: 'בית"ר חיפה',
+                games: data[2],
+                wins: data[3],
+                draws: data[4],
+                losses: data[5],
+                goals: data[goalsIndex],
+                points: data[data.length - 1]
+            };
+        });
+
+        console.log('Vole Standings:', standings);
+
+        // 2. Scrape Games
+        // Click "Games" tab
+        await page.evaluate(() => {
+            const tabs = Array.from(document.querySelectorAll('li'));
+            const gamesTab = tabs.find(el => el.innerText.includes('משחקים'));
+            if (gamesTab) gamesTab.click();
+        });
+
+        // Wait for content load
+        await new Promise(r => setTimeout(r, 4000));
+
+        const games = await page.evaluate(() => {
+            // Find game containers using generic class match and ensure it has Beitar text
+            const gameDivs = Array.from(document.querySelectorAll('div[class*="game_container"]')).filter(el =>
+                el.innerText.includes('בית"ר חיפה') || el.innerText.includes('בית”ר חיפה')
+            );
+
+            // Map valid game containers
+            return gameDivs.map(el => {
+                const text = el.innerText.replace(/\n/g, ' ').replace(/\t/g, ' ');
+                // Extract Time
+                const timeMatch = text.match(/\d{2}:\d{2}/);
+                const time = timeMatch ? timeMatch[0] : '00:00';
+
+                // Extract Date (DD.MM)
+                const dateMatch = text.match(/\d{1,2}\.\d{1,2}/);
+                const dateRaw = dateMatch ? dateMatch[0] : '';
+                const date = dateRaw ? `${dateRaw}.2026` : '2025/26';
+
+                // Extract Score
+                const scoreMatch = text.match(/\d+\s*-\s*\d+/);
+                const result_score = scoreMatch ? scoreMatch[0] : '';
+
+                // Clean text for opponent name
+                let clean = text
+                    .replace('בית"ר חיפה', '')
+                    .replace('בית”ר חיפה', '')
+                    .replace(time, '')
+                    .replace(dateRaw, '')
+                    .replace(result_score, '')
+                    .replace('דווח תוצאה', '')
+                    .replace('סיכום', '')
+                    .replace('שבת', '')
+                    .replace('שישי', '')
+                    .replace('ראשון', '')
+                    .replace('שני', '')
+                    .replace('שלישי', '')
+                    .replace('רביעי', '')
+                    .replace('חמישי', '')
+                    .replace('מחזור', '')
+                    .replace(/\d+/g, '') // Remove loose numbers like round number
+                    .trim();
+
+                const opponent = clean.replace(/[-–]/g, '').trim();
+
+                // Determine Home/Away based on position in string
+                const beitarIdx = text.indexOf('בית"ר חיפה');
+                // Standard format: HOME ... AWAY
+                // If Beitar is earlier in the string, it is Home.
+
+                let homeTeam, awayTeam;
+                if (beitarIdx < 50) { // Rough check, Beitar appears early
+                    homeTeam = 'בית"ר חיפה';
+                    awayTeam = opponent;
+                } else {
+                    homeTeam = opponent;
+                    awayTeam = 'בית"ר חיפה';
+                }
+
+                return {
+                    date,
+                    time,
+                    opponent: opponent || 'Unknown Match',
+                    result_score,
+                    homeTeam: homeTeam || 'בית"ר חיפה',
+                    awayTeam: awayTeam || opponent
+                };
+            });
+        });
+
+        console.log('Vole Games:', games);
+
+        return { standings: standings ? [standings] : [], games: games || [] };
+
+    } catch (e) {
+        console.error('Error in Vole scraper:', e);
+        return { standings: [], games: [] };
+    }
+};
+
 async function syncData() {
     console.log('Starting data synchronization...');
 
@@ -34,6 +162,25 @@ async function syncData() {
         for (let i = 0; i < teams.length; i++) {
             const team = teams[i];
             console.log(`[${i + 1}/${teams.length}] Syncing ${team.name}...`);
+
+            // SPECIAL HANDLER: Yeladim A Sharon -> Vole
+            if (team.name === 'ילדים א שרון') {
+                const voleData = await scrapeVoleData(page, 'https://vole.one.co.il/league/1169');
+                if (voleData.standings.length > 0) team.standings = voleData.standings;
+                if (voleData.games.length > 0) {
+                    team.games = voleData.games.map(g => ({
+                        date: g.date,
+                        time: g.time,
+                        homeTeam: g.homeTeam || 'Unknown',
+                        awayTeam: g.awayTeam || 'Unknown',
+                        opponent: g.opponent || 'Unknown',
+                        result_score: g.result_score,
+                        home_away: 'Unknown' // Logic can be improved
+                    }));
+                    console.log(`Updated ${team.games.length} games and standings for ${team.name} from Vole`);
+                }
+                continue; // Skip standard scraper
+            }
 
             // Extract IDs
             const urlObj = new URL(team.url);
@@ -103,30 +250,47 @@ async function syncData() {
                         results.push({
                             date,
                             time,
-                            result_score: score,
                             homeTeam,
                             awayTeam,
-                            opponent: matchCell ? clean(matchCell) : 'Unknown',
-                            home_away: 'Unknown'
+                            opponent: `${homeTeam} - ${awayTeam}`, // Keep standard format
+                            result_score: score,
+                            home_away: 'Unknown' // Logic to determine home/away if needed
                         });
                     });
+
                     return results;
                 });
 
-                team.games = games;
-                console.log(`  -> Found ${games.length} games.`);
+                if (games.length > 0) {
+                    team.games = games;
+                    console.log(`  -> Found ${games.length} games.`);
+                } else {
+                    console.log(`  -> No games found.`);
+                }
 
             } catch (e) {
-                console.error(`  -> Error fetching games: ${e.message}`);
+                console.error(`  -> Error scraping games: ${e.message}`);
             }
 
-            // --- 2. Fetch Table ---
-            const tableUrl = `https://www.football.org.il/team-details/?team_id=${teamId}&season_id=${seasonId}`;
+            // --- 2. Fetch Standings ---
+            // Only if "league_id" exists or we can infer URL
+            // Assuming table URL is generic or we extract it.
+            // For simplicity, using the team page which often has the table OR constructing table URL.
+            // But football.org.il usually has a league table tab.
+
+            // Construct Table URL (heuristic: league_id needed, but we don't have it in db.json usually)
+            // However, we can go to team page -> "League Table" tab.
+            const tableUrl = `https://www.football.org.il/team-details/team-table/?team_id=${teamId}&season_id=${seasonId}`;
 
             try {
                 await page.goto(tableUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
-                const table = await page.evaluate(() => {
+                const standings = await page.evaluate(() => {
+                    const rows = Array.from(document.querySelectorAll('tr'));
+                    // Find header
+                    // Find team row
+                    const results = [];
+
                     const cleanTeamName = (name) => {
                         let cleaned = name.trim();
                         // Remove "Avi Ran-" prefix
@@ -137,48 +301,52 @@ async function syncData() {
                         return cleaned;
                     };
 
-                    const rows = Array.from(document.querySelectorAll('a.table_row'));
-                    const results = [];
+                    // Looking for row with team name (might be "Beitar Haifa" etc)
+                    // If we want FULL table, we scrape all. If just our position, we find us.
+                    // Let's scrape relative info if possible.
+                    // For now, let's grab the row for 'בית"ר חיפה' if exists.
 
-                    rows.forEach(row => {
-                        if (!row.href.includes('team-details')) return;
+                    const myRow = rows.find(r => r.innerText.includes('בית"ר חיפה') || r.innerText.includes('ב.חיפה') || r.innerText.includes('בית"ר יעקב'));
 
-                        const cells = Array.from(row.querySelectorAll('div')).map(d => d.textContent.trim());
+                    if (myRow) {
+                        const cells = Array.from(myRow.querySelectorAll('td')).map(c => c.innerText.trim());
+                        // Index 0: Rank, 1: Team, ...
+                        // Need mapping. Usually: Rank, Team, Games, Wins, Draws, Losses, Goals, Points
 
-                        if (!/^\d+$/.test(cells[0])) return;
-
-                        results.push({
-                            position: cells[0],
-                            team: cleanTeamName(cells[1]),
-                            games: cells[2],
-                            wins: cells[3],
-                            draws: cells[4],
-                            losses: cells[5],
-                            goals: cells[6],
-                            points: cells[cells.length - 1]
-                        });
-                    });
-
-                    return results;
+                        return {
+                            rank: cells[0] || '-',
+                            team: cleanTeamName(cells[1] || 'Unknown'), // Clean here too!
+                            games: cells[2] || '0',
+                            pts: cells[cells.length - 1] || '0',
+                            // ... other stats if needed
+                            wins: cells[3] || '0',
+                            draws: cells[4] || '0',
+                            losses: cells[5] || '0',
+                            goals: cells[6] || '0-0',
+                            points: cells[cells.length - 1] || '0'
+                        };
+                    }
+                    return null;
                 });
 
-                if (table.length > 0) {
-                    team.table = table;
-                    console.log(`  -> Found ${table.length} table entries.`);
+                if (standings) {
+                    team.standings = [standings]; // Array for consistency
+                    console.log(`  -> Found standings: Rank ${standings.rank}`);
+                } else {
+                    // console.log(`  -> No standings found.`);
                 }
 
             } catch (e) {
-                console.error(`  -> Error fetching table: ${e.message}`);
+                console.error(`  -> Error scraping table: ${e.message}`);
             }
-
-            await new Promise(r => setTimeout(r, 1000 + Math.random() * 2000));
         }
 
+        // Save updated DB
         fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2));
-        console.log('Synchronization complete. db.json updated.');
+        console.log('Database updated successfully!');
 
-    } catch (error) {
-        console.error('Fatal error during sync:', error);
+    } catch (e) {
+        console.error('Fatal error during sync:', e);
     } finally {
         await browser.close();
     }
