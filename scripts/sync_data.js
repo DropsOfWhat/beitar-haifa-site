@@ -64,23 +64,17 @@ async function syncData() {
                         const clean = (str) => str.replace(/^(תאריך|שעה|תוצאה|משחק)/, '').trim();
 
                         const cleanTeamName = (name) => {
-                            let cleaned = name;
-                            // Remove "Tzav Pius"
-                            cleaned = cleaned.replace(/צו פיוס/g, '');
-                            // Remove quotes/parentheses content if needed, or just specific likely junk
-                            // Remove specific known noise
-                            cleaned = cleaned.replace(/['"]+.*['"]+/g, ''); // Remove quoted parts? careful.
-                            // Better: Remove " (text)" patterns if they are just metadata
+                            let cleaned = name.trim();
+
+                            // Remove "Avi Ran-" prefix
+                            cleaned = cleaned.replace(/^אבי רן[-.]?\s*|אבי-רן\s*/, '');
 
                             // Standardize Beitar Haifa
                             if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
                                 return 'בית"ר חיפה';
                             }
 
-                            // Remove trailing numbers (heuristic) if standalone
-                            cleaned = cleaned.replace(/\s+\d+$/, '');
-
-                            return cleaned.trim();
+                            return cleaned;
                         };
 
                         const date = clean(cells.find(c => /\d{2}\/\d{2}\/\d{4}/.test(c)) || '');
@@ -134,13 +128,13 @@ async function syncData() {
 
                 const table = await page.evaluate(() => {
                     const cleanTeamName = (name) => {
-                        let cleaned = name;
-                        cleaned = cleaned.replace(/צו פיוס/g, '');
+                        let cleaned = name.trim();
+                        // Remove "Avi Ran-" prefix
+                        cleaned = cleaned.replace(/^אבי רן[-.]?\s*|אבי-רן\s*/, '');
                         if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
                             return 'בית"ר חיפה';
                         }
-                        cleaned = cleaned.replace(/\s+\d+$/, '');
-                        return cleaned.trim();
+                        return cleaned;
                     };
 
                     const rows = Array.from(document.querySelectorAll('a.table_row'));
