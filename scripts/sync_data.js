@@ -74,10 +74,15 @@ async function syncData() {
 
                         if (matchCell) {
                             const content = clean(matchCell);
-                            const parts = content.split('-').map(s => s.trim());
+                            // Split by hyphen, en-dash, or em-dash
+                            const parts = content.split(/[-–—]/).map(s => s.trim());
                             if (parts.length >= 2) {
                                 homeTeam = parts[0];
-                                awayTeam = parts[1];
+                                // Join the rest in case there are multiple dashes (rare but safe)
+                                awayTeam = parts.slice(1).join('-').trim();
+                            } else {
+                                console.log(`Warning: Could not split teams from '${matchCell}'`);
+                                // Fallback: try to guess or leave as unknown to avoid duplication
                             }
                         }
 
