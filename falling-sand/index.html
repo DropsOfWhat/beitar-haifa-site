@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falling Sand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>Falling Sand</h1>
+            <div class="controls">
+                <div class="toolbar" id="toolbar">
+                    <!-- Buttons will be injected here or hardcoded -->
+                    <button class="tool active" data-tool="sand">Sand</button>
+                    <button class="tool" data-tool="water">Water</button>
+                    <button class="tool" data-tool="stone">Stone</button>
+                    <button class="tool" data-tool="wood">Wood</button>
+                    <button class="tool" data-tool="fire">Fire</button>
+                    <button class="tool" data-tool="eraser">Eraser</button>
+                </div>
+                <div class="actions">
+                    <button class="action-btn" id="clear-btn">Clear Canvas</button>
+                </div>
+                <div class="brush-controls">
+                    <label for="brush-size">Size</label>
+                    <input type="range" id="brush-size" min="1" max="10" value="2">
+                </div>
+            </div>
+        </header>
+        <main>
+            <canvas id="game-canvas"></canvas>
+        </main>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

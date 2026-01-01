@@ -1,0 +1,4420 @@
+{
+  "teams": [
+    {
+      "name": "בוגרים",
+      "url": "https://www.football.org.il/team-details/?team_id=3586&season_id=27",
+      "games": [
+        {
+          "date": "12/09/2025",
+          "time": "15:00",
+          "result_score": "2-0",
+          "home_away": "Away",
+          "opponent": "הפועל בני ערערה עארה",
+          "homeTeam": "הפועל בני ערערה עארה",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "20/09/2025",
+          "time": "20:45",
+          "result_score": "3-1",
+          "home_away": "Home",
+          "opponent": "מ.ס. טירת כרמל גל קובי",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.ס. טירת כרמל גל קובי"
+        },
+        {
+          "date": "27/09/2025",
+          "time": "20:45",
+          "result_score": "0-1",
+          "home_away": "Away",
+          "opponent": "איחוד בני בקה",
+          "homeTeam": "איחוד בני בקה",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "03/10/2025",
+          "time": "13:15",
+          "result_score": "1-7",
+          "home_away": "Home",
+          "opponent": "מכבי אחי איכסל",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מכבי אחי איכסל"
+        },
+        {
+          "date": "10/10/2025",
+          "time": "14:50",
+          "result_score": "5-3",
+          "home_away": "Away",
+          "opponent": "הפועל רמות מנשה מגידו",
+          "homeTeam": "הפועל רמות מנשה מגידו",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "17/10/2025",
+          "time": "14:30",
+          "result_score": "2-4",
+          "home_away": "Away",
+          "opponent": "מ.כ. אור עקיבא",
+          "homeTeam": "מ.כ. אור עקיבא",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "24/10/2025",
+          "time": "14:20",
+          "result_score": "4-2",
+          "home_away": "Home",
+          "opponent": "הפועל דלית אל כרמל",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "הפועל דלית אל כרמל"
+        },
+        {
+          "date": "31/10/2025",
+          "time": "11:00",
+          "result_score": "2-1",
+          "home_away": "Away",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "מ.כ. כבביר",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "07/11/2025",
+          "time": "11:00",
+          "result_score": "1-3",
+          "home_away": "Home",
+          "opponent": "מ.ס. נתניה קולט כהן",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.ס. נתניה קולט כהן"
+        },
+        {
+          "date": "28/11/2025",
+          "time": "11:30",
+          "result_score": "4-0",
+          "home_away": "Away",
+          "opponent": "מ.ס. צעירי כפר קנא",
+          "homeTeam": "מ.ס. צעירי כפר קנא",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "05/12/2025",
+          "time": "11:00",
+          "result_score": "1-3",
+          "home_away": "Home",
+          "opponent": "הפועל איחוד בני ג'ת",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "הפועל איחוד בני ג'ת"
+        },
+        {
+          "date": "12/12/2025",
+          "time": "13:30",
+          "result_score": "3-0",
+          "home_away": "Away",
+          "opponent": "מ.ס. כדורגל משהד",
+          "homeTeam": "מ.ס. כדורגל משהד",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "19/12/2025",
+          "time": "11:15",
+          "result_score": "3-0",
+          "home_away": "Home",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.ס. צעירי חיפה"
+        },
+        {
+          "date": "25/12/2025",
+          "time": "19:20",
+          "result_score": "4-1",
+          "home_away": "Away",
+          "opponent": "הפועל יפיע",
+          "homeTeam": "הפועל יפיע",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "30/12/2025",
+          "time": "20:30",
+          "result_score": "1-2",
+          "home_away": "Home",
+          "opponent": "מ.כ. צופי חיפה סמיר פרהוד",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.כ. צופי חיפה סמיר פרהוד"
+        },
+        {
+          "date": "09/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל בני ערערה עארה",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "הפועל בני ערערה עארה"
+        },
+        {
+          "date": "16/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. טירת כרמל גל קובי",
+          "homeTeam": "מ.ס. טירת כרמל גל קובי",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "23/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "איחוד בני בקה",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "איחוד בני בקה"
+        },
+        {
+          "date": "30/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי אחי איכסל",
+          "homeTeam": "מכבי אחי איכסל",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "06/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל רמות מנשה מגידו",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "הפועל רמות מנשה מגידו"
+        },
+        {
+          "date": "13/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. אור עקיבא",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.כ. אור עקיבא"
+        },
+        {
+          "date": "20/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל דלית אל כרמל",
+          "homeTeam": "הפועל דלית אל כרמל",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "27/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.כ. כבביר"
+        },
+        {
+          "date": "06/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. נתניה קולט כהן",
+          "homeTeam": "מ.ס. נתניה קולט כהן",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "13/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. צעירי כפר קנא",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.ס. צעירי כפר קנא"
+        },
+        {
+          "date": "20/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל איחוד בני ג'ת",
+          "homeTeam": "הפועל איחוד בני ג'ת",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "27/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. כדורגל משהד",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "מ.ס. כדורגל משהד"
+        },
+        {
+          "date": "03/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "מ.ס. צעירי חיפה",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        },
+        {
+          "date": "10/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל יפיע",
+          "homeTeam": "בית\"ר חיפה יעקב",
+          "awayTeam": "הפועל יפיע"
+        },
+        {
+          "date": "17/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. צופי חיפה סמיר פרהוד",
+          "homeTeam": "מ.כ. צופי חיפה סמיר פרהוד",
+          "awayTeam": "בית\"ר חיפה יעקב"
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "הפועל דלית אל כרמל",
+          "games": "14",
+          "wins": "12",
+          "draws": "0",
+          "losses": "2",
+          "goals": "13-47",
+          "points": "36"
+        },
+        {
+          "position": "2",
+          "team": "הפועל איחוד בני ג'ת",
+          "games": "14",
+          "wins": "10",
+          "draws": "2",
+          "losses": "2",
+          "goals": "16-36",
+          "points": "32"
+        },
+        {
+          "position": "3",
+          "team": "מ.ס. טירת כרמל גל קובי",
+          "games": "14",
+          "wins": "10",
+          "draws": "2",
+          "losses": "2",
+          "goals": "11-35",
+          "points": "32"
+        },
+        {
+          "position": "4",
+          "team": "מ.כ. אור עקיבא",
+          "games": "14",
+          "wins": "10",
+          "draws": "2",
+          "losses": "2",
+          "goals": "23-59",
+          "points": "31"
+        },
+        {
+          "position": "5",
+          "team": "בית\"ר חיפה יעקב",
+          "games": "15",
+          "wins": "10",
+          "draws": "0",
+          "losses": "5",
+          "goals": "24-40",
+          "points": "30"
+        },
+        {
+          "position": "6",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "14",
+          "wins": "9",
+          "draws": "1",
+          "losses": "4",
+          "goals": "13-38",
+          "points": "28"
+        },
+        {
+          "position": "7",
+          "team": "איחוד בני בקה",
+          "games": "14",
+          "wins": "8",
+          "draws": "3",
+          "losses": "3",
+          "goals": "16-26",
+          "points": "27"
+        },
+        {
+          "position": "8",
+          "team": "מ.ס. צעירי כפר קנא",
+          "games": "14",
+          "wins": "6",
+          "draws": "2",
+          "losses": "6",
+          "goals": "27-28",
+          "points": "20"
+        },
+        {
+          "position": "9",
+          "team": "מ.כ. צופי חיפה סמיר פרהוד",
+          "games": "15",
+          "wins": "4",
+          "draws": "4",
+          "losses": "7",
+          "goals": "27-23",
+          "points": "16"
+        },
+        {
+          "position": "10",
+          "team": "מ.כ. כבביר",
+          "games": "14",
+          "wins": "4",
+          "draws": "3",
+          "losses": "7",
+          "goals": "46-29",
+          "points": "15"
+        },
+        {
+          "position": "11",
+          "team": "הפועל רמות מנשה מגידו",
+          "games": "14",
+          "wins": "4",
+          "draws": "3",
+          "losses": "7",
+          "goals": "33-24",
+          "points": "15"
+        },
+        {
+          "position": "12",
+          "team": "הפועל בני ערערה עארה",
+          "games": "14",
+          "wins": "4",
+          "draws": "2",
+          "losses": "8",
+          "goals": "30-12",
+          "points": "14"
+        },
+        {
+          "position": "13",
+          "team": "מכבי אחי איכסל",
+          "games": "14",
+          "wins": "3",
+          "draws": "2",
+          "losses": "9",
+          "goals": "43-19",
+          "points": "11"
+        },
+        {
+          "position": "14",
+          "team": "מ.ס. נתניה קולט כהן",
+          "games": "14",
+          "wins": "2",
+          "draws": "3",
+          "losses": "9",
+          "goals": "29-20",
+          "points": "9"
+        },
+        {
+          "position": "15",
+          "team": "מ.ס. כדורגל משהד",
+          "games": "14",
+          "wins": "2",
+          "draws": "1",
+          "losses": "11",
+          "goals": "31-17",
+          "points": "7"
+        },
+        {
+          "position": "16",
+          "team": "הפועל יפיע",
+          "games": "14",
+          "wins": "0",
+          "draws": "0",
+          "losses": "14",
+          "goals": "79-8",
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "נוער",
+      "url": "https://www.football.org.il/team-details/?team_id=3661&season_id=27",
+      "games": [
+        {
+          "date": "12/09/2025",
+          "time": "13:30",
+          "result_score": "2-6",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\""
+        },
+        {
+          "date": "20/09/2025",
+          "time": "18:00",
+          "result_score": "3-0",
+          "home_away": "Away",
+          "opponent": "הפועל בני ג'סר א זרקא",
+          "homeTeam": "הפועל בני ג'סר א זרקא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "27/09/2025",
+          "time": "12:52",
+          "result_score": "0-22",
+          "home_away": "Home",
+          "opponent": "מ.ס טירת כרמל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס טירת כרמל"
+        },
+        {
+          "date": "04/10/2025",
+          "time": "09:00",
+          "result_score": "8-1",
+          "home_away": "Away",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "מ.כ. צופי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "10/10/2025",
+          "time": "09:30",
+          "result_score": "2-4",
+          "home_away": "Home",
+          "opponent": "מ.ס. קרית חיים \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קרית חיים \"צו פיוס\""
+        },
+        {
+          "date": "18/10/2025",
+          "time": "09:00",
+          "result_score": "0-4",
+          "home_away": "Home",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כבביר"
+        },
+        {
+          "date": "07/11/2025",
+          "time": "08:45",
+          "result_score": "0-3",
+          "home_away": "Home",
+          "opponent": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\""
+        },
+        {
+          "date": "06/12/2025",
+          "time": "11:00",
+          "result_score": "2-2",
+          "home_away": "Away",
+          "opponent": "מכבי עוספיא",
+          "homeTeam": "מכבי עוספיא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "15/12/2025",
+          "time": "19:30",
+          "result_score": "2-1",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/12/2025",
+          "time": "15:30",
+          "result_score": "0-5",
+          "home_away": "Home",
+          "opponent": "הפועל בני ג'סר א זרקא",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל בני ג'סר א זרקא"
+        },
+        {
+          "date": "27/12/2025",
+          "time": "14:00",
+          "result_score": "18-0",
+          "home_away": "Away",
+          "opponent": "מ.ס טירת כרמל",
+          "homeTeam": "מ.ס טירת כרמל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "13:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. צופי חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. קרית חיים \"צו פיוס\"",
+          "homeTeam": "מ.ס. קרית חיים \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "מ.כ. כבביר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\"",
+          "homeTeam": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עוספיא",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עוספיא"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\""
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל בני ג'סר א זרקא",
+          "homeTeam": "הפועל בני ג'סר א זרקא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "07/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס טירת כרמל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס טירת כרמל"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "מ.כ. צופי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. קרית חיים \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קרית חיים \"צו פיוס\""
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כבביר"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\""
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עוספיא",
+          "homeTeam": "מכבי עוספיא",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "בית\"ר חיפה - אבי רן",
+          "games": "11",
+          "wins": "10",
+          "draws": "1",
+          "losses": "0",
+          "goals": "8-77",
+          "points": "31"
+        },
+        {
+          "position": "2",
+          "team": "מ.ס. קרית חיים \"צו פיוס\"",
+          "games": "11",
+          "wins": "7",
+          "draws": "1",
+          "losses": "3",
+          "goals": "22-62",
+          "points": "22"
+        },
+        {
+          "position": "3",
+          "team": "הפועל חוף הכרמל / מ\"מ  \"צו פיוס\"",
+          "games": "10",
+          "wins": "7",
+          "draws": "0",
+          "losses": "3",
+          "goals": "16-40",
+          "points": "21"
+        },
+        {
+          "position": "4",
+          "team": "מכבי נווה שאנן יוסף שריקי \"צו פיוס\"",
+          "games": "10",
+          "wins": "6",
+          "draws": "1",
+          "losses": "3",
+          "goals": "19-30",
+          "points": "19"
+        },
+        {
+          "position": "5",
+          "team": "מ.כ. צופי חיפה",
+          "games": "11",
+          "wins": "5",
+          "draws": "2",
+          "losses": "4",
+          "goals": "31-32",
+          "points": "17"
+        },
+        {
+          "position": "6",
+          "team": "הפועל בני ג'סר א זרקא",
+          "games": "11",
+          "wins": "3",
+          "draws": "1",
+          "losses": "7",
+          "goals": "41-26",
+          "points": "10"
+        },
+        {
+          "position": "7",
+          "team": "מ.כ. כבביר",
+          "games": "11",
+          "wins": "3",
+          "draws": "1",
+          "losses": "7",
+          "goals": "27-16",
+          "points": "10"
+        },
+        {
+          "position": "8",
+          "team": "מכבי עוספיא",
+          "games": "10",
+          "wins": "3",
+          "draws": "1",
+          "losses": "6",
+          "goals": "18-18",
+          "points": "10"
+        },
+        {
+          "position": "9",
+          "team": "מ.ס טירת כרמל",
+          "games": "11",
+          "wins": "0",
+          "draws": "0",
+          "losses": "11",
+          "goals": "122-3",
+          "points": "0"
+        },
+        {
+          "position": "10",
+          "team": "מ.כ. שפרעם",
+          "games": "0",
+          "wins": "0",
+          "draws": "0",
+          "losses": "0",
+          "goals": "0-0",
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "נערים א",
+      "url": "https://www.football.org.il/team-details/?team_id=3340&season_id=27",
+      "games": [
+        {
+          "date": "14/09/2025",
+          "time": "16:45",
+          "result_score": "3-7",
+          "home_away": "Home",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כרמל חיפה"
+        },
+        {
+          "date": "21/09/2025",
+          "time": "18:30",
+          "result_score": "2-1",
+          "home_away": "Away",
+          "opponent": "מכבי אחי איכסל",
+          "homeTeam": "מכבי אחי איכסל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "26/09/2025",
+          "time": "15:15",
+          "result_score": "3-3",
+          "home_away": "Home",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עפולה"
+        },
+        {
+          "date": "05/10/2025",
+          "time": "17:15",
+          "result_score": "4-0",
+          "home_away": "Away",
+          "opponent": "מ.כ. נהלל יזרעאל",
+          "homeTeam": "מ.כ. נהלל יזרעאל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "12/10/2025",
+          "time": "18:20",
+          "result_score": "0-2",
+          "home_away": "Home",
+          "opponent": "מכבי נווה שאנן אינג' יוסף ינון \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי נווה שאנן אינג' יוסף ינון \"צו פיוס\""
+        },
+        {
+          "date": "09/11/2025",
+          "time": "15:30",
+          "result_score": "2-6",
+          "home_away": "Away",
+          "opponent": "מכבי עין מאהל אדהם",
+          "homeTeam": "מכבי עין מאהל אדהם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "08/12/2025",
+          "time": "20:15",
+          "result_score": "4-0",
+          "home_away": "Away",
+          "opponent": "מ.ס. שפרעם",
+          "homeTeam": "מ.ס. שפרעם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "13/12/2025",
+          "time": "20:25",
+          "result_score": "12-1",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא",
+          "homeTeam": "מ.ס. חיפה רובי שפירא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "22/12/2025",
+          "time": "13:00",
+          "result_score": "0-1",
+          "home_away": "Home",
+          "opponent": "הפ' בית שאן מסילות",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' בית שאן מסילות"
+        },
+        {
+          "date": "28/12/2025",
+          "time": "18:15",
+          "result_score": "1-9",
+          "home_away": "Home",
+          "opponent": "אתלטיקו שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "אתלטיקו שפרעם"
+        },
+        {
+          "date": "04/01/2026",
+          "time": "18:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. הפועל גלבוע \"צו פיוס\"",
+          "homeTeam": "מ.כ. הפועל גלבוע \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "מכבי אחי נצרת",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "מ.כ. כרמל חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי אחי איכסל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי אחי איכסל"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "הפועל עפולה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נהלל יזרעאל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נהלל יזרעאל"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי נווה שאנן אינג' יוסף ינון \"צו פיוס\"",
+          "homeTeam": "מכבי נווה שאנן אינג' יוסף ינון \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עין מאהל אדהם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עין מאהל אדהם"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. שפרעם"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' בית שאן מסילות",
+          "homeTeam": "הפ' בית שאן מסילות",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "אתלטיקו שפרעם",
+          "homeTeam": "אתלטיקו שפרעם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. הפועל גלבוע \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. הפועל גלבוע \"צו פיוס\""
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי אחי נצרת"
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "מכבי עין מאהל אדהם",
+          "games": "9",
+          "wins": "8",
+          "draws": "1",
+          "losses": "0",
+          "goals": "12-46",
+          "points": "25"
+        },
+        {
+          "position": "2",
+          "team": "הפועל עפולה",
+          "games": "10",
+          "wins": "8",
+          "draws": "1",
+          "losses": "1",
+          "goals": "10-58",
+          "points": "25"
+        },
+        {
+          "position": "3",
+          "team": "בית\"ר חיפה \"טום לוי\" \"צו פיוס\"",
+          "games": "10",
+          "wins": "8",
+          "draws": "1",
+          "losses": "1",
+          "goals": "15-46",
+          "points": "25"
+        },
+        {
+          "position": "4",
+          "team": "בית שאן מסילות",
+          "games": "9",
+          "wins": "6",
+          "draws": "0",
+          "losses": "3",
+          "goals": "15-31",
+          "points": "18"
+        },
+        {
+          "position": "5",
+          "team": "מכבי אחי איכסל",
+          "games": "10",
+          "wins": "5",
+          "draws": "1",
+          "losses": "4",
+          "goals": "21-29",
+          "points": "16"
+        },
+        {
+          "position": "6",
+          "team": "מכבי נווה שאנן אינג' יוסף ינון \"צו פיוס\"",
+          "games": "9",
+          "wins": "5",
+          "draws": "1",
+          "losses": "3",
+          "goals": "10-30",
+          "points": "16"
+        },
+        {
+          "position": "7",
+          "team": "מכבי אחי נצרת",
+          "games": "9",
+          "wins": "5",
+          "draws": "0",
+          "losses": "4",
+          "goals": "15-25",
+          "points": "15"
+        },
+        {
+          "position": "8",
+          "team": "מ.כ. נהלל יזרעאל",
+          "games": "11",
+          "wins": "4",
+          "draws": "0",
+          "losses": "7",
+          "goals": "39-27",
+          "points": "12"
+        },
+        {
+          "position": "9",
+          "team": "מ.ס. שפרעם",
+          "games": "9",
+          "wins": "3",
+          "draws": "0",
+          "losses": "6",
+          "goals": "21-12",
+          "points": "9"
+        },
+        {
+          "position": "10",
+          "team": "מ.כ. הפועל גלבוע \"צו פיוס\"",
+          "games": "8",
+          "wins": "2",
+          "draws": "1",
+          "losses": "5",
+          "goals": "29-16",
+          "points": "7"
+        },
+        {
+          "position": "11",
+          "team": "מ.כ. כרמל חיפה",
+          "games": "9",
+          "wins": "2",
+          "draws": "0",
+          "losses": "7",
+          "goals": "57-18",
+          "points": "6"
+        },
+        {
+          "position": "12",
+          "team": "מ.ס. חיפה רובי שפירא",
+          "games": "9",
+          "wins": "2",
+          "draws": "0",
+          "losses": "7",
+          "goals": "43-18",
+          "points": "6"
+        },
+        {
+          "position": "13",
+          "team": "אתלטיקו שפרעם",
+          "games": "10",
+          "wins": "0",
+          "draws": "0",
+          "losses": "10",
+          "goals": "73-4",
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "נערים ב",
+      "url": "https://www.football.org.il/team-details/?team_id=3346&season_id=27",
+      "games": [
+        {
+          "date": "13/09/2025",
+          "time": "18:00",
+          "result_score": "1-0",
+          "home_away": "Away",
+          "opponent": "הפועל מטה אשר",
+          "homeTeam": "הפועל מטה אשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "19/09/2025",
+          "time": "15:40",
+          "result_score": "2-2",
+          "home_away": "Home",
+          "opponent": "מכבי חיפה גולדשנפלד \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי חיפה גולדשנפלד \"צו פיוס\""
+        },
+        {
+          "date": "28/09/2025",
+          "time": "20:30",
+          "result_score": "0-0",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/10/2025",
+          "time": "11:15",
+          "result_score": "0-2",
+          "home_away": "Home",
+          "opponent": "מכבי בני ריינה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי בני ריינה"
+        },
+        {
+          "date": "08/10/2025",
+          "time": "17:36",
+          "result_score": "0-4",
+          "home_away": "Away",
+          "opponent": "הפועל עפולה \"צו פיוס\"",
+          "homeTeam": "הפועל עפולה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/10/2025",
+          "time": "15:15",
+          "result_score": "3-0",
+          "home_away": "Home",
+          "opponent": "בני סכנין",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בני סכנין"
+        },
+        {
+          "date": "18/10/2025",
+          "time": "15:45",
+          "result_score": "0-2",
+          "home_away": "Away",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "מ.כ. נוה יוסף",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "29/10/2025",
+          "time": "15:30",
+          "result_score": "1-2",
+          "home_away": "Away",
+          "opponent": "הפועל חדרה מערב",
+          "homeTeam": "הפועל חדרה מערב",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "01/11/2025",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "חופשית",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "חופשית"
+        },
+        {
+          "date": "10/11/2025",
+          "time": "20:49",
+          "result_score": "0-1",
+          "home_away": "Away",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "הפ' בני אעבלין",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "15/11/2025",
+          "time": "10:00",
+          "result_score": "2-1",
+          "home_away": "Home",
+          "opponent": "עירוני נשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "עירוני נשר"
+        },
+        {
+          "date": "06/12/2025",
+          "time": "10:45",
+          "result_score": "0-2",
+          "home_away": "Home",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי צור שלום ק. ביאליק"
+        },
+        {
+          "date": "15/12/2025",
+          "time": "17:40",
+          "result_score": "0-4",
+          "home_away": "Away",
+          "opponent": "מ.כ. גליל גולן \"צו פיוס\"",
+          "homeTeam": "מ.כ. גליל גולן \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/12/2025",
+          "time": "12:15",
+          "result_score": "2-0",
+          "home_away": "Home",
+          "opponent": "הפ' נוף הגליל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' נוף הגליל"
+        },
+        {
+          "date": "26/12/2025",
+          "time": "14:30",
+          "result_score": "3-1",
+          "home_away": "Away",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "מכבי אחי נצרת",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/12/2025",
+          "time": "18:00",
+          "result_score": "1-2",
+          "home_away": "Home",
+          "opponent": "מכבי עמק חפר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עמק חפר"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "14:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עירוני כרמיאל",
+          "homeTeam": "הפועל עירוני כרמיאל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חיפה שלום",
+          "homeTeam": "הפועל חיפה שלום",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו \"צו פיוס\""
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל מטה אשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל מטה אשר"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי חיפה גולדשנפלד \"צו פיוס\"",
+          "homeTeam": "מכבי חיפה גולדשנפלד \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה \"צו פיוס\""
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי בני ריינה",
+          "homeTeam": "מכבי בני ריינה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עפולה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עפולה \"צו פיוס\""
+        },
+        {
+          "date": "07/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בני סכנין",
+          "homeTeam": "בני סכנין",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נוה יוסף"
+        },
+        {
+          "date": "17/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "עירוני נשר",
+          "homeTeam": "עירוני נשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חדרה מערב",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חדרה מערב"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "חופשית",
+          "homeTeam": "חופשית",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' בני אעבלין"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "מכבי צור שלום ק. ביאליק",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. גליל גולן \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. גליל גולן \"צו פיוס\""
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' נוף הגליל",
+          "homeTeam": "הפ' נוף הגליל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי אחי נצרת"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עמק חפר",
+          "homeTeam": "מכבי עמק חפר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עירוני כרמיאל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עירוני כרמיאל"
+        },
+        {
+          "date": "12/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חיפה שלום",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חיפה שלום"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עכו \"צו פיוס\"",
+          "homeTeam": "הפועל עכו \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "מ.כ. נוה יוסף",
+          "games": "16",
+          "wins": "12",
+          "draws": "2",
+          "losses": "2",
+          "goals": "19-41",
+          "points": "38"
+        },
+        {
+          "position": "2",
+          "team": "בני סכנין",
+          "games": "16",
+          "wins": "9",
+          "draws": "7",
+          "losses": "0",
+          "goals": "8-30",
+          "points": "34"
+        },
+        {
+          "position": "3",
+          "team": "נוף הגליל",
+          "games": "15",
+          "wins": "10",
+          "draws": "2",
+          "losses": "3",
+          "goals": "20-43",
+          "points": "32"
+        },
+        {
+          "position": "4",
+          "team": "מכבי חיפה גולדשנפלד \"צו פיוס\"",
+          "games": "15",
+          "wins": "8",
+          "draws": "4",
+          "losses": "3",
+          "goals": "23-38",
+          "points": "28"
+        },
+        {
+          "position": "5",
+          "team": "מכבי עמק חפר",
+          "games": "15",
+          "wins": "8",
+          "draws": "3",
+          "losses": "4",
+          "goals": "12-30",
+          "points": "27"
+        },
+        {
+          "position": "6",
+          "team": "הפועל חיפה שלום",
+          "games": "15",
+          "wins": "7",
+          "draws": "5",
+          "losses": "3",
+          "goals": "26-41",
+          "points": "26"
+        },
+        {
+          "position": "7",
+          "team": "הפועל עכו \"צו פיוס\"",
+          "games": "15",
+          "wins": "7",
+          "draws": "2",
+          "losses": "6",
+          "goals": "25-32",
+          "points": "23"
+        },
+        {
+          "position": "8",
+          "team": "מ.כ. גליל גולן \"צו פיוס\"",
+          "games": "15",
+          "wins": "6",
+          "draws": "4",
+          "losses": "5",
+          "goals": "20-26",
+          "points": "22"
+        },
+        {
+          "position": "9",
+          "team": "הפועל עירוני כרמיאל",
+          "games": "15",
+          "wins": "6",
+          "draws": "3",
+          "losses": "6",
+          "goals": "19-15",
+          "points": "21"
+        },
+        {
+          "position": "10",
+          "team": "עירוני נשר",
+          "games": "15",
+          "wins": "5",
+          "draws": "5",
+          "losses": "5",
+          "goals": "22-20",
+          "points": "20"
+        },
+        {
+          "position": "11",
+          "team": "בית\"ר נהריה \"צו פיוס\"",
+          "games": "14",
+          "wins": "3",
+          "draws": "8",
+          "losses": "3",
+          "goals": "18-21",
+          "points": "17"
+        },
+        {
+          "position": "12",
+          "team": "בית\"ר חיפה",
+          "games": "15",
+          "wins": "5",
+          "draws": "2",
+          "losses": "8",
+          "goals": "24-14",
+          "points": "17"
+        },
+        {
+          "position": "13",
+          "team": "מכבי אחי נצרת",
+          "games": "15",
+          "wins": "5",
+          "draws": "2",
+          "losses": "8",
+          "goals": "41-28",
+          "points": "17"
+        },
+        {
+          "position": "14",
+          "team": "הפועל חדרה מערב",
+          "games": "15",
+          "wins": "4",
+          "draws": "5",
+          "losses": "6",
+          "goals": "29-14",
+          "points": "17"
+        },
+        {
+          "position": "15",
+          "team": "מכבי בני ריינה",
+          "games": "15",
+          "wins": "3",
+          "draws": "6",
+          "losses": "6",
+          "goals": "32-28",
+          "points": "15"
+        },
+        {
+          "position": "16",
+          "team": "מכבי צור שלום ק. ביאליק",
+          "games": "15",
+          "wins": "3",
+          "draws": "5",
+          "losses": "7",
+          "goals": "33-18",
+          "points": "14"
+        },
+        {
+          "position": "17",
+          "team": "בני אעבלין",
+          "games": "15",
+          "wins": "4",
+          "draws": "2",
+          "losses": "9",
+          "goals": "33-16",
+          "points": "14"
+        },
+        {
+          "position": "18",
+          "team": "הפועל עפולה \"צו פיוס\"",
+          "games": "15",
+          "wins": "3",
+          "draws": "2",
+          "losses": "10",
+          "goals": "40-25",
+          "points": "11"
+        },
+        {
+          "position": "19",
+          "team": "הפועל מטה אשר",
+          "games": "15",
+          "wins": "0",
+          "draws": "1",
+          "losses": "14",
+          "goals": "48-12",
+          "points": "1"
+        }
+      ]
+    },
+    {
+      "name": "נערים ג ארצית",
+      "url": "https://www.football.org.il/team-details/?team_id=3662&season_id=27",
+      "games": [
+        {
+          "date": "13/09/2025",
+          "time": "09:00",
+          "result_score": "3-1",
+          "home_away": "Away",
+          "opponent": "הפועל עירוני כרמיאל ''איאד''",
+          "homeTeam": "הפועל עירוני כרמיאל ''איאד''",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "19/09/2025",
+          "time": "13:45",
+          "result_score": "1-2",
+          "home_away": "Home",
+          "opponent": "מ.כ. גליל גולן \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. גליל גולן \"צו פיוס\""
+        },
+        {
+          "date": "27/09/2025",
+          "time": "15:00",
+          "result_score": "1-2",
+          "home_away": "Away",
+          "opponent": "מ.ס. בני יפיע",
+          "homeTeam": "מ.ס. בני יפיע",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/10/2025",
+          "time": "09:00",
+          "result_score": "1-3",
+          "home_away": "Home",
+          "opponent": "בית\"ר טוברוק אורן",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר טוברוק אורן"
+        },
+        {
+          "date": "08/10/2025",
+          "time": "14:20",
+          "result_score": "3-1",
+          "home_away": "Away",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "הפ' בני אעבלין",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "10/10/2025",
+          "time": "11:00",
+          "result_score": "0-0",
+          "home_away": "Home",
+          "opponent": "מ.כדורגל נהלל יזראעל \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כדורגל נהלל יזראעל \"צו פיוס\""
+        },
+        {
+          "date": "18/10/2025",
+          "time": "13:00",
+          "result_score": "1-2",
+          "home_away": "Away",
+          "opponent": "הפועל חיפה 1 ניר",
+          "homeTeam": "הפועל חיפה 1 ניר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/10/2025",
+          "time": "18:50",
+          "result_score": "0-6",
+          "home_away": "Home",
+          "opponent": "מ.ס. רשת מתנ\"סים טבעון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. רשת מתנ\"סים טבעון"
+        },
+        {
+          "date": "27/10/2025",
+          "time": "17:00",
+          "result_score": "2-1",
+          "home_away": "Away",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "מכבי אחי נצרת",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "05/11/2025",
+          "time": "19:00",
+          "result_score": "3-0",
+          "home_away": "Away",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "הפועל עפולה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "08/11/2025",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "חופשית",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "חופשית"
+        },
+        {
+          "date": "06/12/2025",
+          "time": "16:00",
+          "result_score": "1-2",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה יוראי",
+          "homeTeam": "בית\"ר נהריה יוראי",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "13/12/2025",
+          "time": "12:00",
+          "result_score": "0-5",
+          "home_away": "Home",
+          "opponent": "מכבי חיפה גולדשנפלד",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי חיפה גולדשנפלד"
+        },
+        {
+          "date": "23/12/2025",
+          "time": "19:35",
+          "result_score": "0-8",
+          "home_away": "Away",
+          "opponent": "הפועל עכו \"צו פיוס\"",
+          "homeTeam": "הפועל עכו \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "27/12/2025",
+          "time": "15:00",
+          "result_score": "0-1",
+          "home_away": "Home",
+          "opponent": "עירוני נשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "עירוני נשר"
+        },
+        {
+          "date": "30/12/2025",
+          "time": "17:00",
+          "result_score": "1-1",
+          "home_away": "Away",
+          "opponent": "מכבי עמק חפר אברהם \"צו פיוס\"",
+          "homeTeam": "מכבי עמק חפר אברהם \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "09:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי צור שלום ק. ביאליק"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל נוף הגליל",
+          "homeTeam": "הפועל נוף הגליל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי ברקאי",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי ברקאי"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עירוני כרמיאל ''איאד''",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עירוני כרמיאל ''איאד''"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. גליל גולן \"צו פיוס\"",
+          "homeTeam": "מ.כ. גליל גולן \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. בני יפיע",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. בני יפיע"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר טוברוק אורן",
+          "homeTeam": "בית\"ר טוברוק אורן",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' בני אעבלין"
+        },
+        {
+          "date": "07/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כדורגל נהלל יזראעל \"צו פיוס\"",
+          "homeTeam": "מ.כדורגל נהלל יזראעל \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חיפה 1 ניר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חיפה 1 ניר"
+        },
+        {
+          "date": "17/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. רשת מתנ\"סים טבעון",
+          "homeTeam": "מ.ס. רשת מתנ\"סים טבעון",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי אחי נצרת",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי אחי נצרת"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עפולה"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "חופשית",
+          "homeTeam": "חופשית",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה יוראי",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה יוראי"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי חיפה גולדשנפלד",
+          "homeTeam": "מכבי חיפה גולדשנפלד",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו \"צו פיוס\""
+        },
+        {
+          "date": "28/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "עירוני נשר",
+          "homeTeam": "עירוני נשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עמק חפר אברהם \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עמק חפר אברהם \"צו פיוס\""
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "מכבי צור שלום ק. ביאליק",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "12/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל נוף הגליל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל נוף הגליל"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי ברקאי",
+          "homeTeam": "מכבי ברקאי",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "בית\"ר נהריה יוראי",
+          "games": "15",
+          "wins": "11",
+          "draws": "4",
+          "losses": "0",
+          "goals": "11-28",
+          "points": "37"
+        },
+        {
+          "position": "2",
+          "team": "הפועל עכו \"צו פיוס\"",
+          "games": "15",
+          "wins": "11",
+          "draws": "3",
+          "losses": "1",
+          "goals": "14-56",
+          "points": "36"
+        },
+        {
+          "position": "3",
+          "team": "הפועל חיפה 1 ניר",
+          "games": "15",
+          "wins": "11",
+          "draws": "2",
+          "losses": "2",
+          "goals": "14-38",
+          "points": "35"
+        },
+        {
+          "position": "4",
+          "team": "מ.כדורגל נהלל יזראעל \"צו פיוס\"",
+          "games": "15",
+          "wins": "10",
+          "draws": "2",
+          "losses": "3",
+          "goals": "17-33",
+          "points": "32"
+        },
+        {
+          "position": "5",
+          "team": "מכבי עמק חפר אברהם \"צו פיוס\"",
+          "games": "16",
+          "wins": "9",
+          "draws": "4",
+          "losses": "3",
+          "goals": "25-38",
+          "points": "31"
+        },
+        {
+          "position": "6",
+          "team": "בית\"ר טוברוק אורן",
+          "games": "15",
+          "wins": "10",
+          "draws": "0",
+          "losses": "5",
+          "goals": "18-32",
+          "points": "30"
+        },
+        {
+          "position": "7",
+          "team": "בית\"ר חיפה \"חיים טולדנו\"",
+          "games": "15",
+          "wins": "9",
+          "draws": "2",
+          "losses": "4",
+          "goals": "20-32",
+          "points": "29"
+        },
+        {
+          "position": "8",
+          "team": "מכבי חיפה גולדשנפלד",
+          "games": "15",
+          "wins": "9",
+          "draws": "1",
+          "losses": "5",
+          "goals": "27-38",
+          "points": "28"
+        },
+        {
+          "position": "9",
+          "team": "מ.כ. גליל גולן \"צו פיוס\"",
+          "games": "15",
+          "wins": "7",
+          "draws": "2",
+          "losses": "6",
+          "goals": "17-29",
+          "points": "23"
+        },
+        {
+          "position": "10",
+          "team": "הפועל נוף הגליל",
+          "games": "16",
+          "wins": "6",
+          "draws": "2",
+          "losses": "8",
+          "goals": "34-29",
+          "points": "20"
+        },
+        {
+          "position": "11",
+          "team": "הפועל עירוני כרמיאל ''איאד''",
+          "games": "15",
+          "wins": "5",
+          "draws": "4",
+          "losses": "6",
+          "goals": "27-21",
+          "points": "19"
+        },
+        {
+          "position": "12",
+          "team": "מכבי צור שלום ק. ביאליק",
+          "games": "16",
+          "wins": "6",
+          "draws": "0",
+          "losses": "10",
+          "goals": "42-22",
+          "points": "18"
+        },
+        {
+          "position": "13",
+          "team": "הפועל עפולה",
+          "games": "15",
+          "wins": "5",
+          "draws": "2",
+          "losses": "8",
+          "goals": "33-31",
+          "points": "17"
+        },
+        {
+          "position": "14",
+          "team": "מכבי ברקאי",
+          "games": "15",
+          "wins": "5",
+          "draws": "2",
+          "losses": "8",
+          "goals": "35-24",
+          "points": "17"
+        },
+        {
+          "position": "15",
+          "team": "עירוני נשר",
+          "games": "15",
+          "wins": "4",
+          "draws": "3",
+          "losses": "8",
+          "goals": "20-18",
+          "points": "15"
+        },
+        {
+          "position": "16",
+          "team": "מ.ס. בני יפיע",
+          "games": "15",
+          "wins": "4",
+          "draws": "1",
+          "losses": "10",
+          "goals": "32-13",
+          "points": "13"
+        },
+        {
+          "position": "17",
+          "team": "מ.ס. רשת מתנ\"סים טבעון",
+          "games": "15",
+          "wins": "3",
+          "draws": "1",
+          "losses": "11",
+          "goals": "42-14",
+          "points": "10"
+        },
+        {
+          "position": "18",
+          "team": "מכבי אחי נצרת",
+          "games": "15",
+          "wins": "1",
+          "draws": "1",
+          "losses": "13",
+          "goals": "40-8",
+          "points": "4"
+        },
+        {
+          "position": "19",
+          "team": "בני אעבלין",
+          "games": "15",
+          "wins": "0",
+          "draws": "0",
+          "losses": "15",
+          "goals": "44-8",
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "נערים ג מפרץ",
+      "url": "https://www.football.org.il/team-details/?team_id=7680&season_id=27",
+      "games": [
+        {
+          "date": "12/09/2025",
+          "time": "14:30",
+          "result_score": "2-3",
+          "home_away": "Away",
+          "opponent": "איחוד בני עכו",
+          "homeTeam": "איחוד בני עכו",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/09/2025",
+          "time": "13:15",
+          "result_score": "7-0",
+          "home_away": "Home",
+          "opponent": "הפועל מטה אשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל מטה אשר"
+        },
+        {
+          "date": "26/09/2025",
+          "time": "13:00",
+          "result_score": "17-0",
+          "home_away": "Away",
+          "opponent": "הפ' קרית חיים ליבוביץ יעקב \"צו פיוס\"",
+          "homeTeam": "הפ' קרית חיים ליבוביץ יעקב \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/10/2025",
+          "time": "08:30",
+          "result_score": "2-1",
+          "home_away": "Home",
+          "opponent": "הפועל ד.א. כרמל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל ד.א. כרמל"
+        },
+        {
+          "date": "11/10/2025",
+          "time": "11:00",
+          "result_score": "0-5",
+          "home_away": "Away",
+          "opponent": "הפועל חיפה 2",
+          "homeTeam": "הפועל חיפה 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/10/2025",
+          "time": "16:00",
+          "result_score": "11-1",
+          "home_away": "Home",
+          "opponent": "מ.ס. שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. שפרעם"
+        },
+        {
+          "date": "31/10/2025",
+          "time": "11:50",
+          "result_score": "0-3",
+          "home_away": "Away",
+          "opponent": "מכבי נווה שאנן ז'אק בז'ה \"צו פיוס\"",
+          "homeTeam": "מכבי נווה שאנן ז'אק בז'ה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "08/11/2025",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "חופשית",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "חופשית"
+        },
+        {
+          "date": "06/12/2025",
+          "time": "20:15",
+          "result_score": "3-8",
+          "home_away": "Away",
+          "opponent": "מכבי ע.ק. אתא",
+          "homeTeam": "מכבי ע.ק. אתא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/12/2025",
+          "time": "10:45",
+          "result_score": "4-2",
+          "home_away": "Home",
+          "opponent": "מכבי ס.מעלות תרשיחא 12 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי ס.מעלות תרשיחא 12 \"צו פיוס\""
+        },
+        {
+          "date": "20/12/2025",
+          "time": "10:40",
+          "result_score": "0-2",
+          "home_away": "Away",
+          "opponent": "מ.כ. כבביר",
+          "homeTeam": "מ.כ. כבביר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "26/12/2025",
+          "time": "13:30",
+          "result_score": "1-10",
+          "home_away": "Away",
+          "opponent": "מ.ס.קרית ים \"דניאל\" \"צו פיוס\"",
+          "homeTeam": "מ.ס.קרית ים \"דניאל\" \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "13:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל טירת כרמל",
+          "homeTeam": "הפועל טירת כרמל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. שפרעם"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. קרית חיים \"צו פיוס\"",
+          "homeTeam": "מ.ס. קרית חיים \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. צופי חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "מ.ס. צעירי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. קרית חיים \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. קרית חיים \"צו פיוס\""
+        },
+        {
+          "date": "07/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "homeTeam": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "מ.כ. כרמל חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עתלית \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עתלית \"צו פיוס\""
+        }
+      ],
+      "table": [
+        {
+          "position": "1",
+          "team": "מ.ס.קרית ים \"דניאל\" \"צו פיוס\"",
+          "games": "12",
+          "wins": "12",
+          "draws": "0",
+          "losses": "0",
+          "goals": "7-79",
+          "points": "36"
+        },
+        {
+          "position": "2",
+          "team": "מ.ס. שפרעם",
+          "games": "12",
+          "wins": "11",
+          "draws": "0",
+          "losses": "1",
+          "goals": "12-96",
+          "points": "33"
+        },
+        {
+          "position": "3",
+          "team": "הפועל מטה אשר",
+          "games": "11",
+          "wins": "10",
+          "draws": "0",
+          "losses": "1",
+          "goals": "10-65",
+          "points": "30"
+        },
+        {
+          "position": "4",
+          "team": "מ.כ. קרית חיים \"צו פיוס\"",
+          "games": "11",
+          "wins": "10",
+          "draws": "0",
+          "losses": "1",
+          "goals": "9-111",
+          "points": "30"
+        },
+        {
+          "position": "5",
+          "team": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "games": "11",
+          "wins": "8",
+          "draws": "0",
+          "losses": "3",
+          "goals": "18-63",
+          "points": "24"
+        },
+        {
+          "position": "6",
+          "team": "מכבי עתלית \"צו פיוס\"",
+          "games": "11",
+          "wins": "7",
+          "draws": "2",
+          "losses": "2",
+          "goals": "16-58",
+          "points": "23"
+        },
+        {
+          "position": "7",
+          "team": "מכבי נווה שאנן ז'אק בז'ה \"צו פיוס\"",
+          "games": "12",
+          "wins": "7",
+          "draws": "1",
+          "losses": "4",
+          "goals": "27-60",
+          "points": "22"
+        },
+        {
+          "position": "8",
+          "team": "הפועל טירת כרמל",
+          "games": "12",
+          "wins": "7",
+          "draws": "1",
+          "losses": "4",
+          "goals": "26-27",
+          "points": "22"
+        },
+        {
+          "position": "9",
+          "team": "מ.כ. כרמל חיפה",
+          "games": "12",
+          "wins": "7",
+          "draws": "1",
+          "losses": "4",
+          "goals": "28-61",
+          "points": "22"
+        },
+        {
+          "position": "10",
+          "team": "מכבי ע.ק. אתא",
+          "games": "12",
+          "wins": "7",
+          "draws": "0",
+          "losses": "5",
+          "goals": "44-63",
+          "points": "21"
+        },
+        {
+          "position": "11",
+          "team": "איחוד בני עכו",
+          "games": "11",
+          "wins": "7",
+          "draws": "0",
+          "losses": "4",
+          "goals": "22-37",
+          "points": "21"
+        },
+        {
+          "position": "12",
+          "team": "הפועל חיפה 2",
+          "games": "12",
+          "wins": "6",
+          "draws": "1",
+          "losses": "5",
+          "goals": "19-51",
+          "points": "19"
+        },
+        {
+          "position": "13",
+          "team": "מכבי ס.מעלות תרשיחא 12 \"צו פיוס\"",
+          "games": "12",
+          "wins": "6",
+          "draws": "0",
+          "losses": "6",
+          "goals": "46-39",
+          "points": "18"
+        },
+        {
+          "position": "14",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "11",
+          "wins": "6",
+          "draws": "0",
+          "losses": "5",
+          "goals": "22-31",
+          "points": "18"
+        },
+        {
+          "position": "15",
+          "team": "מ.כ. צופי חיפה",
+          "games": "11",
+          "wins": "5",
+          "draws": "0",
+          "losses": "6",
+          "goals": "37-33",
+          "points": "15"
+        },
+        {
+          "position": "16",
+          "team": "הפועל ד.א. כרמל",
+          "games": "12",
+          "wins": "3",
+          "draws": "0",
+          "losses": "9",
+          "goals": "61-39",
+          "points": "9"
+        },
+        {
+          "position": "17",
+          "team": "מ.כ. כבביר",
+          "games": "12",
+          "wins": "3",
+          "draws": "0",
+          "losses": "9",
+          "goals": "68-15",
+          "points": "9"
+        },
+        {
+          "position": "18",
+          "team": "הפועל חוף הכרמל / מ\"מ",
+          "games": "11",
+          "wins": "2",
+          "draws": "0",
+          "losses": "9",
+          "goals": "51-12",
+          "points": "6"
+        },
+        {
+          "position": "19",
+          "team": "מ.כ. שפרעם",
+          "games": "12",
+          "wins": "2",
+          "draws": "0",
+          "losses": "10",
+          "goals": "76-21",
+          "points": "6"
+        },
+        {
+          "position": "20",
+          "team": "בית\"ר חיפה",
+          "games": "11",
+          "wins": "1",
+          "draws": "0",
+          "losses": "10",
+          "goals": "55-27",
+          "points": "3"
+        },
+        {
+          "position": "21",
+          "team": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "games": "11",
+          "wins": "1",
+          "draws": "0",
+          "losses": "10",
+          "goals": "99-16",
+          "points": "3"
+        },
+        {
+          "position": "22",
+          "team": "מ.ס. קרית חיים \"צו פיוס\"",
+          "games": "11",
+          "wins": "1",
+          "draws": "0",
+          "losses": "10",
+          "goals": "77-10",
+          "points": "3"
+        },
+        {
+          "position": "23",
+          "team": "קרית חיים ליבוביץ יעקב \"צו פיוס\"",
+          "games": "11",
+          "wins": "0",
+          "draws": "0",
+          "losses": "11",
+          "goals": "186-2",
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "ילדים א שרון",
+      "url": "https://www.football.org.il/team-details/?team_id=5101&season_id=27",
+      "games": [
+        {
+          "date": "27/09/2025",
+          "time": "14:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חדרה",
+          "homeTeam": "הפועל חדרה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/10/2025",
+          "time": "11:30",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל הוד השרון \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל הוד השרון \"צו פיוס\""
+        },
+        {
+          "date": "11/10/2025",
+          "time": "10:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל תל אביב צפון",
+          "homeTeam": "הפועל תל אביב צפון",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/10/2025",
+          "time": "12:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נהלל יזרעאל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נהלל יזרעאל"
+        },
+        {
+          "date": "01/11/2025",
+          "time": "14:20",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עכו אסף",
+          "homeTeam": "הפועל עכו אסף",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "08/11/2025",
+          "time": "10:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עפולה"
+        },
+        {
+          "date": "06/12/2025",
+          "time": "14:45",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "מ.כ. נוה יוסף",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/12/2025",
+          "time": "09:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. קדימה צורן \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קדימה צורן \"צו פיוס\""
+        },
+        {
+          "date": "19/12/2025",
+          "time": "13:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר טוברוק \"צו פיוס\"",
+          "homeTeam": "בית\"ר טוברוק \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "27/12/2025",
+          "time": "12:15",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל ניר רמה\"ש רום וילדר ז\"ל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל ניר רמה\"ש רום וילדר ז\"ל"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "08:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי חיפה גולדשנפלד",
+          "homeTeam": "מכבי חיפה גולדשנפלד",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. קרית ים \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קרית ים \"צו פיוס\""
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי ת\"א שלמה",
+          "homeTeam": "מכבי ת\"א שלמה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי פ\"ת  צפון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי פ\"ת  צפון"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל מחנה יהודה מוטי גריזים \"צו פיוס\"",
+          "homeTeam": "הפועל מחנה יהודה מוטי גריזים \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עמק חפר",
+          "homeTeam": "מכבי עמק חפר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חיפה 1 שרון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חיפה 1 שרון"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חדרה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חדרה"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל הוד השרון \"צו פיוס\"",
+          "homeTeam": "הפועל הוד השרון \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל תל אביב צפון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל תל אביב צפון"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. נהלל יזרעאל",
+          "homeTeam": "מ.כ. נהלל יזרעאל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו אסף",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו אסף"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עפולה",
+          "homeTeam": "הפועל עפולה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נוה יוסף"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. קדימה צורן \"צו פיוס\"",
+          "homeTeam": "מ.ס. קדימה צורן \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר טוברוק \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר טוברוק \"צו פיוס\""
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל ניר רמה\"ש רום וילדר ז\"ל",
+          "homeTeam": "הפועל ניר רמה\"ש רום וילדר ז\"ל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי חיפה גולדשנפלד",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי חיפה גולדשנפלד"
+        },
+        {
+          "date": "23/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. קרית ים \"צו פיוס\"",
+          "homeTeam": "מ.ס. קרית ים \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "30/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי ת\"א שלמה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי ת\"א שלמה"
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "ילדים א מפרץ",
+      "url": "https://www.football.org.il/team-details/?team_id=6882&season_id=27",
+      "games": [
+        {
+          "date": "04/10/2025",
+          "time": "10:15",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "אהלי טמרה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "אהלי טמרה"
+        },
+        {
+          "date": "15/10/2025",
+          "time": "17:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. שפרעם",
+          "homeTeam": "מ.כ. שפרעם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "19/10/2025",
+          "time": "17:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי צור שלום ק. ביאליק 2 \"צו פיוס\"",
+          "homeTeam": "מכבי צור שלום ק. ביאליק 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "01/11/2025",
+          "time": "15:25",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה 2",
+          "homeTeam": "מ.כ. כרמל חיפה 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "08/11/2025",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "חופשית",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "חופשית"
+        },
+        {
+          "date": "18/12/2025",
+          "time": "14:20",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא 1",
+          "homeTeam": "מ.ס. חיפה רובי שפירא 1",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "30/12/2025",
+          "time": "19:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "11:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "אתלטיקו שפרעם",
+          "homeTeam": "אתלטיקו שפרעם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עירוני קרית אתא 2 \"צו פיוס\"",
+          "homeTeam": "מכבי עירוני קרית אתא 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי סקציה מעלות תרשיחא \"צו פי \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי סקציה מעלות תרשיחא \"צו פי \"צו פיוס\""
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "אהלי טמרה",
+          "homeTeam": "אהלי טמרה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. שפרעם"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי צור שלום ק. ביאליק 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי צור שלום ק. ביאליק 2 \"צו פיוס\""
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כרמל חיפה 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כרמל חיפה 2"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "חופשית",
+          "homeTeam": "חופשית",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא 1",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא 1"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה 2 \"צו פיוס\""
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "אתלטיקו שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "אתלטיקו שפרעם"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עירוני קרית אתא 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עירוני קרית אתא 2 \"צו פיוס\""
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי סקציה מעלות תרשיחא \"צו פי \"צו פיוס\"",
+          "homeTeam": "מכבי סקציה מעלות תרשיחא \"צו פי \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "ילדים ב",
+      "url": "https://www.football.org.il/team-details/?team_id=5450&season_id=27",
+      "games": [
+        {
+          "date": "28/09/2025",
+          "time": "15:15",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כרמל חיפה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כרמל חיפה \"צו פיוס\""
+        },
+        {
+          "date": "03/10/2025",
+          "time": "14:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל בסמת טבעון",
+          "homeTeam": "הפועל בסמת טבעון",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/10/2025",
+          "time": "15:35",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. נוה יוסף 2",
+          "homeTeam": "מ.כ. נוה יוסף 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/10/2025",
+          "time": "17:30",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. צעירי חיפה"
+        },
+        {
+          "date": "04/11/2025",
+          "time": "15:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\""
+        },
+        {
+          "date": "07/11/2025",
+          "time": "13:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עמק הירדן",
+          "homeTeam": "הפועל עמק הירדן",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/12/2025",
+          "time": "17:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל טירת כרמל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל טירת כרמל"
+        },
+        {
+          "date": "21/12/2025",
+          "time": "11:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' בני אעבלין"
+        },
+        {
+          "date": "31/12/2025",
+          "time": "17:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "homeTeam": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. צופי חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי נווה שאנן אלדד \"צו פיוס\"",
+          "homeTeam": "מכבי נווה שאנן אלדד \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/01/2026",
+          "time": "14:20",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. כפר יאסיף",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. כפר יאסיף"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה \"צו פיוס\"",
+          "homeTeam": "מ.כ. כרמל חיפה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל בסמת טבעון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל בסמת טבעון"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "מ.ס. צעירי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נוה יוסף 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נוה יוסף 2"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עמק הירדן",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עמק הירדן"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל טירת כרמל",
+          "homeTeam": "הפועל טירת כרמל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי זכרון יעקב \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי זכרון יעקב \"צו פיוס\""
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' בני אעבלין",
+          "homeTeam": "הפ' בני אעבלין",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. מכבי נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. מכבי נהריה \"צו פיוס\""
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. כפר יאסיף",
+          "homeTeam": "מ.ס. כפר יאסיף",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "מ.כ. צופי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי נווה שאנן אלדד \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי נווה שאנן אלדד \"צו פיוס\""
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "ילדים ג",
+      "url": "https://www.football.org.il/team-details/?team_id=5659&season_id=27",
+      "games": [
+        {
+          "date": "08/10/2025",
+          "time": "11:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל ע. כרמיאל 2 \"צו פיוס\"",
+          "homeTeam": "הפועל ע. כרמיאל 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "12/10/2025",
+          "time": "16:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא 2"
+        },
+        {
+          "date": "02/11/2025",
+          "time": "15:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/11/2025",
+          "time": "17:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה \"צו פיוס\""
+        },
+        {
+          "date": "15/11/2025",
+          "time": "10:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "איחוד הפועל ביר אל מכסור",
+          "homeTeam": "איחוד הפועל ביר אל מכסור",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "13/12/2025",
+          "time": "12:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כרמל חיפה"
+        },
+        {
+          "date": "16/12/2025",
+          "time": "11:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי ס. מעלות תרשיחא \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי ס. מעלות תרשיחא \"צו פיוס\""
+        },
+        {
+          "date": "19/12/2025",
+          "time": "12:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי נווה שאנן 2 \"צו פיוס\"",
+          "homeTeam": "מכבי נווה שאנן 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "26/12/2025",
+          "time": "14:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. קרית חיים \"שמשון \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. קרית חיים \"שמשון \"צו פיוס\""
+        },
+        {
+          "date": "03/01/2026",
+          "time": "10:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' רמות מנשה מגידו",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' רמות מנשה מגידו"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כדורגל נהלל יזראעל 2",
+          "homeTeam": "מ.כדורגל נהלל יזראעל 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/01/2026",
+          "time": "18:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל מ.א. משגב \"צו פיוס\"",
+          "homeTeam": "הפועל מ.א. משגב \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו 1",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו 1"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל ע. כרמיאל 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל ע. כרמיאל 2 \"צו פיוס\""
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא 2",
+          "homeTeam": "מ.ס. חיפה רובי שפירא 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "איחוד הפועל ביר אל מכסור",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "איחוד הפועל ביר אל מכסור"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי ס. מעלות תרשיחא \"צו פיוס\"",
+          "homeTeam": "מכבי ס. מעלות תרשיחא \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ 2 \"צו פיוס\""
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל מ.א. משגב \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל מ.א. משגב \"צו פיוס\""
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "מ.כ. כרמל חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי נווה שאנן 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי נווה שאנן 2 \"צו פיוס\""
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. קרית חיים \"שמשון \"צו פיוס\"",
+          "homeTeam": "מ.כ. קרית חיים \"שמשון \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' רמות מנשה מגידו",
+          "homeTeam": "הפ' רמות מנשה מגידו",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כדורגל נהלל יזראעל 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כדורגל נהלל יזראעל 2"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עכו 1",
+          "homeTeam": "הפועל עכו 1",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "טרום א חוף",
+      "url": "https://www.football.org.il/team-details/?team_id=5339&season_id=27",
+      "games": [
+        {
+          "date": "11/10/2025",
+          "time": "11:45",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו 1",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו 1"
+        },
+        {
+          "date": "18/10/2025",
+          "time": "19:15",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עתלית \"צו פיוס\"",
+          "homeTeam": "מכבי עתלית \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "22/10/2025",
+          "time": "19:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' מועצה אזורית משגב \"צו פיוס\"",
+          "homeTeam": "הפ' מועצה אזורית משגב \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/11/2025",
+          "time": "15:30",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עפולה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עפולה \"צו פיוס\""
+        },
+        {
+          "date": "08/11/2025",
+          "time": "16:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא 2",
+          "homeTeam": "מ.ס. חיפה רובי שפירא 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "06/12/2025",
+          "time": "11:50",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. גליל גולן  צפון",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. גליל גולן  צפון"
+        },
+        {
+          "date": "13/12/2025",
+          "time": "10:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "מכבי צור שלום ק. ביאליק",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "19/12/2025",
+          "time": "10:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\""
+        },
+        {
+          "date": "27/12/2025",
+          "time": "09:55",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "עירוני נשר",
+          "homeTeam": "עירוני נשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "11:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ נווה שאנן 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ נווה שאנן 2"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל מטה אשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל מטה אשר"
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. קרית חיים \"שמשון\" \"צו פיוס\"",
+          "homeTeam": "מ.כ. קרית חיים \"שמשון\" \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ. כדורגל נהלל יזראעל 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ. כדורגל נהלל יזראעל 2"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל ק\"ש",
+          "homeTeam": "הפועל ק\"ש",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' מועצה אזורית משגב \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' מועצה אזורית משגב \"צו פיוס\""
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עכו 1",
+          "homeTeam": "הפועל עכו 1",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עתלית \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עתלית \"צו פיוס\""
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל עפולה \"צו פיוס\"",
+          "homeTeam": "הפועל עפולה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא 2"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. גליל גולן  צפון",
+          "homeTeam": "מ.כ. גליל גולן  צפון",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי צור שלום ק. ביאליק",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי צור שלום ק. ביאליק"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "עירוני נשר",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "עירוני נשר"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ נווה שאנן 2",
+          "homeTeam": "מ.כ נווה שאנן 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה \"צו פיוס\""
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל מטה אשר",
+          "homeTeam": "הפועל מטה אשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. קרית חיים \"שמשון\" \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. קרית חיים \"שמשון\" \"צו פיוס\""
+        },
+        {
+          "date": "23/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ. כדורגל נהלל יזראעל 2",
+          "homeTeam": "מ. כדורגל נהלל יזראעל 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "30/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל ק\"ש",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל ק\"ש"
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "טרום א מפרץ",
+      "url": "https://www.football.org.il/team-details/?team_id=7487&season_id=27",
+      "games": [
+        {
+          "date": "08/10/2025",
+          "time": "09:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל טירת כרמל 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל טירת כרמל 2"
+        },
+        {
+          "date": "10/10/2025",
+          "time": "09:15",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי בני אבו סנאן",
+          "homeTeam": "מכבי בני אבו סנאן",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "19/10/2025",
+          "time": "18:40",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "מ.ס. צעירי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/10/2025",
+          "time": "15:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' דלית אל כרמל",
+          "homeTeam": "הפ' דלית אל כרמל",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/11/2025",
+          "time": "16:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל מטה אשר 3",
+          "homeTeam": "הפועל מטה אשר 3",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/12/2025",
+          "time": "16:10",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא",
+          "homeTeam": "מ.ס. חיפה רובי שפירא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/12/2025",
+          "time": "18:45",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ הפועל גלבוע 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ הפועל גלבוע 2"
+        },
+        {
+          "date": "21/12/2025",
+          "time": "12:45",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. צופי חיפה"
+        },
+        {
+          "date": "24/12/2025",
+          "time": "14:20",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "מ.כ. כרמל חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "03/01/2026",
+          "time": "18:40",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "בית\"ר נהריה 2 \"צו פיוס\""
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ.בנימינה \"צו פיוס\"",
+          "homeTeam": "מ.כ.בנימינה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "17/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. גליל  גולן דרום \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. גליל  גולן דרום \"צו פיוס\""
+        },
+        {
+          "date": "24/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. נוה יוסף 2",
+          "homeTeam": "מ.כ. נוה יוסף 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עירוני טמרה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עירוני טמרה"
+        },
+        {
+          "date": "07/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי ע. קרית אתא 2",
+          "homeTeam": "מכבי ע. קרית אתא 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "איחוד הפועל ביר אל מכסור",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "איחוד הפועל ביר אל מכסור"
+        },
+        {
+          "date": "21/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפ' גליל עליון \"צו פיוס\"",
+          "homeTeam": "הפ' גליל עליון \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. קרית ים \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קרית ים \"צו פיוס\""
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עוספיא",
+          "homeTeam": "מכבי עוספיא",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "21/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל טירת כרמל 2",
+          "homeTeam": "הפועל טירת כרמל 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי בני אבו סנאן",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי בני אבו סנאן"
+        },
+        {
+          "date": "04/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. צעירי חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. צעירי חיפה"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' דלית אל כרמל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' דלית אל כרמל"
+        },
+        {
+          "date": "18/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל מטה אשר 3",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל מטה אשר 3"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ הפועל גלבוע 2",
+          "homeTeam": "מ.כ הפועל גלבוע 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא"
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. צופי חיפה",
+          "homeTeam": "מ.כ. צופי חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "16/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. כרמל חיפה"
+        },
+        {
+          "date": "23/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה 2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "30/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ.בנימינה \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ.בנימינה \"צו פיוס\""
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "טרום ב חוף 1",
+      "url": "https://www.football.org.il/team-details/?team_id=5957&season_id=27",
+      "games": [
+        {
+          "date": "01/11/2025",
+          "time": "08:25",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא2"
+        },
+        {
+          "date": "15/11/2025",
+          "time": "16:45",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. שפרעם",
+          "homeTeam": "מ.ס. שפרעם",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "29/11/2025",
+          "time": "18:45",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. קרית חיים \"שמשון \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. קרית חיים \"שמשון \"צו פיוס\""
+        },
+        {
+          "date": "13/12/2025",
+          "time": "12:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.צור שלום",
+          "homeTeam": "מ.צור שלום",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/12/2025",
+          "time": "08:30",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עירוני טמרה",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עירוני טמרה"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. כרמל חיפה",
+          "homeTeam": "מ.כ. כרמל חיפה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. הפועל רמת ישי",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. הפועל רמת ישי"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ  2 \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ  2 \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. קרית ים 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. קרית ים 2"
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חיפה 1",
+          "homeTeam": "הפועל חיפה 1",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס צעירי חיפה 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס צעירי חיפה 2"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. בנימינה",
+          "homeTeam": "מ.כ. בנימינה",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עירוני קרית אתא 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עירוני קרית אתא 2"
+        },
+        {
+          "date": "09/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. שפרעם",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. שפרעם"
+        },
+        {
+          "date": "23/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. חיפה רובי שפירא2",
+          "homeTeam": "מ.ס. חיפה רובי שפירא2",
+          "awayTeam": "בית\"ר חיפה"
+        }
+      ],
+      "table": []
+    },
+    {
+      "name": "טרום ב חוף",
+      "url": "https://www.football.org.il/team-details/?team_id=8299&season_id=27",
+      "games": [
+        {
+          "date": "11/10/2025",
+          "time": "09:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ נהלל יזרעאל 2",
+          "homeTeam": "מ.כ נהלל יזרעאל 2",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "18/10/2025",
+          "time": "13:30",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "מ.כ. נוה יוסף",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "11/11/2025",
+          "time": "19:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "בית\"ר נהריה \"צו פיוס\"",
+          "homeTeam": "בית\"ר נהריה \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "13/12/2025",
+          "time": "15:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "עירוני נשר",
+          "homeTeam": "עירוני נשר",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "20/12/2025",
+          "time": "10:15",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל עכו",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל עכו"
+        },
+        {
+          "date": "10/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי עתלית \"צו פיוס\"",
+          "homeTeam": "מכבי עתלית \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "31/01/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפועל נוף הגליל",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפועל נוף הגליל"
+        },
+        {
+          "date": "14/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מכבי צור שלום ק. ביאליק \"צו פיוס\"",
+          "homeTeam": "מכבי צור שלום ק. ביאליק \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/02/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מכבי עירוני קרית אתא \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מכבי עירוני קרית אתא \"צו פיוס\""
+        },
+        {
+          "date": "14/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "מ.ס. קרית ים",
+          "homeTeam": "מ.ס. קרית ים",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "28/03/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.ס. חיפה רובי שפירא",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.ס. חיפה רובי שפירא"
+        },
+        {
+          "date": "11/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "הפ' מועצה אזורית משגב \"צו פיוס\"",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "הפ' מועצה אזורית משגב \"צו פיוס\""
+        },
+        {
+          "date": "25/04/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Away",
+          "opponent": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\"",
+          "homeTeam": "הפועל חוף הכרמל / מ\"מ \"צו פיוס\"",
+          "awayTeam": "בית\"ר חיפה"
+        },
+        {
+          "date": "02/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ נהלל יזרעאל 2",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ נהלל יזרעאל 2"
+        },
+        {
+          "date": "23/05/2026",
+          "time": "00:00",
+          "result_score": "",
+          "home_away": "Home",
+          "opponent": "מ.כ. נוה יוסף",
+          "homeTeam": "בית\"ר חיפה",
+          "awayTeam": "מ.כ. נוה יוסף"
+        }
+      ],
+      "table": []
+    }
+  ]
+}
