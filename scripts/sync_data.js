@@ -60,8 +60,28 @@ async function syncData() {
 
                         const cells = Array.from(row.querySelectorAll('div')).map(d => d.textContent.trim());
 
-                        // CLEANING FUNCTION
+                        // CLEANING FUNCTIONS
                         const clean = (str) => str.replace(/^(תאריך|שעה|תוצאה|משחק)/, '').trim();
+
+                        const cleanTeamName = (name) => {
+                            let cleaned = name;
+                            // Remove "Tzav Pius"
+                            cleaned = cleaned.replace(/צו פיוס/g, '');
+                            // Remove quotes/parentheses content if needed, or just specific likely junk
+                            // Remove specific known noise
+                            cleaned = cleaned.replace(/['"]+.*['"]+/g, ''); // Remove quoted parts? careful.
+                            // Better: Remove " (text)" patterns if they are just metadata
+
+                            // Standardize Beitar Haifa
+                            if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
+                                return 'בית"ר חיפה';
+                            }
+
+                            // Remove trailing numbers (heuristic) if standalone
+                            cleaned = cleaned.replace(/\s+\d+$/, '');
+
+                            return cleaned.trim();
+                        };
 
                         const date = clean(cells.find(c => /\d{2}\/\d{2}\/\d{4}/.test(c)) || '');
                         const time = clean(cells.find(c => /\d{2}:\d{2}/.test(c)) || '');
@@ -77,9 +97,9 @@ async function syncData() {
                             // Split by hyphen, en-dash, or em-dash
                             const parts = content.split(/[-–—]/).map(s => s.trim());
                             if (parts.length >= 2) {
-                                homeTeam = parts[0];
+                                homeTeam = cleanTeamName(parts[0]);
                                 // Join the rest in case there are multiple dashes (rare but safe)
-                                awayTeam = parts.slice(1).join('-').trim();
+                                awayTeam = cleanTeamName(parts.slice(1).join('-').trim());
                             } else {
                                 console.log(`Warning: Could not split teams from '${matchCell}'`);
                                 // Fallback: try to guess or leave as unknown to avoid duplication
@@ -113,6 +133,16 @@ async function syncData() {
                 await page.goto(tableUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
 
                 const table = await page.evaluate(() => {
+                    const cleanTeamName = (name) => {
+                        let cleaned = name;
+                        cleaned = cleaned.replace(/צו פיוס/g, '');
+                        if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
+                            return 'בית"ר חיפה';
+                        }
+                        cleaned = cleaned.replace(/\s+\d+$/, '');
+                        return cleaned.trim();
+                    };
+
                     const rows = Array.from(document.querySelectorAll('a.table_row'));
                     const results = [];
 
@@ -125,7 +155,7 @@ async function syncData() {
 
                         results.push({
                             position: cells[0],
-                            team: cells[1],
+                            team: cleanTeamName(cells[1]),
                             games: cells[2],
                             wins: cells[3],
                             draws: cells[4],
