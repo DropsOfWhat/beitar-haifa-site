@@ -51,8 +51,8 @@ export default function TeamTabs({ matches, table }: TeamTabsProps) {
                                 return (
                                     <MatchRow
                                         key={index}
-                                        homeTeam={game.home_away === 'Home' ? 'בית"ר חיפה' : game.opponent}
-                                        awayTeam={game.home_away === 'Away' ? 'בית"ר חיפה' : game.opponent}
+                                        homeTeam={game.homeTeam}
+                                        awayTeam={game.awayTeam}
                                         date={game.date}
                                         time={game.time}
                                         score={hasScore ? game.result_score : undefined}
