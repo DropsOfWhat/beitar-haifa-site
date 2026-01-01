@@ -22,7 +22,7 @@ export default function SidebarClient({ teams }: SidebarClientProps) {
         <>
             {/* Mobile Toggle Button - Floating */}
             <button
-                className="md:hidden fixed top-4 right-4 z-50 p-2.5 bg-white text-gray-700 rounded-full shadow-lg border border-gray-100 hover:bg-gray-50 active:scale-95 transition-all"
+                className="md:hidden fixed top-4 right-4 z-[60] p-2.5 bg-white text-gray-700 rounded-full shadow-lg border border-gray-100 hover:bg-gray-50 active:scale-95 transition-all"
                 onClick={() => setIsOpen(!isOpen)}
                 aria-label="Toggle Menu"
             >
