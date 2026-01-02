@@ -2916,10 +2916,9 @@
           "home_away": "Unknown"
         }
       ],
-      "table": [],
-      "standings": [
+      "table": [
         {
-          "rank": "17",
+          "position": "17",
           "team": "בית\"ר חיפה",
           "games": "10",
           "wins": "1",

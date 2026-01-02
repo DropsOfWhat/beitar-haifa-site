@@ -250,28 +250,24 @@ async function syncData() {
 
             // --- MERGE LOGIC for Yeladim A Sharon ---
             if (voleData) {
-                // 1. Overwrite Standings
+                // 1. Overwrite Standings (mapped to 'table')
                 if (voleData.standings.length > 0) {
-                    team.standings = voleData.standings;
-                    console.log(`  -> Overwrote standings with Vole data.`);
+                    team.table = voleData.standings.map(s => ({
+                        position: s.rank,
+                        team: s.team,
+                        games: s.games,
+                        wins: s.wins,
+                        draws: s.draws,
+                        losses: s.losses,
+                        goals: s.goals,
+                        points: s.points
+                    }));
+                    delete team.standings; // cleanup
+                    console.log(`  -> Overwrote table with Vole data.`);
                 }
 
                 // 2. Update Latest Result
                 if (voleData.latestResult && team.games.length > 0) {
-                    // Try to match by date or opponent?
-                    // If Vole result text contains date/opponent, we can match.
-                    // The simple request was just "updated the match with the result found".
-                    // Since we scraped specific result score, let's try to apply it to the most relevant game.
-                    // Assuming the latest game with a score is the last played game.
-                    // We can find the IFA game with the same score OR date?
-                    // Actually, IFA might optionally have the score too or not.
-                    // If Vole has it and IFA doesn't, we update.
-                    // Let's assume the Vole result corresponds to the LAST matching game date-wise that has passed.
-                    // Or just log it for now as user asked to "merge".
-
-                    // Heuristic: Update the game that has the same result? No, that's redundant.
-                    // Update the game that corresponds to the Vole game.
-                    // Let's try to match by opponent if possible, if not, skip detailed merge to avoid bad data.
                     console.log(`  -> Vole has result ${voleData.latestResult.score}. Logic to merge not fully implemented without strict matching.`);
                 }
             }
@@ -288,21 +284,21 @@ async function syncData() {
                         const cleanTeamName = (name) => {
                             let cleaned = name.trim();
                             cleaned = cleaned.replace(/^אבי רן[-.]?\s*|אבי-רן\s*/, '');
-                            if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר יעקב')) {
+                            if (cleaned.includes('בית"ר חיפה') || cleaned.includes('ב.חיפה') || cleaned.includes('בית"ר גבריאל') || cleaned.includes('בית"ר יעקב')) {
                                 return 'בית"ר חיפה';
                             }
                             return cleaned;
                         };
 
-                        const myRow = rows.find(r => r.innerText.includes('בית"ר חיפה') || r.innerText.includes('ב.חיפה') || r.innerText.includes('בית"ר יעקב'));
+                        const myRow = rows.find(r => r.innerText.includes('בית"ר חיפה') || r.innerText.includes('ב.חיפה') || r.innerText.includes('בית"ר יעקב') || r.innerText.includes('בית"ר גבריאל'));
 
                         if (myRow) {
                             const cells = Array.from(myRow.querySelectorAll('td')).map(c => c.innerText.trim());
+                            // IFA Table Columns: 0:Pos, 1:Team, 2:Games, 3:Wins, 4:Draws, 5:Losses, 6:Goals, ... Last:Points
                             return {
-                                rank: cells[0] || '-',
+                                position: cells[0] || '-',
                                 team: cleanTeamName(cells[1] || 'Unknown'),
                                 games: cells[2] || '0',
-                                pts: cells[cells.length - 1] || '0',
                                 wins: cells[3] || '0',
                                 draws: cells[4] || '0',
                                 losses: cells[5] || '0',
@@ -314,8 +310,9 @@ async function syncData() {
                     });
 
                     if (standings) {
-                        team.standings = [standings];
-                        console.log(`  -> Found standings: Rank ${standings.rank}`);
+                        team.table = [standings];
+                        delete team.standings; // cleanup
+                        console.log(`  -> Found table: Position ${standings.position}`);
                     }
 
                 } catch (e) {
