@@ -190,30 +190,47 @@ async function syncData() {
                     }
                 }
 
-                // Robust Scrape
                 const standings = await page.evaluate(() => {
-                    // Try standard TR first, then DIV rows
-                    let rows = Array.from(document.querySelectorAll('table tr'));
-                    if (rows.length < 2) {
-                        rows = Array.from(document.querySelectorAll('div.table_row, a.table_row, div.row'));
-                    }
+                    // Try to find the specific table container for club details
+                    // The HTML shows div.table_view.full_view.table_side_title containing a.table_row elements
+                    let rows = Array.from(document.querySelectorAll('div.table_view a.table_row, table tr'));
 
-                    // Skip header (heuristic: usually first row or row with "Team" text)
-                    // We just map everything and filter nulls
+                    // Filter out header rows if they got caught (usually they are div.table_header_row)
+                    rows = rows.filter(r => !r.classList.contains('table_header_row'));
+
+                    if (rows.length === 0) {
+                        // Fallback to broader selector
+                        rows = Array.from(document.querySelectorAll('div.table_row, div.row'));
+                    }
 
                     return rows.map(tr => {
                         let cells = [];
 
-                        // If it's a TR, get TDs
+                        // Helper to get clean text ignoring sr-only spans
+                        const getCellText = (el) => {
+                            // Clone to not modify DOM
+                            const clone = el.cloneNode(true);
+                            // Remove sr-only elements
+                            clone.querySelectorAll('.sr-only').forEach(e => e.remove());
+                            return clone.innerText.trim();
+                        };
+
                         if (tr.tagName === 'TR') {
-                            cells = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim());
+                            cells = Array.from(tr.querySelectorAll('td')).map(td => getCellText(td));
                         } else {
-                            // If it's a DIV row, get child DIVs
-                            cells = Array.from(tr.querySelectorAll('div')).map(d => d.innerText.trim());
+                            // For DIV/A rows, get div.table_col
+                            cells = Array.from(tr.querySelectorAll('div.table_col')).map(d => getCellText(d));
+                            // If no table_col class, fallback to any div
+                            if (cells.length === 0) {
+                                cells = Array.from(tr.querySelectorAll('div')).map(d => getCellText(d));
+                            }
                         }
 
-                        // Heuristic: Filter rows that don't look like data
+                        // Filter rows that don't look like data
                         if (cells.length < 5) return null;
+
+                        // Position: remove non-digits
+                        const position = cells[0].replace(/\D/g, '');
 
                         // Clean Team Name
                         const cleanTeam = (n) => {
@@ -222,14 +239,11 @@ async function syncData() {
                             return n.replace(/צו פיוס/g, '').trim();
                         };
 
-                        // Standard IFA Table Layout Mapping (heuristic based on Vision requests)
-                        // Usually: Pos[0], Team[1], Games[2], Wins[3], Draws[4], Loss[5], Goals[6], Points[Last]
-
-                        // Validation: Is cell[0] a number?
-                        if (!/^\d+$/.test(cells[0])) return null;
+                        // Validation: Is position a number?
+                        if (!position) return null;
 
                         return {
-                            position: cells[0],
+                            position: position,
                             team: cleanTeam(cells[1]),
                             games: cells[2],
                             wins: cells[3],
@@ -244,16 +258,19 @@ async function syncData() {
                 if (standings && standings.length > 0) {
                     console.log(`  -> Scraped ${standings.length} rows for table.`);
 
-                    // Sanity Check: Ensure Beitar exists in the table?
-                    // Verify integrity: Don't overwrite with garbage.
-                    if (standings.length > 5) { // Arbitrary min size for a league
+                    if (standings.length > 5) {
                         team.table = standings;
-                        delete team.standings; // Clean up legacy
+                        delete team.standings;
                     } else {
                         console.warn(`  -> Table too small (${standings.length}). ignoring.`);
                     }
                 } else {
                     console.warn('  -> No standings found.');
+                    // Debug: Screenshot and Dump
+                    const debugName = `debug_table_${team.name.replace(/\s+/g, '_')}`;
+                    await page.screenshot({ path: path.join(__dirname, `${debugName}.png`) });
+                    fs.writeFileSync(path.join(__dirname, `${debugName}.html`), await page.content());
+                    console.log(`  -> Saved debug snapshot to ${debugName}.png/.html`);
                 }
 
             } catch (e) {
