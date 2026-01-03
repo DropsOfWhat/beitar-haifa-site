@@ -436,7 +436,9 @@
           "goals": "9-86",
           "points": "0"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3586&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=3586&season_id=27"
     },
     {
       "name": "נוער",
@@ -760,7 +762,9 @@
           "goals": "0-0",
           "points": "0"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3661&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=3661&season_id=27"
     },
     {
       "name": "נערים א",
@@ -1114,7 +1118,9 @@
           "goals": "73-4",
           "points": "0"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3340&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=3340&season_id=27"
     },
     {
       "name": "נערים ב",
@@ -1654,7 +1660,9 @@
           "goals": "48-12",
           "points": "1"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/?team_id=3346&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=3346&season_id=27"
     },
     {
       "name": "נערים ג ארצית",
@@ -1810,7 +1818,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מכבי צור שלום ק. ביאליק",
           "opponent": "בית\"ר חיפה - מכבי צור שלום ק. ביאליק",
-          "result_score": "0-2",
+          "result_score": "1-4",
           "home_away": "Unknown"
         },
         {
@@ -2194,7 +2202,9 @@
           "goals": "44-8",
           "points": "0"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3662&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=3662&season_id=27"
     },
     {
       "name": "נערים ג מפרץ",
@@ -2639,7 +2649,9 @@
           "goals": "186-2",
           "points": "0"
         }
-      ]
+      ],
+      "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=7680&season_id=27",
+      "tableUrl": "https://www.football.org.il/team-details/?team_id=7680&season_id=27"
     },
     {
       "name": "ילדים א שרון",
