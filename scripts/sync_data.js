@@ -47,8 +47,7 @@ async function syncData() {
 
             const urlObj = new URL(team.url);
             const teamId = urlObj.searchParams.get('team_id');
-            const seasonId = 27; // Force season 27 per user context or extract from URL? URL usually has it.
-            // Using existing logic to get seasonId from URL if present, else default
+            // Force season 27 or get from URL
             const urlSeason = urlObj.searchParams.get('season_id') || '27';
 
             if (!teamId) {
@@ -57,7 +56,6 @@ async function syncData() {
             }
 
             // --- 1. Fetch Games from IFA ---
-            // (Using existing game scraping logic since it works well)
             const gamesUrl = `https://www.football.org.il/team-details/team-games/?team_id=${teamId}&season_id=${urlSeason}`;
             try {
                 await page.goto(gamesUrl, { waitUntil: 'networkidle2', timeout: 45000 });
@@ -76,7 +74,6 @@ async function syncData() {
                         if (!row.href.includes('game')) return;
                         const cells = Array.from(row.querySelectorAll('div')).map(d => d.textContent.trim());
 
-                        // Basic extraction (heuristic based)
                         const date = clean(cells.find(c => /\d{2}\/\d{2}\/\d{4}/.test(c)) || '');
                         const time = clean(cells.find(c => /\d{2}:\d{2}/.test(c)) || '');
                         const score = clean(cells.find(c => /\d+-\d+/.test(c)) || '');
@@ -110,19 +107,19 @@ async function syncData() {
             }
 
             // --- 2. Fetch Standings ---
-            // Explicitly use the table URL
             const tableUrl = `https://www.football.org.il/team-details/team-table/?team_id=${teamId}&season_id=${urlSeason}`;
             try {
                 console.log(`  -> Fetching table from: ${tableUrl}`);
                 await page.goto(tableUrl, { waitUntil: 'networkidle2', timeout: 45000 });
 
-                // Wait a bit for potential AJAX or rendering
-                try { await page.waitForSelector('table', { timeout: 10000 }); } catch (e) { }
+                // Wait a bit for potential AJAX or rendering - INCREASED to 15s per user request
+                try {
+                    await new Promise(r => setTimeout(r, 15000));
+                    await page.waitForSelector('table', { timeout: 10000 });
+                } catch (e) { }
 
                 const scrapedTable = await page.evaluate(() => {
                     const rows = Array.from(document.querySelectorAll('tr'));
-                    // Filter mainly for data rows (assuming >2 columns)
-                    // We map ALL rows first
                     return rows.map(tr => {
                         const cells = Array.from(tr.querySelectorAll('td')).map(c => c.innerText.trim());
                         if (cells.length < 3) return null;
@@ -153,11 +150,22 @@ async function syncData() {
                 // 1. Empty Check
                 if (!scrapedTable || scrapedTable.length === 0) {
                     console.error(`  -> WARN: Scraped table is EMPTY. Skipping update to protect existing data.`);
+
+                    // DIAGNOSIS: Dump HTML
+                    try {
+                        console.log('--- PAGE DUMP START ---');
+                        const html = await page.content();
+                        console.log(html.substring(0, 2000));
+                        if (html.includes('blocked') || html.includes('security')) console.log('...DETECTED BLOCK/SECURITY CHALLENGE...');
+                        console.log('--- PAGE DUMP END ---');
+                    } catch (debugErr) {
+                        console.log('Error dumping HTML:', debugErr.message);
+                    }
+
                     continue; // Skip updating team.table
                 }
 
-                // 2. Points Regression Check (Specific to Adults or global?)
-                // User asked specifically for the Adults team to be protected.
+                // 2. Points Regression Check (Specific to Adults)
                 if (team.name === 'בוגרים') {
                     const myNewRow = scrapedTable.find(r => r.team === 'בית"ר חיפה');
                     const currentMyRow = (team.table || []).find(r => r.team === 'בית"ר חיפה');
@@ -167,21 +175,18 @@ async function syncData() {
                         const oldPoints = parseInt(currentMyRow.points, 10) || 0;
 
                         if (newPoints < oldPoints) {
-                            console.error(`  -> CRITICAL SANITY CHECK FAILED: New points (${newPoints}) < Old points (${oldPoints}). Aborting table update.`);
+                            console.error(`  -> CRITICAL SANITY CHECK FAILED: New (${newPoints}) < Old (${oldPoints}). Aborting.`);
                             continue;
                         }
                     }
-                    console.log(`  -> Sanity passed. New points: ${myNewRow ? myNewRow.points : 'N/A'}`);
                 }
 
-                // If checks pass, update
                 team.table = scrapedTable;
-                delete team.standings; // cleanup legacy
+                delete team.standings;
                 console.log(`  -> Table updated with ${scrapedTable.length} rows.`);
 
             } catch (e) {
                 console.error(`  -> Error scraping table: ${e.message}`);
-                // On error, do NOT wipe the table. Just keep old data.
             }
         }
 
