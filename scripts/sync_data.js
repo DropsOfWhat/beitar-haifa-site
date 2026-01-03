@@ -267,6 +267,19 @@ async function syncData() {
         await browser.close();
     }
 
+    // --- Post-Sync Patches ---
+    // Enforce specific manual overrides requested by user
+    const noarTeam = db.teams.find(t => t.name === 'נוער');
+    if (noarTeam && noarTeam.games) {
+        const targetGame = noarTeam.games.find(g => g.date.includes('03/01') && g.opponent.includes('צופי'));
+        if (targetGame) {
+            console.log(`[PATCH] Enforcing Noar 03/01 score to 0-2`);
+            targetGame.result_score = '0-2';
+            targetGame.homeTeam = 'בית"ר חיפה';
+            targetGame.awayTeam = 'מ.כ. צופי חיפה';
+        }
+    }
+
     fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2));
     console.log('--- Sync Compelte. DB Saved. ---');
 }
