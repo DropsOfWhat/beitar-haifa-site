@@ -990,16 +990,6 @@
       "table": [
         {
           "position": "1",
-          "team": "הפועל עפולה",
-          "games": "11",
-          "wins": "9",
-          "draws": "1",
-          "losses": "1",
-          "goals": "11-61",
-          "points": "28"
-        },
-        {
-          "position": "2",
           "team": "מכבי עין מאהל אדהם",
           "games": "10",
           "wins": "9",
@@ -1009,17 +999,37 @@
           "points": "28"
         },
         {
-          "position": "3",
-          "team": "בית\"ר חיפה",
-          "games": "10",
-          "wins": "8",
+          "position": "2",
+          "team": "הפועל עפולה",
+          "games": "11",
+          "wins": "9",
           "draws": "1",
           "losses": "1",
-          "goals": "15-46",
-          "points": "25"
+          "goals": "11-61",
+          "points": "28"
+        },
+        {
+          "position": "3",
+          "team": "בית\"ר חיפה",
+          "games": "11",
+          "wins": "9",
+          "draws": "1",
+          "losses": "1",
+          "goals": "19-51",
+          "points": "28"
         },
         {
           "position": "4",
+          "team": "הפ' בית שאן מסילות",
+          "games": "10",
+          "wins": "7",
+          "draws": "0",
+          "losses": "3",
+          "goals": "15-41",
+          "points": "21"
+        },
+        {
+          "position": "5",
           "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
           "games": "11",
           "wins": "6",
@@ -1027,16 +1037,6 @@
           "losses": "4",
           "goals": "14-34",
           "points": "19"
-        },
-        {
-          "position": "5",
-          "team": "הפ' בית שאן מסילות",
-          "games": "9",
-          "wins": "6",
-          "draws": "0",
-          "losses": "3",
-          "goals": "15-31",
-          "points": "18"
         },
         {
           "position": "6",
@@ -1081,11 +1081,11 @@
         {
           "position": "10",
           "team": "מ.כ. הפועל גלבוע \"\"",
-          "games": "8",
+          "games": "9",
           "wins": "2",
           "draws": "1",
-          "losses": "5",
-          "goals": "29-16",
+          "losses": "6",
+          "goals": "34-20",
           "points": "7"
         },
         {
@@ -1111,11 +1111,11 @@
         {
           "position": "13",
           "team": "אתלטיקו שפרעם",
-          "games": "10",
+          "games": "11",
           "wins": "0",
           "draws": "0",
-          "losses": "10",
-          "goals": "73-4",
+          "losses": "11",
+          "goals": "83-4",
           "points": "0"
         }
       ],
