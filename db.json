@@ -1482,6 +1482,16 @@
         },
         {
           "position": "2",
+          "team": "הפ' נוף הגליל",
+          "games": "16",
+          "wins": "11",
+          "draws": "2",
+          "losses": "3",
+          "goals": "20-44",
+          "points": "35"
+        },
+        {
+          "position": "3",
           "team": "בני סכנין",
           "games": "16",
           "wins": "9",
@@ -1489,16 +1499,6 @@
           "losses": "0",
           "goals": "8-30",
           "points": "34"
-        },
-        {
-          "position": "3",
-          "team": "הפ' נוף הגליל",
-          "games": "16",
-          "wins": "10",
-          "draws": "3",
-          "losses": "3",
-          "goals": "20-43",
-          "points": "33"
         },
         {
           "position": "4",
@@ -1515,10 +1515,10 @@
           "team": "מכבי חיפה גולדשנפלד \"\"",
           "games": "16",
           "wins": "8",
-          "draws": "5",
-          "losses": "3",
-          "goals": "23-38",
-          "points": "29"
+          "draws": "4",
+          "losses": "4",
+          "goals": "24-38",
+          "points": "28"
         },
         {
           "position": "6",
