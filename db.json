@@ -790,11 +790,11 @@
           "points": "18-0"
         },
         {
-          "position": "03012026",
-          "team": "13",
-          "games": "בית\"ר חיפה - אבי רן - מ.כ. צופי חיפה",
-          "wins": "חיפה אגרטק (אתוס 1 לשעבר)",
-          "draws": "13:00",
+          "position": "17012026",
+          "team": "14",
+          "games": "מ.ס. קרית חיים \"צו פיוס\" - בית\"ר חיפה - אבי רן",
+          "wins": "",
+          "draws": "טרם נקבע",
           "losses": "",
           "points": ""
         }
@@ -1626,6 +1626,16 @@
         },
         {
           "position": "11",
+          "team": "מכבי אחי נצרת",
+          "games": "16",
+          "wins": "6",
+          "draws": "2",
+          "losses": "8",
+          "goals": "41-31",
+          "points": "20"
+        },
+        {
+          "position": "12",
           "team": "מכבי בני ריינה",
           "games": "16",
           "wins": "4",
@@ -1635,7 +1645,7 @@
           "points": "18"
         },
         {
-          "position": "12",
+          "position": "13",
           "team": "בית\"ר נהריה \"\"",
           "games": "14",
           "wins": "3",
@@ -1645,23 +1655,13 @@
           "points": "17"
         },
         {
-          "position": "13",
+          "position": "14",
           "team": "בית\"ר חיפה",
           "games": "15",
           "wins": "5",
           "draws": "2",
           "losses": "8",
           "goals": "24-14",
-          "points": "17"
-        },
-        {
-          "position": "14",
-          "team": "מכבי אחי נצרת",
-          "games": "15",
-          "wins": "5",
-          "draws": "2",
-          "losses": "8",
-          "goals": "41-28",
           "points": "17"
         },
         {
@@ -1707,11 +1707,11 @@
         {
           "position": "19",
           "team": "הפועל מטה אשר",
-          "games": "15",
+          "games": "16",
           "wins": "0",
           "draws": "1",
-          "losses": "14",
-          "goals": "48-12",
+          "losses": "15",
+          "goals": "51-12",
           "points": "1"
         },
         {
@@ -2521,22 +2521,22 @@
         },
         {
           "position": "2",
+          "team": "מ.ס. שפרעם",
+          "games": "13",
+          "wins": "11",
+          "draws": "1",
+          "losses": "1",
+          "goals": "12-96",
+          "points": "34"
+        },
+        {
+          "position": "3",
           "team": "מ.כ. קרית חיים \"\"",
           "games": "12",
           "wins": "11",
           "draws": "0",
           "losses": "1",
           "goals": "9-115",
-          "points": "33"
-        },
-        {
-          "position": "3",
-          "team": "מ.ס. שפרעם",
-          "games": "12",
-          "wins": "11",
-          "draws": "0",
-          "losses": "1",
-          "goals": "12-96",
           "points": "33"
         },
         {
@@ -2582,12 +2582,12 @@
         {
           "position": "8",
           "team": "מ.כ. כרמל חיפה",
-          "games": "12",
+          "games": "13",
           "wins": "7",
-          "draws": "1",
+          "draws": "2",
           "losses": "4",
           "goals": "28-61",
-          "points": "22"
+          "points": "23"
         },
         {
           "position": "9",
