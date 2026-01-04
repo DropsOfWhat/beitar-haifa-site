@@ -866,7 +866,7 @@
           "homeTeam": "מ.כ. הפועל גלבוע \"צו פיוס\"",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. הפועל גלבוע \"צו פיוס\" - בית\"ר חיפה",
-          "result_score": "",
+          "result_score": "0-0",
           "home_away": "Unknown"
         },
         {
@@ -2426,7 +2426,7 @@
           "wins": "12",
           "draws": "0",
           "losses": "1",
-          "goals": "9-80",
+          "goals": "10-81",
           "points": "36"
         },
         {
@@ -2466,7 +2466,7 @@
           "wins": "8",
           "draws": "2",
           "losses": "2",
-          "goals": "17-60",
+          "goals": "18-61",
           "points": "26"
         },
         {
@@ -2486,7 +2486,7 @@
           "wins": "8",
           "draws": "1",
           "losses": "4",
-          "goals": "27-61",
+          "goals": "28-65",
           "points": "25"
         },
         {
@@ -2546,7 +2546,7 @@
           "wins": "6",
           "draws": "1",
           "losses": "6",
-          "goals": "20-51",
+          "goals": "24-52",
           "points": "19"
         },
         {
