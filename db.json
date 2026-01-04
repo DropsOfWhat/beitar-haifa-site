@@ -1493,12 +1493,12 @@
         {
           "position": "3",
           "team": "הפ' נוף הגליל",
-          "games": "15",
+          "games": "16",
           "wins": "10",
-          "draws": "2",
+          "draws": "3",
           "losses": "3",
           "goals": "20-43",
-          "points": "32"
+          "points": "33"
         },
         {
           "position": "4",
@@ -1513,12 +1513,12 @@
         {
           "position": "5",
           "team": "מכבי חיפה גולדשנפלד \"\"",
-          "games": "15",
+          "games": "16",
           "wins": "8",
-          "draws": "4",
+          "draws": "5",
           "losses": "3",
           "goals": "23-38",
-          "points": "28"
+          "points": "29"
         },
         {
           "position": "6",
@@ -1532,6 +1532,16 @@
         },
         {
           "position": "7",
+          "team": "מ.כ. גליל גולן \"\"",
+          "games": "16",
+          "wins": "7",
+          "draws": "4",
+          "losses": "5",
+          "goals": "22-30",
+          "points": "25"
+        },
+        {
+          "position": "8",
           "team": "הפועל עכו \"\"",
           "games": "15",
           "wins": "7",
@@ -1539,16 +1549,6 @@
           "losses": "6",
           "goals": "25-32",
           "points": "23"
-        },
-        {
-          "position": "8",
-          "team": "מ.כ. גליל גולן \"\"",
-          "games": "15",
-          "wins": "6",
-          "draws": "4",
-          "losses": "5",
-          "goals": "20-26",
-          "points": "22"
         },
         {
           "position": "9",
@@ -1593,11 +1593,11 @@
         {
           "position": "13",
           "team": "בית\"ר נהריה \"\"",
-          "games": "14",
+          "games": "15",
           "wins": "3",
           "draws": "8",
-          "losses": "3",
-          "goals": "18-21",
+          "losses": "4",
+          "goals": "22-23",
           "points": "17"
         },
         {
