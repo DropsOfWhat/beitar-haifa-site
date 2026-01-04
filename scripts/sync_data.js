@@ -226,21 +226,30 @@ async function syncData() {
                             }
                         }
 
-                        // Filter rows that don't look like data
-                        if (cells.length < 5) return null;
-
-                        // Position: remove non-digits
-                        const position = cells[0].replace(/\D/g, '');
-
-                        // Clean Team Name
+                        // Helper to clean Team Name
                         const cleanTeam = (n) => {
                             if (!n) return '';
                             if (n.includes('בית"ר חיפה') || n.includes('ב.חיפה')) return 'בית"ר חיפה';
                             return n.replace(/צו פיוס/g, '').trim();
                         };
 
+                        // Filter rows that don't look like data
+                        if (cells.length < 5) return null;
+
+                        // Validation: Is position a valid rank?
+                        // Reject if it looks like a date or is too large
+                        const originalPosText = cells[0].trim();
+                        // formatting: dd/mm/yy or digit
+                        if (originalPosText.includes('/') || originalPosText.includes('.') || originalPosText.length > 3) return null;
+
+                        // Position: remove non-digits
+                        const position = cells[0].replace(/\D/g, '');
+
                         // Validation: Is position a number?
                         if (!position) return null;
+
+                        // Extra sanity: Rank shouldn't be suspiciously large (e.g. year 2026)
+                        if (parseInt(position, 10) > 100) return null;
 
                         return {
                             position: position,
