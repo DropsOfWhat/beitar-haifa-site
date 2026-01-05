@@ -1511,6 +1511,16 @@
         },
         {
           "position": "4",
+          "team": "מכבי עמק חפר",
+          "games": "16",
+          "wins": "9",
+          "draws": "3",
+          "losses": "4",
+          "goals": "12-32",
+          "points": "30"
+        },
+        {
+          "position": "5",
           "team": "הפועל חיפה שלום",
           "games": "16",
           "wins": "8",
@@ -1520,7 +1530,7 @@
           "points": "29"
         },
         {
-          "position": "5",
+          "position": "6",
           "team": "מכבי חיפה גולדשנפלד \"\"",
           "games": "16",
           "wins": "8",
@@ -1528,16 +1538,6 @@
           "losses": "4",
           "goals": "24-38",
           "points": "28"
-        },
-        {
-          "position": "6",
-          "team": "מכבי עמק חפר",
-          "games": "15",
-          "wins": "8",
-          "draws": "3",
-          "losses": "4",
-          "goals": "12-30",
-          "points": "27"
         },
         {
           "position": "7",
@@ -1552,11 +1552,11 @@
         {
           "position": "8",
           "team": "הפועל עכו \"\"",
-          "games": "15",
+          "games": "16",
           "wins": "7",
           "draws": "2",
-          "losses": "6",
-          "goals": "25-32",
+          "losses": "7",
+          "goals": "27-32",
           "points": "23"
         },
         {
