@@ -2470,6 +2470,16 @@
         },
         {
           "position": "5",
+          "team": "בית\"ר נהריה 2 \"\"",
+          "games": "12",
+          "wins": "9",
+          "draws": "0",
+          "losses": "3",
+          "goals": "19-66",
+          "points": "27"
+        },
+        {
+          "position": "6",
           "team": "מכבי עתלית \"\"",
           "games": "12",
           "wins": "8",
@@ -2479,7 +2489,7 @@
           "points": "26"
         },
         {
-          "position": "6",
+          "position": "7",
           "team": "הפועל טירת כרמל",
           "games": "13",
           "wins": "8",
@@ -2489,7 +2499,7 @@
           "points": "25"
         },
         {
-          "position": "7",
+          "position": "8",
           "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
           "games": "13",
           "wins": "8",
@@ -2499,17 +2509,17 @@
           "points": "25"
         },
         {
-          "position": "8",
-          "team": "בית\"ר נהריה 2 \"\"",
-          "games": "11",
+          "position": "9",
+          "team": "מכבי ע.ק. אתא",
+          "games": "13",
           "wins": "8",
           "draws": "0",
-          "losses": "3",
-          "goals": "18-63",
+          "losses": "5",
+          "goals": "44-78",
           "points": "24"
         },
         {
-          "position": "9",
+          "position": "10",
           "team": "מ.כ. כרמל חיפה",
           "games": "13",
           "wins": "7",
@@ -2519,33 +2529,23 @@
           "points": "23"
         },
         {
-          "position": "10",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "12",
-          "wins": "7",
-          "draws": "0",
-          "losses": "5",
-          "goals": "23-34",
-          "points": "21"
-        },
-        {
           "position": "11",
-          "team": "מכבי ע.ק. אתא",
-          "games": "12",
-          "wins": "7",
-          "draws": "0",
-          "losses": "5",
-          "goals": "44-63",
-          "points": "21"
-        },
-        {
-          "position": "12",
           "team": "איחוד בני עכו",
           "games": "12",
           "wins": "7",
           "draws": "0",
           "losses": "5",
           "goals": "24-38",
+          "points": "21"
+        },
+        {
+          "position": "12",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "12",
+          "wins": "7",
+          "draws": "0",
+          "losses": "5",
+          "goals": "23-34",
           "points": "21"
         },
         {
@@ -2571,11 +2571,11 @@
         {
           "position": "15",
           "team": "מ.כ. צופי חיפה",
-          "games": "11",
+          "games": "12",
           "wins": "5",
           "draws": "0",
-          "losses": "6",
-          "goals": "37-33",
+          "losses": "7",
+          "goals": "40-34",
           "points": "15"
         },
         {
@@ -2651,11 +2651,11 @@
         {
           "position": "23",
           "team": "הפ' קרית חיים ליבוביץ יעקב \"\"",
-          "games": "11",
+          "games": "12",
           "wins": "0",
           "draws": "0",
-          "losses": "11",
-          "goals": "186-2",
+          "losses": "12",
+          "goals": "201-2",
           "points": "0"
         }
       ],
