@@ -1571,16 +1571,26 @@
         },
         {
           "position": "10",
-          "team": "עירוני נשר",
+          "team": "בית\"ר נהריה \"\"",
           "games": "16",
-          "wins": "5",
-          "draws": "5",
-          "losses": "6",
-          "goals": "25-20",
+          "wins": "4",
+          "draws": "8",
+          "losses": "4",
+          "goals": "22-26",
           "points": "20"
         },
         {
           "position": "11",
+          "team": "עירוני נשר",
+          "games": "17",
+          "wins": "5",
+          "draws": "5",
+          "losses": "7",
+          "goals": "28-20",
+          "points": "20"
+        },
+        {
+          "position": "12",
           "team": "מכבי אחי נצרת",
           "games": "16",
           "wins": "6",
@@ -1590,7 +1600,7 @@
           "points": "20"
         },
         {
-          "position": "12",
+          "position": "13",
           "team": "מכבי בני ריינה",
           "games": "16",
           "wins": "4",
@@ -1598,16 +1608,6 @@
           "losses": "6",
           "goals": "32-31",
           "points": "18"
-        },
-        {
-          "position": "13",
-          "team": "בית\"ר נהריה \"\"",
-          "games": "15",
-          "wins": "3",
-          "draws": "8",
-          "losses": "4",
-          "goals": "22-23",
-          "points": "17"
         },
         {
           "position": "14",
