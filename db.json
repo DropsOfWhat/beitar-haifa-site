@@ -2123,6 +2123,16 @@
         },
         {
           "position": "11",
+          "team": "מכבי ברקאי",
+          "games": "16",
+          "wins": "6",
+          "draws": "2",
+          "losses": "8",
+          "goals": "35-28",
+          "points": "20"
+        },
+        {
+          "position": "12",
           "team": "הפועל עירוני כרמיאל ''איאד''",
           "games": "16",
           "wins": "5",
@@ -2132,7 +2142,7 @@
           "points": "19"
         },
         {
-          "position": "12",
+          "position": "13",
           "team": "עירוני נשר",
           "games": "16",
           "wins": "5",
@@ -2142,7 +2152,7 @@
           "points": "18"
         },
         {
-          "position": "13",
+          "position": "14",
           "team": "מכבי צור שלום ק. ביאליק",
           "games": "17",
           "wins": "6",
@@ -2152,23 +2162,13 @@
           "points": "18"
         },
         {
-          "position": "14",
+          "position": "15",
           "team": "הפועל עפולה",
           "games": "16",
           "wins": "5",
           "draws": "2",
           "losses": "9",
           "goals": "36-32",
-          "points": "17"
-        },
-        {
-          "position": "15",
-          "team": "מכבי ברקאי",
-          "games": "15",
-          "wins": "5",
-          "draws": "2",
-          "losses": "8",
-          "goals": "35-24",
           "points": "17"
         },
         {
@@ -2184,11 +2184,11 @@
         {
           "position": "17",
           "team": "מ.ס. רשת מתנ\"סים טבעון",
-          "games": "15",
+          "games": "16",
           "wins": "3",
           "draws": "1",
-          "losses": "11",
-          "goals": "42-14",
+          "losses": "12",
+          "goals": "46-14",
           "points": "10"
         },
         {
