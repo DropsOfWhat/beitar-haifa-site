@@ -19,6 +19,14 @@ async function syncData() {
     console.log('--- Starting 6-Team Robust Sync ---');
     console.log('Time:', new Date().toLocaleString());
 
+    const args = process.argv.slice(2);
+    const updateTimesOnly = args.includes('--update-times-only');
+
+    if (updateTimesOnly) {
+        console.log('!!! RUNNING IN TIME-UPDATE ONLY MODE !!!');
+        console.log('!!! Only match times will be updated. No new games, no scores, no tables. !!!');
+    }
+
     const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
 
     // Filter only teams with specific gameUrl set (the 6 teams)
@@ -66,22 +74,41 @@ async function syncData() {
                         // Extract cells (assuming div structure inside a.table_row)
                         const cells = Array.from(row.querySelectorAll('div')).map(d => d.textContent.trim());
 
-                        // Heuristic extraction based on content content
-                        const date = clean(cells.find(c => /\d{2}\/\d{2}\/\d{4}/.test(c)));
-                        const time = clean(cells.find(c => /\d{2}:\d{2}/.test(c)));
-                        const score = clean(cells.find(c => /\d+-\d+/.test(c))); // "2-0"
+                        // Identify RAW cells first for robust exclusion
+                        const dateCell = cells.find(c => /\d{2}\/\d{2}\/\d{4}/.test(c));
+                        const timeCell = cells.find(c => /\d{2}:\d{2}/.test(c));
+                        const scoreCell = cells.find(c => /\d+-\d+/.test(c));
+                        const roundCell = cells.find(c => c.includes('מחזור'));
+
+                        const date = clean(dateCell);
+                        const time = clean(timeCell);
+                        const score = clean(scoreCell);
+                        // const round = clean(roundCell); 
 
                         // Teams often contain hyphens, so finding them is tricky.
                         // We rely on the "Game" cell which usually has "Home - Away"
                         let homeTeam = 'Unknown', awayTeam = 'Unknown';
 
-                        // Find the cell that has team names using exclusion
+                        // Find the cell that has team names using exclusion on RAW cells
                         const teamCell = cells.find(c =>
                             c.includes('-') &&
-                            !/\d+-\d+/.test(c) &&
-                            !/\d{2}\/\d{2}\/\d{4}/.test(c) &&
+                            c !== scoreCell &&
+                            c !== dateCell &&
                             !c.includes('מחזור')
                         );
+
+                        // Stadium: cell that is NOT any of the above
+                        const stadiumCell = cells.find(c =>
+                            c !== dateCell &&
+                            c !== timeCell &&
+                            c !== scoreCell &&
+                            c !== roundCell &&
+                            c !== teamCell &&
+                            !c.match(/^\d+$/) &&
+                            c.length > 2
+                        );
+
+                        const stadium = clean(stadiumCell) || '';
 
                         if (teamCell) {
                             const parts = clean(teamCell).split(/[-–—]/).map(s => s.trim());
@@ -106,7 +133,8 @@ async function syncData() {
                                 awayTeam,
                                 opponent: `${homeTeam} - ${awayTeam}`,
                                 result_score: score || '',
-                                home_away: 'Unknown'
+                                home_away: 'Unknown',
+                                stadium
                             });
                         }
                     });
@@ -125,16 +153,28 @@ async function syncData() {
                         const existingGame = team.games.find(g => g.date === scrapedGame.date && (g.homeTeam === scrapedGame.homeTeam || g.awayTeam === scrapedGame.awayTeam));
 
                         if (existingGame) {
-                            // Update score if new one exists
-                            if (scrapedGame.result_score) {
-                                if (existingGame.result_score !== scrapedGame.result_score) {
-                                    console.log(`    -> Updating score for ${scrapedGame.date}: ${existingGame.result_score} => ${scrapedGame.result_score}`);
+                            // General Update (Metadata)
+                            if (scrapedGame.time && scrapedGame.time !== '00:00' && existingGame.time !== scrapedGame.time) {
+                                console.log(`    -> [UPDATE] Time ${scrapedGame.date}: ${existingGame.time} => ${scrapedGame.time}`);
+                                existingGame.time = scrapedGame.time;
+                            }
+                            if (scrapedGame.stadium && existingGame.stadium !== scrapedGame.stadium) {
+                                console.log(`    -> [UPDATE] Stadium ${scrapedGame.date}: ${existingGame.stadium} => ${scrapedGame.stadium}`);
+                                existingGame.stadium = scrapedGame.stadium;
+                            }
+
+                            if (!updateTimesOnly) {
+                                // NORMAL MODE - Update score
+                                if (scrapedGame.result_score && existingGame.result_score !== scrapedGame.result_score) {
+                                    console.log(`    -> [UPDATE] Score ${scrapedGame.date}: ${existingGame.result_score} => ${scrapedGame.result_score}`);
                                     existingGame.result_score = scrapedGame.result_score;
                                 }
                             }
                         } else {
-                            // Add new game
-                            team.games.push(scrapedGame);
+                            // Add new game ONLY if NOT in time-update mode
+                            if (!updateTimesOnly) {
+                                team.games.push(scrapedGame);
+                            }
                         }
                     });
 
@@ -154,137 +194,141 @@ async function syncData() {
             // User requested "Vision" method. We simulate this by taking a screenshot (internally)
             // and using the most robust selector available on the "General" page (team-details).
 
-            console.log(`  -> Visiting Table URL: ${team.tableUrl}`);
-            try {
-                if (team.tableUrl !== team.gameUrl) {
-                    await page.goto(team.tableUrl, { waitUntil: 'networkidle2', timeout: 45000 });
-                }
-
-                // Wait for table to be visible. The "General" page often has the table in a tab or directly visible.
-                // If it's a tab, we click it.
-                // General page strategy: Look for "טבלה"
-
-                const tableSelector = 'table.table_view, div.table_view table'; // Common IFA selectors
-
-                let tableFound = await page.$(tableSelector);
-                if (!tableFound) {
-                    console.log('  -> Table not immediately visible. Looking for Tab...');
-                    const clicked = await page.evaluate(() => {
-                        // Broad search for tabs
-                        const elements = Array.from(document.querySelectorAll('a, li, div[role="tab"], span'));
-                        const tableTab = elements.find(t =>
-                            t.innerText && (t.innerText.includes('טבלה') || t.innerText.includes('ליגה'))
-                        );
-                        if (tableTab) {
-                            console.log('Clicking tab:', tableTab.innerText);
-                            tableTab.click();
-                            return true;
-                        }
-                        return false;
-                    });
-                    if (clicked) {
-                        console.log('  -> Clicked tab. Waiting for content...');
-                        await new Promise(r => setTimeout(r, 8000)); // Increase wait time
-                    } else {
-                        console.log('  -> Could not find "Table" tab.');
-                    }
-                }
-
-                const standings = await page.evaluate(() => {
-                    // Try to find the specific table container for club details
-                    // The HTML shows div.table_view.full_view.table_side_title containing a.table_row elements
-                    let rows = Array.from(document.querySelectorAll('div.table_view a.table_row, table tr'));
-
-                    // Filter out header rows if they got caught (usually they are div.table_header_row)
-                    rows = rows.filter(r => !r.classList.contains('table_header_row'));
-
-                    if (rows.length === 0) {
-                        // Fallback to broader selector
-                        rows = Array.from(document.querySelectorAll('div.table_row, div.row'));
+            if (updateTimesOnly) {
+                console.log('  -> Skipping Table Sync (Time-Only Mode).');
+            } else {
+                console.log(`  -> Visiting Table URL: ${team.tableUrl}`);
+                try {
+                    if (team.tableUrl !== team.gameUrl) {
+                        await page.goto(team.tableUrl, { waitUntil: 'networkidle2', timeout: 45000 });
                     }
 
-                    return rows.map(tr => {
-                        let cells = [];
+                    // Wait for table to be visible. The "General" page often has the table in a tab or directly visible.
+                    // If it's a tab, we click it.
+                    // General page strategy: Look for "טבלה"
 
-                        // Helper to get clean text ignoring sr-only spans
-                        const getCellText = (el) => {
-                            // Clone to not modify DOM
-                            const clone = el.cloneNode(true);
-                            // Remove sr-only elements
-                            clone.querySelectorAll('.sr-only').forEach(e => e.remove());
-                            return clone.innerText.trim();
-                        };
+                    const tableSelector = 'table.table_view, div.table_view table'; // Common IFA selectors
 
-                        if (tr.tagName === 'TR') {
-                            cells = Array.from(tr.querySelectorAll('td')).map(td => getCellText(td));
-                        } else {
-                            // For DIV/A rows, get div.table_col
-                            cells = Array.from(tr.querySelectorAll('div.table_col')).map(d => getCellText(d));
-                            // If no table_col class, fallback to any div
-                            if (cells.length === 0) {
-                                cells = Array.from(tr.querySelectorAll('div')).map(d => getCellText(d));
+                    let tableFound = await page.$(tableSelector);
+                    if (!tableFound) {
+                        console.log('  -> Table not immediately visible. Looking for Tab...');
+                        const clicked = await page.evaluate(() => {
+                            // Broad search for tabs
+                            const elements = Array.from(document.querySelectorAll('a, li, div[role="tab"], span'));
+                            const tableTab = elements.find(t =>
+                                t.innerText && (t.innerText.includes('טבלה') || t.innerText.includes('ליגה'))
+                            );
+                            if (tableTab) {
+                                console.log('Clicking tab:', tableTab.innerText);
+                                tableTab.click();
+                                return true;
                             }
+                            return false;
+                        });
+                        if (clicked) {
+                            console.log('  -> Clicked tab. Waiting for content...');
+                            await new Promise(r => setTimeout(r, 8000)); // Increase wait time
+                        } else {
+                            console.log('  -> Could not find "Table" tab.');
+                        }
+                    }
+
+                    const standings = await page.evaluate(() => {
+                        // Try to find the specific table container for club details
+                        // The HTML shows div.table_view.full_view.table_side_title containing a.table_row elements
+                        let rows = Array.from(document.querySelectorAll('div.table_view a.table_row, table tr'));
+
+                        // Filter out header rows if they got caught (usually they are div.table_header_row)
+                        rows = rows.filter(r => !r.classList.contains('table_header_row'));
+
+                        if (rows.length === 0) {
+                            // Fallback to broader selector
+                            rows = Array.from(document.querySelectorAll('div.table_row, div.row'));
                         }
 
-                        // Helper to clean Team Name
-                        const cleanTeam = (n) => {
-                            if (!n) return '';
-                            if (n.includes('בית"ר חיפה') || n.includes('ב.חיפה')) return 'בית"ר חיפה';
-                            return n.replace(/צו פיוס/g, '').trim();
-                        };
+                        return rows.map(tr => {
+                            let cells = [];
 
-                        // Filter rows that don't look like data
-                        if (cells.length < 5) return null;
+                            // Helper to get clean text ignoring sr-only spans
+                            const getCellText = (el) => {
+                                // Clone to not modify DOM
+                                const clone = el.cloneNode(true);
+                                // Remove sr-only elements
+                                clone.querySelectorAll('.sr-only').forEach(e => e.remove());
+                                return clone.innerText.trim();
+                            };
 
-                        // Validation: Is position a valid rank?
-                        // Reject if it looks like a date or is too large
-                        const originalPosText = cells[0].trim();
-                        // formatting: dd/mm/yy or digit
-                        if (originalPosText.includes('/') || originalPosText.includes('.') || originalPosText.length > 3) return null;
+                            if (tr.tagName === 'TR') {
+                                cells = Array.from(tr.querySelectorAll('td')).map(td => getCellText(td));
+                            } else {
+                                // For DIV/A rows, get div.table_col
+                                cells = Array.from(tr.querySelectorAll('div.table_col')).map(d => getCellText(d));
+                                // If no table_col class, fallback to any div
+                                if (cells.length === 0) {
+                                    cells = Array.from(tr.querySelectorAll('div')).map(d => getCellText(d));
+                                }
+                            }
 
-                        // Position: remove non-digits
-                        const position = cells[0].replace(/\D/g, '');
+                            // Helper to clean Team Name
+                            const cleanTeam = (n) => {
+                                if (!n) return '';
+                                if (n.includes('בית"ר חיפה') || n.includes('ב.חיפה')) return 'בית"ר חיפה';
+                                return n.replace(/צו פיוס/g, '').trim();
+                            };
 
-                        // Validation: Is position a number?
-                        if (!position) return null;
+                            // Filter rows that don't look like data
+                            if (cells.length < 5) return null;
 
-                        // Extra sanity: Rank shouldn't be suspiciously large (e.g. year 2026)
-                        if (parseInt(position, 10) > 100) return null;
+                            // Validation: Is position a valid rank?
+                            // Reject if it looks like a date or is too large
+                            const originalPosText = cells[0].trim();
+                            // formatting: dd/mm/yy or digit
+                            if (originalPosText.includes('/') || originalPosText.includes('.') || originalPosText.length > 3) return null;
 
-                        return {
-                            position: position,
-                            team: cleanTeam(cells[1]),
-                            games: cells[2],
-                            wins: cells[3],
-                            draws: cells[4],
-                            losses: cells[5],
-                            goals: cells[6],
-                            points: cells[cells.length - 1] // Points is always last
-                        };
-                    }).filter(r => r);
-                });
+                            // Position: remove non-digits
+                            const position = cells[0].replace(/\D/g, '');
 
-                if (standings && standings.length > 0) {
-                    console.log(`  -> Scraped ${standings.length} rows for table.`);
+                            // Validation: Is position a number?
+                            if (!position) return null;
 
-                    if (standings.length > 5) {
-                        team.table = standings;
-                        delete team.standings;
+                            // Extra sanity: Rank shouldn't be suspiciously large (e.g. year 2026)
+                            if (parseInt(position, 10) > 100) return null;
+
+                            return {
+                                position: position,
+                                team: cleanTeam(cells[1]),
+                                games: cells[2],
+                                wins: cells[3],
+                                draws: cells[4],
+                                losses: cells[5],
+                                goals: cells[6],
+                                points: cells[cells.length - 1] // Points is always last
+                            };
+                        }).filter(r => r);
+                    });
+
+                    if (standings && standings.length > 0) {
+                        console.log(`  -> Scraped ${standings.length} rows for table.`);
+
+                        if (standings.length > 5) {
+                            team.table = standings;
+                            delete team.standings;
+                        } else {
+                            console.warn(`  -> Table too small (${standings.length}). ignoring.`);
+                        }
                     } else {
-                        console.warn(`  -> Table too small (${standings.length}). ignoring.`);
+                        console.warn('  -> No standings found.');
+                        // Debug: Screenshot and Dump
+                        const debugName = `debug_table_${team.name.replace(/\s+/g, '_')}`;
+                        await page.screenshot({ path: path.join(__dirname, `${debugName}.png`) });
+                        fs.writeFileSync(path.join(__dirname, `${debugName}.html`), await page.content());
+                        console.log(`  -> Saved debug snapshot to ${debugName}.png/.html`);
                     }
-                } else {
-                    console.warn('  -> No standings found.');
-                    // Debug: Screenshot and Dump
-                    const debugName = `debug_table_${team.name.replace(/\s+/g, '_')}`;
-                    await page.screenshot({ path: path.join(__dirname, `${debugName}.png`) });
-                    fs.writeFileSync(path.join(__dirname, `${debugName}.html`), await page.content());
-                    console.log(`  -> Saved debug snapshot to ${debugName}.png/.html`);
-                }
 
-            } catch (e) {
-                console.error(`  -> Failed to scrape table: ${e.message}`);
-                // Fallback: Do not clear existing table
+                } catch (e) {
+                    console.error(`  -> Failed to scrape table: ${e.message}`);
+                    // Fallback: Do not clear existing table
+                }
             }
         }
     } catch (e) {
