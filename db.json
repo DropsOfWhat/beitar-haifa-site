@@ -2599,12 +2599,12 @@
         {
           "position": "1",
           "team": "מ.ס.קרית ים \"דניאל\" \"\"",
-          "games": "13",
+          "games": "14",
           "wins": "12",
-          "draws": "0",
+          "draws": "1",
           "losses": "1",
-          "goals": "10-81",
-          "points": "36"
+          "goals": "12-83",
+          "points": "37"
         },
         {
           "position": "2",
@@ -2668,6 +2668,16 @@
         },
         {
           "position": "8",
+          "team": "איחוד בני עכו",
+          "games": "13",
+          "wins": "8",
+          "draws": "1",
+          "losses": "4",
+          "goals": "24-42",
+          "points": "25"
+        },
+        {
+          "position": "9",
           "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
           "games": "13",
           "wins": "8",
@@ -2677,23 +2687,13 @@
           "points": "25"
         },
         {
-          "position": "9",
+          "position": "10",
           "team": "מכבי ע.ק. אתא",
           "games": "13",
           "wins": "8",
           "draws": "0",
           "losses": "5",
           "goals": "44-78",
-          "points": "24"
-        },
-        {
-          "position": "10",
-          "team": "איחוד בני עכו",
-          "games": "12",
-          "wins": "8",
-          "draws": "0",
-          "losses": "4",
-          "goals": "22-40",
           "points": "24"
         },
         {
