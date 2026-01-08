@@ -379,11 +379,11 @@
         {
           "position": "8",
           "team": "מ.ס. צעירי כפר קנא",
-          "games": "15",
+          "games": "16",
           "wins": "6",
           "draws": "2",
-          "losses": "7",
-          "goals": "30-30",
+          "losses": "8",
+          "goals": "33-31",
           "points": "20"
         },
         {
@@ -428,6 +428,16 @@
         },
         {
           "position": "13",
+          "team": "מ.ס. כדורגל משהד",
+          "games": "16",
+          "wins": "4",
+          "draws": "1",
+          "losses": "11",
+          "goals": "32-22",
+          "points": "13"
+        },
+        {
+          "position": "14",
           "team": "מכבי אחי איכסל",
           "games": "15",
           "wins": "3",
@@ -435,16 +445,6 @@
           "losses": "10",
           "goals": "46-19",
           "points": "11"
-        },
-        {
-          "position": "14",
-          "team": "מ.ס. כדורגל משהד",
-          "games": "15",
-          "wins": "3",
-          "draws": "1",
-          "losses": "11",
-          "goals": "31-19",
-          "points": "10"
         },
         {
           "position": "15",
