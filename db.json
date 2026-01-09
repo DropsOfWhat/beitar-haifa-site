@@ -310,11 +310,11 @@
           "position": "1",
           "team": "הפועל דלית אל כרמל",
           "games": "16",
-          "wins": "13",
-          "draws": "1",
+          "wins": "14",
+          "draws": "0",
           "losses": "2",
-          "goals": "14-54",
-          "points": "40"
+          "goals": "14-58",
+          "points": "42"
         },
         {
           "position": "2",
@@ -323,7 +323,7 @@
           "wins": "12",
           "draws": "2",
           "losses": "2",
-          "goals": "11-40",
+          "goals": "12-41",
           "points": "38"
         },
         {
@@ -373,7 +373,7 @@
           "wins": "9",
           "draws": "4",
           "losses": "3",
-          "goals": "18-30",
+          "goals": "20-33",
           "points": "31"
         },
         {
@@ -401,10 +401,10 @@
           "team": "מ.כ. צופי חיפה סמיר פרהוד",
           "games": "16",
           "wins": "4",
-          "draws": "5",
-          "losses": "7",
-          "goals": "27-23",
-          "points": "17"
+          "draws": "4",
+          "losses": "8",
+          "goals": "31-23",
+          "points": "16"
         },
         {
           "position": "11",
@@ -423,7 +423,7 @@
           "wins": "4",
           "draws": "3",
           "losses": "9",
-          "goals": "36-24",
+          "goals": "37-25",
           "points": "15"
         },
         {
@@ -443,7 +443,7 @@
           "wins": "3",
           "draws": "2",
           "losses": "11",
-          "goals": "48-19",
+          "goals": "51-21",
           "points": "11"
         },
         {
