@@ -2608,6 +2608,16 @@
         },
         {
           "position": "2",
+          "team": "מ.כ. קרית חיים \"\"",
+          "games": "13",
+          "wins": "12",
+          "draws": "0",
+          "losses": "1",
+          "goals": "10-120",
+          "points": "36"
+        },
+        {
+          "position": "3",
           "team": "מ.ס. שפרעם",
           "games": "13",
           "wins": "11",
@@ -2617,23 +2627,13 @@
           "points": "34"
         },
         {
-          "position": "3",
+          "position": "4",
           "team": "הפועל מטה אשר",
           "games": "12",
           "wins": "11",
           "draws": "0",
           "losses": "1",
           "goals": "10-67",
-          "points": "33"
-        },
-        {
-          "position": "4",
-          "team": "מ.כ. קרית חיים \"\"",
-          "games": "12",
-          "wins": "11",
-          "draws": "0",
-          "losses": "1",
-          "goals": "9-115",
           "points": "33"
         },
         {
@@ -2789,11 +2789,11 @@
         {
           "position": "20",
           "team": "הפועל חוף הכרמל / מ\"מ",
-          "games": "12",
+          "games": "13",
           "wins": "2",
           "draws": "0",
-          "losses": "10",
-          "goals": "54-13",
+          "losses": "11",
+          "goals": "59-14",
           "points": "6"
         },
         {
