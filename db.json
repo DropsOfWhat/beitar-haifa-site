@@ -1118,6 +1118,16 @@
         },
         {
           "position": "6",
+          "team": "מכבי אחי נצרת",
+          "games": "10",
+          "wins": "6",
+          "draws": "0",
+          "losses": "4",
+          "goals": "15-27",
+          "points": "18"
+        },
+        {
+          "position": "7",
           "team": "מכבי אחי איכסל",
           "games": "10",
           "wins": "5",
@@ -1125,16 +1135,6 @@
           "losses": "4",
           "goals": "21-29",
           "points": "16"
-        },
-        {
-          "position": "7",
-          "team": "מכבי אחי נצרת",
-          "games": "9",
-          "wins": "5",
-          "draws": "0",
-          "losses": "4",
-          "goals": "15-25",
-          "points": "15"
         },
         {
           "position": "8",
@@ -1149,11 +1149,11 @@
         {
           "position": "9",
           "team": "מ.ס. שפרעם",
-          "games": "9",
+          "games": "10",
           "wins": "3",
           "draws": "0",
-          "losses": "6",
-          "goals": "21-12",
+          "losses": "7",
+          "goals": "23-12",
           "points": "9"
         },
         {
