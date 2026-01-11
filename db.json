@@ -739,11 +739,11 @@
         {
           "position": "3",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "11",
+          "games": "12",
           "wins": "7",
           "draws": "1",
-          "losses": "3",
-          "goals": "22-62",
+          "losses": "4",
+          "goals": "23-62",
           "points": "22"
         },
         {
@@ -778,22 +778,22 @@
         },
         {
           "position": "7",
+          "team": "מכבי עוספיא",
+          "games": "11",
+          "wins": "4",
+          "draws": "1",
+          "losses": "6",
+          "goals": "18-19",
+          "points": "13"
+        },
+        {
+          "position": "8",
           "team": "הפועל בני ג'סר א זרקא",
           "games": "11",
           "wins": "3",
           "draws": "1",
           "losses": "7",
           "goals": "41-26",
-          "points": "10"
-        },
-        {
-          "position": "8",
-          "team": "מכבי עוספיא",
-          "games": "10",
-          "wins": "3",
-          "draws": "1",
-          "losses": "6",
-          "goals": "18-18",
           "points": "10"
         },
         {
