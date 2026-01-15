@@ -338,22 +338,22 @@
         },
         {
           "position": "4",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "17",
+          "wins": "11",
+          "draws": "2",
+          "losses": "4",
+          "goals": "14-44",
+          "points": "35"
+        },
+        {
+          "position": "5",
           "team": "מ.כ. אור עקיבא",
           "games": "16",
           "wins": "10",
           "draws": "3",
           "losses": "3",
           "goals": "27-61",
-          "points": "32"
-        },
-        {
-          "position": "5",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "16",
-          "wins": "10",
-          "draws": "2",
-          "losses": "4",
-          "goals": "14-40",
           "points": "32"
         },
         {
@@ -379,11 +379,11 @@
         {
           "position": "8",
           "team": "מ.ס. צעירי כפר קנא",
-          "games": "16",
+          "games": "17",
           "wins": "6",
           "draws": "2",
-          "losses": "8",
-          "goals": "33-31",
+          "losses": "9",
+          "goals": "37-31",
           "points": "20"
         },
         {
@@ -449,22 +449,22 @@
         {
           "position": "15",
           "team": "מ.ס. נתניה קולט כהן",
-          "games": "16",
+          "games": "17",
           "wins": "2",
           "draws": "3",
-          "losses": "11",
-          "goals": "32-20",
+          "losses": "12",
+          "goals": "34-20",
           "points": "9"
         },
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "16",
-          "wins": "1",
+          "games": "17",
+          "wins": "2",
           "draws": "0",
           "losses": "15",
-          "goals": "86-11",
-          "points": "3"
+          "goals": "86-13",
+          "points": "6"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3586&season_id=27",
