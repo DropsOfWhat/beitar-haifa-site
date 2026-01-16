@@ -1158,6 +1158,16 @@
         },
         {
           "position": "9",
+          "team": "מ.כ. הפועל גלבוע \"\"",
+          "games": "11",
+          "wins": "3",
+          "draws": "1",
+          "losses": "7",
+          "goals": "38-30",
+          "points": "10"
+        },
+        {
+          "position": "10",
           "team": "מ.ס. שפרעם",
           "games": "10",
           "wins": "3",
@@ -1167,7 +1177,7 @@
           "points": "9"
         },
         {
-          "position": "10",
+          "position": "11",
           "team": "מ.ס. חיפה רובי שפירא",
           "games": "10",
           "wins": "3",
@@ -1175,16 +1185,6 @@
           "losses": "7",
           "goals": "43-21",
           "points": "9"
-        },
-        {
-          "position": "11",
-          "team": "מ.כ. הפועל גלבוע \"\"",
-          "games": "10",
-          "wins": "2",
-          "draws": "1",
-          "losses": "7",
-          "goals": "37-20",
-          "points": "7"
         },
         {
           "position": "12",
@@ -1199,11 +1199,11 @@
         {
           "position": "13",
           "team": "אתלטיקו שפרעם",
-          "games": "11",
+          "games": "12",
           "wins": "0",
           "draws": "0",
-          "losses": "11",
-          "goals": "83-4",
+          "losses": "12",
+          "goals": "93-5",
           "points": "0"
         }
       ],
