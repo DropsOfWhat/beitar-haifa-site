@@ -2648,6 +2648,16 @@
         },
         {
           "position": "5",
+          "team": "מכבי עתלית \"\"",
+          "games": "13",
+          "wins": "9",
+          "draws": "2",
+          "losses": "2",
+          "goals": "19-64",
+          "points": "29"
+        },
+        {
+          "position": "6",
           "team": "בית\"ר נהריה 2 \"\"",
           "games": "12",
           "wins": "9",
@@ -2657,23 +2667,13 @@
           "points": "27"
         },
         {
-          "position": "6",
-          "team": "מכבי עתלית \"\"",
-          "games": "12",
-          "wins": "8",
-          "draws": "2",
-          "losses": "2",
-          "goals": "18-61",
-          "points": "26"
-        },
-        {
           "position": "7",
           "team": "הפועל טירת כרמל",
-          "games": "13",
+          "games": "14",
           "wins": "8",
           "draws": "1",
-          "losses": "4",
-          "goals": "26-29",
+          "losses": "5",
+          "goals": "29-30",
           "points": "25"
         },
         {
@@ -2718,6 +2718,16 @@
         },
         {
           "position": "12",
+          "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
+          "games": "14",
+          "wins": "7",
+          "draws": "0",
+          "losses": "7",
+          "goals": "48-53",
+          "points": "21"
+        },
+        {
+          "position": "13",
           "team": "מ.ס. צעירי חיפה",
           "games": "12",
           "wins": "7",
@@ -2727,7 +2737,7 @@
           "points": "21"
         },
         {
-          "position": "13",
+          "position": "14",
           "team": "הפועל חיפה 2",
           "games": "13",
           "wins": "6",
@@ -2735,16 +2745,6 @@
           "losses": "6",
           "goals": "24-52",
           "points": "19"
-        },
-        {
-          "position": "14",
-          "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
-          "games": "13",
-          "wins": "6",
-          "draws": "0",
-          "losses": "7",
-          "goals": "48-39",
-          "points": "18"
         },
         {
           "position": "15",
@@ -2758,22 +2758,22 @@
         },
         {
           "position": "16",
+          "team": "מ.כ. מכבי נהריה \"\"",
+          "games": "13",
+          "wins": "4",
+          "draws": "0",
+          "losses": "9",
+          "goals": "97-23",
+          "points": "12"
+        },
+        {
+          "position": "17",
           "team": "הפועל ד.א. כרמל",
           "games": "12",
           "wins": "3",
           "draws": "0",
           "losses": "9",
           "goals": "61-39",
-          "points": "9"
-        },
-        {
-          "position": "17",
-          "team": "מ.כ. מכבי נהריה \"\"",
-          "games": "12",
-          "wins": "3",
-          "draws": "0",
-          "losses": "9",
-          "goals": "95-20",
           "points": "9"
         },
         {
@@ -2819,21 +2819,21 @@
         {
           "position": "22",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "1",
           "draws": "0",
-          "losses": "11",
-          "goals": "81-10",
+          "losses": "12",
+          "goals": "84-12",
           "points": "3"
         },
         {
           "position": "23",
           "team": "הפ' קרית חיים ליבוביץ יעקב \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "0",
           "draws": "0",
-          "losses": "12",
-          "goals": "201-2",
+          "losses": "13",
+          "goals": "215-2",
           "points": "0"
         }
       ],
