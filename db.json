@@ -2219,12 +2219,12 @@
         {
           "position": "5",
           "team": "בית\"ר טוברוק אורן",
-          "games": "16",
+          "games": "17",
           "wins": "11",
-          "draws": "0",
+          "draws": "1",
           "losses": "5",
           "goals": "19-35",
-          "points": "33"
+          "points": "34"
         },
         {
           "position": "6",
@@ -2238,16 +2238,6 @@
         },
         {
           "position": "7",
-          "team": "מכבי חיפה גולדשנפלד",
-          "games": "17",
-          "wins": "10",
-          "draws": "2",
-          "losses": "5",
-          "goals": "29-41",
-          "points": "32"
-        },
-        {
-          "position": "8",
           "team": "מכבי עמק חפר אברהם \"\"",
           "games": "16",
           "wins": "9",
@@ -2255,6 +2245,16 @@
           "losses": "3",
           "goals": "25-38",
           "points": "31"
+        },
+        {
+          "position": "8",
+          "team": "מכבי חיפה גולדשנפלד",
+          "games": "17",
+          "wins": "9",
+          "draws": "3",
+          "losses": "5",
+          "goals": "30-41",
+          "points": "30"
         },
         {
           "position": "9",
@@ -2288,6 +2288,16 @@
         },
         {
           "position": "12",
+          "team": "עירוני נשר",
+          "games": "17",
+          "wins": "5",
+          "draws": "4",
+          "losses": "8",
+          "goals": "21-20",
+          "points": "19"
+        },
+        {
+          "position": "13",
           "team": "הפועל עירוני כרמיאל ''איאד''",
           "games": "16",
           "wins": "5",
@@ -2295,16 +2305,6 @@
           "losses": "7",
           "goals": "30-22",
           "points": "19"
-        },
-        {
-          "position": "13",
-          "team": "עירוני נשר",
-          "games": "17",
-          "wins": "5",
-          "draws": "3",
-          "losses": "9",
-          "goals": "21-19",
-          "points": "18"
         },
         {
           "position": "14",
@@ -2359,12 +2359,12 @@
         {
           "position": "19",
           "team": "הפ' בני אעבלין",
-          "games": "16",
+          "games": "17",
           "wins": "0",
-          "draws": "0",
+          "draws": "1",
           "losses": "16",
           "goals": "46-9",
-          "points": "0"
+          "points": "1"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3662&season_id=27",
