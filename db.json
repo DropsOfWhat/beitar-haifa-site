@@ -2668,6 +2668,16 @@
         },
         {
           "position": "7",
+          "team": "מכבי ע.ק. אתא",
+          "games": "14",
+          "wins": "9",
+          "draws": "0",
+          "losses": "5",
+          "goals": "47-82",
+          "points": "27"
+        },
+        {
+          "position": "8",
           "team": "הפועל טירת כרמל",
           "games": "14",
           "wins": "8",
@@ -2677,7 +2687,7 @@
           "points": "25"
         },
         {
-          "position": "8",
+          "position": "9",
           "team": "איחוד בני עכו",
           "games": "13",
           "wins": "8",
@@ -2687,7 +2697,7 @@
           "points": "25"
         },
         {
-          "position": "9",
+          "position": "10",
           "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
           "games": "13",
           "wins": "8",
@@ -2695,16 +2705,6 @@
           "losses": "4",
           "goals": "28-65",
           "points": "25"
-        },
-        {
-          "position": "10",
-          "team": "מכבי ע.ק. אתא",
-          "games": "13",
-          "wins": "8",
-          "draws": "0",
-          "losses": "5",
-          "goals": "44-78",
-          "points": "24"
         },
         {
           "position": "11",
@@ -2769,11 +2769,11 @@
         {
           "position": "17",
           "team": "הפועל ד.א. כרמל",
-          "games": "12",
+          "games": "13",
           "wins": "3",
           "draws": "0",
-          "losses": "9",
-          "goals": "61-39",
+          "losses": "10",
+          "goals": "65-42",
           "points": "9"
         },
         {
