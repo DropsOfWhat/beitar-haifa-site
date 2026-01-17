@@ -1628,6 +1628,16 @@
         },
         {
           "position": "4",
+          "team": "הפועל חיפה שלום",
+          "games": "17",
+          "wins": "9",
+          "draws": "5",
+          "losses": "3",
+          "goals": "27-46",
+          "points": "32"
+        },
+        {
+          "position": "5",
           "team": "מכבי עמק חפר",
           "games": "16",
           "wins": "9",
@@ -1635,16 +1645,6 @@
           "losses": "4",
           "goals": "12-32",
           "points": "30"
-        },
-        {
-          "position": "5",
-          "team": "הפועל חיפה שלום",
-          "games": "16",
-          "wins": "8",
-          "draws": "5",
-          "losses": "3",
-          "goals": "26-44",
-          "points": "29"
         },
         {
           "position": "6",
@@ -1729,11 +1729,11 @@
         {
           "position": "14",
           "team": "בית\"ר חיפה",
-          "games": "16",
+          "games": "17",
           "wins": "5",
           "draws": "3",
-          "losses": "8",
-          "goals": "25-15",
+          "losses": "9",
+          "goals": "27-16",
           "points": "18"
         },
         {
