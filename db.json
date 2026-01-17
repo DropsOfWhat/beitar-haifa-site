@@ -2506,7 +2506,7 @@
         },
         {
           "date": "17/01/2026",
-          "time": "14:30",
+          "time": "15:20",
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. שפרעם",
           "opponent": "בית\"ר חיפה - מ.כ. שפרעם",
@@ -2618,6 +2618,16 @@
         },
         {
           "position": "2",
+          "team": "הפועל מטה אשר",
+          "games": "13",
+          "wins": "12",
+          "draws": "0",
+          "losses": "1",
+          "goals": "10-75",
+          "points": "36"
+        },
+        {
+          "position": "3",
           "team": "מ.כ. קרית חיים \"\"",
           "games": "13",
           "wins": "12",
@@ -2627,7 +2637,7 @@
           "points": "36"
         },
         {
-          "position": "3",
+          "position": "4",
           "team": "מ.ס. שפרעם",
           "games": "13",
           "wins": "11",
@@ -2635,16 +2645,6 @@
           "losses": "1",
           "goals": "12-96",
           "points": "34"
-        },
-        {
-          "position": "4",
-          "team": "הפועל מטה אשר",
-          "games": "12",
-          "wins": "11",
-          "draws": "0",
-          "losses": "1",
-          "goals": "10-67",
-          "points": "33"
         },
         {
           "position": "5",
@@ -2779,21 +2779,21 @@
         {
           "position": "18",
           "team": "מ.כ. כבביר",
-          "games": "13",
+          "games": "14",
           "wins": "2",
           "draws": "0",
-          "losses": "11",
-          "goals": "73-11",
+          "losses": "12",
+          "goals": "81-11",
           "points": "6"
         },
         {
           "position": "19",
-          "team": "מ.כ. שפרעם",
+          "team": "בית\"ר חיפה",
           "games": "13",
           "wins": "2",
           "draws": "0",
           "losses": "11",
-          "goals": "78-21",
+          "goals": "58-33",
           "points": "6"
         },
         {
@@ -2808,13 +2808,13 @@
         },
         {
           "position": "21",
-          "team": "בית\"ר חיפה",
-          "games": "12",
-          "wins": "1",
+          "team": "מ.כ. שפרעם",
+          "games": "14",
+          "wins": "2",
           "draws": "0",
-          "losses": "11",
-          "goals": "57-27",
-          "points": "3"
+          "losses": "12",
+          "goals": "84-22",
+          "points": "6"
         },
         {
           "position": "22",
