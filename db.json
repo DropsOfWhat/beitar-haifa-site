@@ -1668,23 +1668,23 @@
         },
         {
           "position": "8",
-          "team": "הפועל עכו \"\"",
-          "games": "16",
+          "team": "הפועל עירוני כרמיאל",
+          "games": "17",
           "wins": "7",
-          "draws": "2",
-          "losses": "7",
-          "goals": "27-32",
-          "points": "23"
+          "draws": "4",
+          "losses": "6",
+          "goals": "21-18",
+          "points": "25"
         },
         {
           "position": "9",
-          "team": "הפועל עירוני כרמיאל",
-          "games": "16",
-          "wins": "6",
-          "draws": "4",
-          "losses": "6",
-          "goals": "20-16",
-          "points": "22"
+          "team": "הפועל עכו \"\"",
+          "games": "17",
+          "wins": "7",
+          "draws": "2",
+          "losses": "8",
+          "goals": "29-33",
+          "points": "23"
         },
         {
           "position": "10",
@@ -2510,7 +2510,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. שפרעם",
           "opponent": "בית\"ר חיפה - מ.כ. שפרעם",
-          "result_score": "0-0",
+          "result_score": "0-2",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
