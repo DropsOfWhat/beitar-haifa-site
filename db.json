@@ -2219,12 +2219,12 @@
         {
           "position": "5",
           "team": "בית\"ר טוברוק אורן",
-          "games": "17",
+          "games": "16",
           "wins": "11",
-          "draws": "1",
+          "draws": "0",
           "losses": "5",
           "goals": "19-35",
-          "points": "34"
+          "points": "33"
         },
         {
           "position": "6",
@@ -2359,12 +2359,12 @@
         {
           "position": "19",
           "team": "הפ' בני אעבלין",
-          "games": "17",
+          "games": "16",
           "wins": "0",
-          "draws": "1",
+          "draws": "0",
           "losses": "16",
           "goals": "46-9",
-          "points": "1"
+          "points": "0"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3662&season_id=27",
@@ -2510,7 +2510,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. שפרעם",
           "opponent": "בית\"ר חיפה - מ.כ. שפרעם",
-          "result_score": "1-2",
+          "result_score": "1-6",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
