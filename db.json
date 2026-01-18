@@ -2659,12 +2659,12 @@
         {
           "position": "6",
           "team": "בית\"ר נהריה 2 \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "9",
-          "draws": "0",
+          "draws": "1",
           "losses": "3",
-          "goals": "19-67",
-          "points": "27"
+          "goals": "20-68",
+          "points": "28"
         },
         {
           "position": "7",
@@ -2718,22 +2718,22 @@
         },
         {
           "position": "12",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "13",
+          "wins": "7",
+          "draws": "1",
+          "losses": "5",
+          "goals": "24-35",
+          "points": "22"
+        },
+        {
+          "position": "13",
           "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
           "games": "14",
           "wins": "7",
           "draws": "0",
           "losses": "7",
           "goals": "48-53",
-          "points": "21"
-        },
-        {
-          "position": "13",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "12",
-          "wins": "7",
-          "draws": "0",
-          "losses": "5",
-          "goals": "23-34",
           "points": "21"
         },
         {
