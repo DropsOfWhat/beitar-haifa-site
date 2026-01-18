@@ -358,22 +358,22 @@
         },
         {
           "position": "6",
+          "team": "איחוד בני בקה",
+          "games": "17",
+          "wins": "10",
+          "draws": "4",
+          "losses": "3",
+          "goals": "20-35",
+          "points": "34"
+        },
+        {
+          "position": "7",
           "team": "בית\"ר חיפה",
           "games": "17",
           "wins": "10",
           "draws": "1",
           "losses": "6",
           "goals": "26-40",
-          "points": "31"
-        },
-        {
-          "position": "7",
-          "team": "איחוד בני בקה",
-          "games": "16",
-          "wins": "9",
-          "draws": "4",
-          "losses": "3",
-          "goals": "20-33",
           "points": "31"
         },
         {
@@ -419,11 +419,11 @@
         {
           "position": "12",
           "team": "הפועל רמות מנשה מגידו",
-          "games": "16",
+          "games": "17",
           "wins": "4",
           "draws": "3",
-          "losses": "9",
-          "goals": "37-25",
+          "losses": "10",
+          "goals": "39-25",
           "points": "15"
         },
         {
