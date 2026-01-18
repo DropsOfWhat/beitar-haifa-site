@@ -1659,11 +1659,11 @@
         {
           "position": "7",
           "team": "מ.כ. גליל גולן \"\"",
-          "games": "16",
+          "games": "17",
           "wins": "7",
           "draws": "4",
-          "losses": "5",
-          "goals": "22-30",
+          "losses": "6",
+          "goals": "24-31",
           "points": "25"
         },
         {
@@ -1698,6 +1698,16 @@
         },
         {
           "position": "11",
+          "team": "מכבי בני ריינה",
+          "games": "17",
+          "wins": "5",
+          "draws": "6",
+          "losses": "6",
+          "goals": "33-33",
+          "points": "21"
+        },
+        {
+          "position": "12",
           "team": "עירוני נשר",
           "games": "17",
           "wins": "5",
@@ -1707,7 +1717,7 @@
           "points": "20"
         },
         {
-          "position": "12",
+          "position": "13",
           "team": "מכבי אחי נצרת",
           "games": "16",
           "wins": "6",
@@ -1715,16 +1725,6 @@
           "losses": "8",
           "goals": "41-31",
           "points": "20"
-        },
-        {
-          "position": "13",
-          "team": "מכבי בני ריינה",
-          "games": "16",
-          "wins": "4",
-          "draws": "6",
-          "losses": "6",
-          "goals": "32-31",
-          "points": "18"
         },
         {
           "position": "14",
