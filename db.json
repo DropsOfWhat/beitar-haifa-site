@@ -610,7 +610,7 @@
           "homeTeam": "מ.ס. קרית חיים \"\"",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.ס. קרית חיים \"\" - בית\"ר חיפה",
-          "result_score": "",
+          "result_score": "0-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןטמרה"
         },
@@ -1719,11 +1719,11 @@
         {
           "position": "12",
           "team": "עירוני נשר",
-          "games": "17",
+          "games": "18",
           "wins": "5",
           "draws": "5",
-          "losses": "7",
-          "goals": "29-22",
+          "losses": "8",
+          "goals": "32-23",
           "points": "20"
         },
         {
@@ -1738,6 +1738,16 @@
         },
         {
           "position": "14",
+          "team": "הפועל חדרה מערב",
+          "games": "17",
+          "wins": "5",
+          "draws": "5",
+          "losses": "7",
+          "goals": "32-18",
+          "points": "20"
+        },
+        {
+          "position": "15",
           "team": "בית\"ר חיפה",
           "games": "17",
           "wins": "5",
@@ -1745,16 +1755,6 @@
           "losses": "9",
           "goals": "27-16",
           "points": "18"
-        },
-        {
-          "position": "15",
-          "team": "הפועל חדרה מערב",
-          "games": "16",
-          "wins": "4",
-          "draws": "5",
-          "losses": "7",
-          "goals": "31-15",
-          "points": "17"
         },
         {
           "position": "16",
