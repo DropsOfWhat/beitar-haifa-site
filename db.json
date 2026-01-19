@@ -729,15 +729,25 @@
         {
           "position": "1",
           "team": "בית\"ר חיפה",
-          "games": "12",
-          "wins": "11",
+          "games": "13",
+          "wins": "12",
           "draws": "1",
           "losses": "0",
-          "goals": "8-79",
-          "points": "34"
+          "goals": "9-82",
+          "points": "37"
         },
         {
           "position": "2",
+          "team": "הפועל חוף הכרמל / מ\"מ  \"\"",
+          "games": "12",
+          "wins": "8",
+          "draws": "1",
+          "losses": "3",
+          "goals": "20-49",
+          "points": "25"
+        },
+        {
+          "position": "3",
           "team": "מכבי נווה שאנן יוסף שריקי \"\"",
           "games": "12",
           "wins": "7",
@@ -747,23 +757,13 @@
           "points": "23"
         },
         {
-          "position": "3",
-          "team": "הפועל חוף הכרמל / מ\"מ  \"\"",
-          "games": "11",
-          "wins": "7",
-          "draws": "1",
-          "losses": "3",
-          "goals": "18-42",
-          "points": "22"
-        },
-        {
           "position": "4",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "7",
           "draws": "1",
-          "losses": "4",
-          "goals": "23-62",
+          "losses": "5",
+          "goals": "26-63",
           "points": "22"
         },
         {
@@ -789,11 +789,11 @@
         {
           "position": "7",
           "team": "מכבי עוספיא",
-          "games": "11",
+          "games": "12",
           "wins": "4",
           "draws": "1",
-          "losses": "6",
-          "goals": "18-19",
+          "losses": "7",
+          "goals": "25-21",
           "points": "13"
         },
         {
