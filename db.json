@@ -2198,6 +2198,16 @@
       "table": [
         {
           "position": "1",
+          "team": "הפועל עכו \"\"",
+          "games": "17",
+          "wins": "12",
+          "draws": "4",
+          "losses": "1",
+          "goals": "18-64",
+          "points": "40"
+        },
+        {
+          "position": "2",
           "team": "הפועל חיפה 1 ניר",
           "games": "17",
           "wins": "12",
@@ -2207,7 +2217,7 @@
           "points": "39"
         },
         {
-          "position": "2",
+          "position": "3",
           "team": "מ.כדורגל נהלל יזראעל \"\"",
           "games": "17",
           "wins": "12",
@@ -2217,7 +2227,7 @@
           "points": "38"
         },
         {
-          "position": "3",
+          "position": "4",
           "team": "בית\"ר נהריה יוראי",
           "games": "17",
           "wins": "11",
@@ -2225,16 +2235,6 @@
           "losses": "1",
           "goals": "12-28",
           "points": "38"
-        },
-        {
-          "position": "4",
-          "team": "הפועל עכו \"\"",
-          "games": "16",
-          "wins": "11",
-          "draws": "4",
-          "losses": "1",
-          "goals": "16-58",
-          "points": "37"
         },
         {
           "position": "5",
@@ -2339,11 +2339,11 @@
         {
           "position": "15",
           "team": "הפועל עפולה",
-          "games": "16",
+          "games": "17",
           "wins": "5",
           "draws": "2",
-          "losses": "9",
-          "goals": "36-32",
+          "losses": "10",
+          "goals": "42-34",
           "points": "17"
         },
         {
