@@ -2218,22 +2218,22 @@
         },
         {
           "position": "3",
+          "team": "בית\"ר נהריה יוראי",
+          "games": "17",
+          "wins": "11",
+          "draws": "5",
+          "losses": "1",
+          "goals": "12-28",
+          "points": "38"
+        },
+        {
+          "position": "4",
           "team": "הפועל עכו \"\"",
           "games": "16",
           "wins": "11",
           "draws": "4",
           "losses": "1",
           "goals": "16-58",
-          "points": "37"
-        },
-        {
-          "position": "4",
-          "team": "בית\"ר נהריה יוראי",
-          "games": "16",
-          "wins": "11",
-          "draws": "4",
-          "losses": "1",
-          "goals": "12-28",
           "points": "37"
         },
         {
@@ -2259,12 +2259,12 @@
         {
           "position": "7",
           "team": "מכבי עמק חפר אברהם \"\"",
-          "games": "16",
+          "games": "17",
           "wins": "9",
-          "draws": "4",
+          "draws": "5",
           "losses": "3",
           "goals": "25-38",
-          "points": "31"
+          "points": "32"
         },
         {
           "position": "8",
