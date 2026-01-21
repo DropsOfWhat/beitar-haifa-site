@@ -1128,6 +1128,16 @@
         },
         {
           "position": "5",
+          "team": "מכבי אחי נצרת",
+          "games": "11",
+          "wins": "7",
+          "draws": "0",
+          "losses": "4",
+          "goals": "17-30",
+          "points": "21"
+        },
+        {
+          "position": "6",
           "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
           "games": "12",
           "wins": "6",
@@ -1135,16 +1145,6 @@
           "losses": "5",
           "goals": "17-34",
           "points": "19"
-        },
-        {
-          "position": "6",
-          "team": "מכבי אחי נצרת",
-          "games": "10",
-          "wins": "6",
-          "draws": "0",
-          "losses": "4",
-          "goals": "15-27",
-          "points": "18"
         },
         {
           "position": "7",
@@ -1189,11 +1189,11 @@
         {
           "position": "11",
           "team": "מ.ס. חיפה רובי שפירא",
-          "games": "10",
+          "games": "11",
           "wins": "3",
           "draws": "0",
-          "losses": "7",
-          "goals": "43-21",
+          "losses": "8",
+          "goals": "46-23",
           "points": "9"
         },
         {
