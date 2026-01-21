@@ -2648,6 +2648,16 @@
         },
         {
           "position": "2",
+          "team": "מ.ס. שפרעם",
+          "games": "14",
+          "wins": "12",
+          "draws": "1",
+          "losses": "1",
+          "goals": "14-101",
+          "points": "37"
+        },
+        {
+          "position": "3",
           "team": "הפועל מטה אשר",
           "games": "13",
           "wins": "12",
@@ -2657,7 +2667,7 @@
           "points": "36"
         },
         {
-          "position": "3",
+          "position": "4",
           "team": "מ.כ. קרית חיים \"\"",
           "games": "13",
           "wins": "12",
@@ -2665,16 +2675,6 @@
           "losses": "1",
           "goals": "10-120",
           "points": "36"
-        },
-        {
-          "position": "4",
-          "team": "מ.ס. שפרעם",
-          "games": "13",
-          "wins": "11",
-          "draws": "1",
-          "losses": "1",
-          "goals": "12-96",
-          "points": "34"
         },
         {
           "position": "5",
@@ -2729,11 +2729,11 @@
         {
           "position": "10",
           "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
-          "games": "13",
+          "games": "14",
           "wins": "8",
           "draws": "1",
-          "losses": "4",
-          "goals": "28-65",
+          "losses": "5",
+          "goals": "33-67",
           "points": "25"
         },
         {
