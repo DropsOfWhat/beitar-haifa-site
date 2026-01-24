@@ -2699,32 +2699,32 @@
         {
           "position": "7",
           "team": "מכבי ע.ק. אתא",
-          "games": "14",
+          "games": "15",
           "wins": "9",
           "draws": "0",
-          "losses": "5",
-          "goals": "47-82",
+          "losses": "6",
+          "goals": "50-83",
           "points": "27"
         },
         {
           "position": "8",
-          "team": "הפועל טירת כרמל",
+          "team": "איחוד בני עכו",
           "games": "14",
           "wins": "8",
-          "draws": "1",
-          "losses": "5",
-          "goals": "30-31",
-          "points": "25"
+          "draws": "2",
+          "losses": "4",
+          "goals": "24-42",
+          "points": "26"
         },
         {
           "position": "9",
-          "team": "איחוד בני עכו",
-          "games": "13",
+          "team": "הפועל טירת כרמל",
+          "games": "15",
           "wins": "8",
-          "draws": "1",
-          "losses": "4",
-          "goals": "24-42",
-          "points": "25"
+          "draws": "2",
+          "losses": "5",
+          "goals": "30-31",
+          "points": "26"
         },
         {
           "position": "10",
@@ -2758,6 +2758,16 @@
         },
         {
           "position": "13",
+          "team": "הפועל חיפה 2",
+          "games": "14",
+          "wins": "7",
+          "draws": "1",
+          "losses": "6",
+          "goals": "25-55",
+          "points": "22"
+        },
+        {
+          "position": "14",
           "team": "מ.ס. צעירי חיפה",
           "games": "13",
           "wins": "7",
@@ -2765,16 +2775,6 @@
           "losses": "5",
           "goals": "24-35",
           "points": "22"
-        },
-        {
-          "position": "14",
-          "team": "הפועל חיפה 2",
-          "games": "13",
-          "wins": "6",
-          "draws": "1",
-          "losses": "6",
-          "goals": "24-52",
-          "points": "19"
         },
         {
           "position": "15",
