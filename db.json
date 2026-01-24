@@ -308,6 +308,16 @@
       "table": [
         {
           "position": "1",
+          "team": "הפועל איחוד בני ג'ת",
+          "games": "18",
+          "wins": "14",
+          "draws": "2",
+          "losses": "2",
+          "goals": "18-46",
+          "points": "44"
+        },
+        {
+          "position": "2",
           "team": "מ.ס. טירת כרמל גל קובי",
           "games": "18",
           "wins": "14",
@@ -317,7 +327,7 @@
           "points": "44"
         },
         {
-          "position": "2",
+          "position": "3",
           "team": "הפועל דלית אל כרמל",
           "games": "18",
           "wins": "14",
@@ -325,16 +335,6 @@
           "losses": "3",
           "goals": "20-60",
           "points": "43"
-        },
-        {
-          "position": "3",
-          "team": "הפועל איחוד בני ג'ת",
-          "games": "17",
-          "wins": "13",
-          "draws": "2",
-          "losses": "2",
-          "goals": "18-44",
-          "points": "41"
         },
         {
           "position": "4",
@@ -349,11 +349,11 @@
         {
           "position": "5",
           "team": "מ.ס. צעירי חיפה",
-          "games": "17",
+          "games": "18",
           "wins": "11",
           "draws": "2",
-          "losses": "4",
-          "goals": "15-44",
+          "losses": "5",
+          "goals": "17-44",
           "points": "35"
         },
         {
