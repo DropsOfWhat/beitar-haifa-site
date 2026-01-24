@@ -1168,6 +1168,16 @@
         },
         {
           "position": "9",
+          "team": "מ.ס. חיפה רובי שפירא",
+          "games": "12",
+          "wins": "4",
+          "draws": "0",
+          "losses": "8",
+          "goals": "48-32",
+          "points": "12"
+        },
+        {
+          "position": "10",
           "team": "מ.כ. נהלל יזרעאל",
           "games": "12",
           "wins": "4",
@@ -1177,7 +1187,7 @@
           "points": "12"
         },
         {
-          "position": "10",
+          "position": "11",
           "team": "מ.כ. הפועל גלבוע \"\"",
           "games": "12",
           "wins": "3",
@@ -1187,23 +1197,13 @@
           "points": "10"
         },
         {
-          "position": "11",
-          "team": "מ.ס. חיפה רובי שפירא",
-          "games": "11",
-          "wins": "3",
-          "draws": "0",
-          "losses": "8",
-          "goals": "46-23",
-          "points": "9"
-        },
-        {
           "position": "12",
           "team": "מ.כ. כרמל חיפה",
-          "games": "11",
+          "games": "12",
           "wins": "2",
           "draws": "0",
-          "losses": "9",
-          "goals": "65-21",
+          "losses": "10",
+          "goals": "74-23",
           "points": "6"
         },
         {
