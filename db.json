@@ -2698,6 +2698,16 @@
         },
         {
           "position": "7",
+          "team": "הפועל טירת כרמל",
+          "games": "15",
+          "wins": "9",
+          "draws": "1",
+          "losses": "5",
+          "goals": "30-32",
+          "points": "28"
+        },
+        {
+          "position": "8",
           "team": "מכבי ע.ק. אתא",
           "games": "15",
           "wins": "9",
@@ -2707,24 +2717,14 @@
           "points": "27"
         },
         {
-          "position": "8",
+          "position": "9",
           "team": "איחוד בני עכו",
           "games": "14",
           "wins": "8",
-          "draws": "2",
-          "losses": "4",
-          "goals": "24-42",
-          "points": "26"
-        },
-        {
-          "position": "9",
-          "team": "הפועל טירת כרמל",
-          "games": "15",
-          "wins": "8",
-          "draws": "2",
+          "draws": "1",
           "losses": "5",
-          "goals": "30-31",
-          "points": "26"
+          "goals": "25-42",
+          "points": "25"
         },
         {
           "position": "10",
