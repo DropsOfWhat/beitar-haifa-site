@@ -620,9 +620,9 @@
           "homeTeam": "מ.כ. כבביר",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. כבביר - בית\"ר חיפה",
-          "result_score": "",
+          "result_score": "0-0",
           "home_away": "Unknown",
-          "stadium": "אצטדיוןחיפה אבי רן"
+          "stadium": "אצטדיוןחיפה אגרטק (אתוס 2 לשעבר)"
         },
         {
           "date": "07/02/2026",
@@ -1119,12 +1119,12 @@
         {
           "position": "4",
           "team": "הפ' בית שאן מסילות",
-          "games": "11",
-          "wins": "8",
+          "games": "12",
+          "wins": "9",
           "draws": "0",
           "losses": "3",
-          "goals": "15-44",
-          "points": "24"
+          "goals": "16-48",
+          "points": "27"
         },
         {
           "position": "5",
@@ -1138,6 +1138,16 @@
         },
         {
           "position": "6",
+          "team": "מכבי אחי איכסל",
+          "games": "12",
+          "wins": "6",
+          "draws": "1",
+          "losses": "5",
+          "goals": "24-36",
+          "points": "19"
+        },
+        {
+          "position": "7",
           "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
           "games": "12",
           "wins": "6",
@@ -1147,23 +1157,13 @@
           "points": "19"
         },
         {
-          "position": "7",
-          "team": "מכבי אחי איכסל",
-          "games": "11",
-          "wins": "5",
-          "draws": "1",
-          "losses": "5",
-          "goals": "23-29",
-          "points": "16"
-        },
-        {
           "position": "8",
           "team": "מ.ס. שפרעם",
-          "games": "11",
+          "games": "12",
           "wins": "4",
           "draws": "0",
-          "losses": "7",
-          "goals": "24-16",
+          "losses": "8",
+          "goals": "31-17",
           "points": "12"
         },
         {
@@ -1179,11 +1179,11 @@
         {
           "position": "10",
           "team": "מ.כ. הפועל גלבוע \"\"",
-          "games": "11",
+          "games": "12",
           "wins": "3",
           "draws": "1",
-          "losses": "7",
-          "goals": "38-30",
+          "losses": "8",
+          "goals": "42-31",
           "points": "10"
         },
         {
