@@ -729,22 +729,22 @@
         {
           "position": "1",
           "team": "בית\"ר חיפה",
-          "games": "13",
-          "wins": "12",
+          "games": "14",
+          "wins": "13",
           "draws": "1",
           "losses": "0",
-          "goals": "9-82",
-          "points": "37"
+          "goals": "10-91",
+          "points": "40"
         },
         {
           "position": "2",
           "team": "הפועל חוף הכרמל / מ\"מ  \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "8",
-          "draws": "1",
+          "draws": "2",
           "losses": "3",
           "goals": "20-49",
-          "points": "25"
+          "points": "26"
         },
         {
           "position": "3",
@@ -759,12 +759,12 @@
         {
           "position": "4",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "13",
+          "games": "14",
           "wins": "7",
-          "draws": "1",
+          "draws": "2",
           "losses": "5",
           "goals": "26-63",
-          "points": "22"
+          "points": "23"
         },
         {
           "position": "5",
@@ -778,32 +778,32 @@
         },
         {
           "position": "6",
-          "team": "מ.כ. כבביר",
+          "team": "מכבי עוספיא",
           "games": "13",
-          "wins": "4",
+          "wins": "5",
           "draws": "1",
-          "losses": "8",
-          "goals": "31-24",
-          "points": "13"
+          "losses": "7",
+          "goals": "25-22",
+          "points": "16"
         },
         {
           "position": "7",
-          "team": "מכבי עוספיא",
-          "games": "12",
+          "team": "מ.כ. כבביר",
+          "games": "14",
           "wins": "4",
           "draws": "1",
-          "losses": "7",
-          "goals": "25-21",
+          "losses": "9",
+          "goals": "40-25",
           "points": "13"
         },
         {
           "position": "8",
           "team": "הפועל בני ג'סר א זרקא",
-          "games": "12",
+          "games": "13",
           "wins": "3",
           "draws": "1",
-          "losses": "8",
-          "goals": "47-26",
+          "losses": "9",
+          "goals": "48-26",
           "points": "10"
         },
         {
@@ -2243,7 +2243,7 @@
           "wins": "11",
           "draws": "2",
           "losses": "5",
-          "goals": "24-40",
+          "goals": "25-40",
           "points": "35"
         },
         {
@@ -2303,7 +2303,7 @@
           "wins": "7",
           "draws": "2",
           "losses": "9",
-          "goals": "39-31",
+          "goals": "39-32",
           "points": "23"
         },
         {
