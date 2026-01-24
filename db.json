@@ -2308,22 +2308,22 @@
         },
         {
           "position": "12",
+          "team": "הפועל עירוני כרמיאל ''איאד''",
+          "games": "18",
+          "wins": "5",
+          "draws": "5",
+          "losses": "8",
+          "goals": "31-22",
+          "points": "20"
+        },
+        {
+          "position": "13",
           "team": "עירוני נשר",
           "games": "17",
           "wins": "5",
           "draws": "4",
           "losses": "8",
           "goals": "21-20",
-          "points": "19"
-        },
-        {
-          "position": "13",
-          "team": "הפועל עירוני כרמיאל ''איאד''",
-          "games": "17",
-          "wins": "5",
-          "draws": "4",
-          "losses": "8",
-          "goals": "31-22",
           "points": "19"
         },
         {
@@ -2369,12 +2369,12 @@
         {
           "position": "18",
           "team": "מכבי אחי נצרת",
-          "games": "17",
+          "games": "18",
           "wins": "1",
-          "draws": "1",
+          "draws": "2",
           "losses": "15",
           "goals": "44-9",
-          "points": "4"
+          "points": "5"
         },
         {
           "position": "19",
