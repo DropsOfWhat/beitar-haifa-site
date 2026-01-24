@@ -343,7 +343,7 @@
           "wins": "12",
           "draws": "3",
           "losses": "3",
-          "goals": "27-63",
+          "goals": "27-64",
           "points": "38"
         },
         {
@@ -443,7 +443,7 @@
           "wins": "4",
           "draws": "1",
           "losses": "13",
-          "goals": "36-22",
+          "goals": "37-22",
           "points": "13"
         },
         {
@@ -620,7 +620,7 @@
           "homeTeam": "מ.כ. כבביר",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. כבביר - בית\"ר חיפה",
-          "result_score": "3-0",
+          "result_score": "6-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 2 לשעבר)"
         },
@@ -2000,7 +2000,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מכבי ברקאי",
           "opponent": "בית\"ר חיפה - מכבי ברקאי",
-          "result_score": "",
+          "result_score": "0-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 2 לשעבר)"
         },
