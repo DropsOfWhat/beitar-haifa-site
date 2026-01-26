@@ -2208,6 +2208,16 @@
         },
         {
           "position": "2",
+          "team": "הפועל עכו \"\"",
+          "games": "18",
+          "wins": "12",
+          "draws": "5",
+          "losses": "1",
+          "goals": "20-66",
+          "points": "41"
+        },
+        {
+          "position": "3",
           "team": "מ.כדורגל נהלל יזראעל \"\"",
           "games": "18",
           "wins": "13",
@@ -2215,16 +2225,6 @@
           "losses": "3",
           "goals": "24-48",
           "points": "41"
-        },
-        {
-          "position": "3",
-          "team": "הפועל עכו \"\"",
-          "games": "17",
-          "wins": "12",
-          "draws": "4",
-          "losses": "1",
-          "goals": "18-64",
-          "points": "40"
         },
         {
           "position": "4",
@@ -2308,6 +2308,16 @@
         },
         {
           "position": "12",
+          "team": "עירוני נשר",
+          "games": "18",
+          "wins": "5",
+          "draws": "5",
+          "losses": "8",
+          "goals": "23-22",
+          "points": "20"
+        },
+        {
+          "position": "13",
           "team": "הפועל עירוני כרמיאל ''איאד''",
           "games": "18",
           "wins": "5",
@@ -2315,16 +2325,6 @@
           "losses": "8",
           "goals": "31-22",
           "points": "20"
-        },
-        {
-          "position": "13",
-          "team": "עירוני נשר",
-          "games": "17",
-          "wins": "5",
-          "draws": "4",
-          "losses": "8",
-          "goals": "21-20",
-          "points": "19"
         },
         {
           "position": "14",
