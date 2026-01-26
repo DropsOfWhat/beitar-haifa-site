@@ -378,6 +378,16 @@
         },
         {
           "position": "8",
+          "team": "מ.ס. צעירי כפר קנא",
+          "games": "18",
+          "wins": "7",
+          "draws": "2",
+          "losses": "9",
+          "goals": "37-33",
+          "points": "23"
+        },
+        {
+          "position": "9",
           "team": "הפועל בני ערערה עארה",
           "games": "18",
           "wins": "6",
@@ -385,16 +395,6 @@
           "losses": "8",
           "goals": "31-16",
           "points": "22"
-        },
-        {
-          "position": "9",
-          "team": "מ.ס. צעירי כפר קנא",
-          "games": "17",
-          "wins": "6",
-          "draws": "2",
-          "losses": "9",
-          "goals": "37-32",
-          "points": "20"
         },
         {
           "position": "10",
@@ -459,11 +459,11 @@
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "17",
+          "games": "18",
           "wins": "2",
           "draws": "0",
-          "losses": "15",
-          "goals": "86-13",
+          "losses": "16",
+          "goals": "87-13",
           "points": "6"
         }
       ],
