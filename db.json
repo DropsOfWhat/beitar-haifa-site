@@ -2778,6 +2778,16 @@
         },
         {
           "position": "13",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "14",
+          "wins": "7",
+          "draws": "2",
+          "losses": "5",
+          "goals": "26-37",
+          "points": "23"
+        },
+        {
+          "position": "14",
           "team": "הפועל חיפה 2",
           "games": "14",
           "wins": "7",
@@ -2787,24 +2797,14 @@
           "points": "22"
         },
         {
-          "position": "14",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "13",
-          "wins": "7",
-          "draws": "1",
-          "losses": "5",
-          "goals": "24-35",
-          "points": "22"
-        },
-        {
           "position": "15",
           "team": "מ.כ. צופי חיפה",
-          "games": "13",
+          "games": "14",
           "wins": "5",
-          "draws": "1",
+          "draws": "2",
           "losses": "7",
-          "goals": "41-34",
-          "points": "16"
+          "goals": "43-36",
+          "points": "17"
         },
         {
           "position": "16",
