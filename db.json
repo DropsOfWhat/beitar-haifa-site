@@ -960,7 +960,7 @@
           "homeTeam": "מכבי אחי נצרת",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מכבי אחי נצרת - בית\"ר חיפה",
-          "result_score": "2-3",
+          "result_score": "2-4",
           "home_away": "Unknown",
           "stadium": "אצטדיוןנצרת אצטדיון עילוט"
         },
@@ -2258,6 +2258,16 @@
         },
         {
           "position": "6",
+          "team": "מכבי עמק חפר אברהם \"\"",
+          "games": "18",
+          "wins": "10",
+          "draws": "5",
+          "losses": "3",
+          "goals": "25-39",
+          "points": "35"
+        },
+        {
+          "position": "7",
           "team": "בית\"ר טוברוק אורן",
           "games": "17",
           "wins": "11",
@@ -2267,23 +2277,13 @@
           "points": "33"
         },
         {
-          "position": "7",
-          "team": "מכבי עמק חפר אברהם \"\"",
-          "games": "17",
-          "wins": "9",
-          "draws": "5",
-          "losses": "3",
-          "goals": "25-38",
-          "points": "32"
-        },
-        {
           "position": "8",
           "team": "מכבי חיפה גולדשנפלד",
-          "games": "17",
+          "games": "18",
           "wins": "9",
           "draws": "3",
-          "losses": "5",
-          "goals": "30-41",
+          "losses": "6",
+          "goals": "31-41",
           "points": "30"
         },
         {
