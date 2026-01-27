@@ -2349,12 +2349,12 @@
         {
           "position": "15",
           "team": "הפועל עפולה",
-          "games": "17",
+          "games": "18",
           "wins": "5",
-          "draws": "2",
+          "draws": "3",
           "losses": "10",
-          "goals": "42-34",
-          "points": "17"
+          "goals": "43-35",
+          "points": "18"
         },
         {
           "position": "16",
@@ -2389,12 +2389,12 @@
         {
           "position": "19",
           "team": "הפ' בני אעבלין",
-          "games": "16",
+          "games": "17",
           "wins": "0",
-          "draws": "0",
+          "draws": "1",
           "losses": "16",
-          "goals": "46-9",
-          "points": "0"
+          "goals": "47-10",
+          "points": "1"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3662&season_id=27",
