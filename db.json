@@ -1098,23 +1098,23 @@
       "table": [
         {
           "position": "1",
-          "team": "מכבי עין מאהל אדהם",
-          "games": "11",
+          "team": "הפועל עפולה",
+          "games": "12",
           "wins": "10",
           "draws": "1",
-          "losses": "0",
-          "goals": "14-52",
+          "losses": "1",
+          "goals": "13-65",
           "points": "31"
         },
         {
           "position": "2",
-          "team": "הפועל עפולה",
-          "games": "11",
-          "wins": "9",
+          "team": "מכבי עין מאהל אדהם",
+          "games": "12",
+          "wins": "10",
           "draws": "1",
           "losses": "1",
-          "goals": "11-61",
-          "points": "28"
+          "goals": "18-54",
+          "points": "31"
         },
         {
           "position": "3",
