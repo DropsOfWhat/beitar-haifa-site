@@ -309,12 +309,12 @@
         {
           "position": "1",
           "team": "הפועל איחוד בני ג'ת",
-          "games": "18",
+          "games": "19",
           "wins": "14",
-          "draws": "2",
+          "draws": "3",
           "losses": "2",
-          "goals": "18-46",
-          "points": "44"
+          "goals": "20-48",
+          "points": "45"
         },
         {
           "position": "2",
@@ -459,12 +459,12 @@
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "18",
+          "games": "19",
           "wins": "2",
-          "draws": "0",
+          "draws": "1",
           "losses": "16",
-          "goals": "87-13",
-          "points": "6"
+          "goals": "89-15",
+          "points": "7"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3586&season_id=27",
