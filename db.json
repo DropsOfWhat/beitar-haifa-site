@@ -2669,12 +2669,12 @@
         {
           "position": "1",
           "team": "מ.ס.קרית ים \"דניאל\" \"\"",
-          "games": "15",
-          "wins": "13",
+          "games": "16",
+          "wins": "14",
           "draws": "1",
           "losses": "1",
-          "goals": "13-86",
-          "points": "40"
+          "goals": "13-112",
+          "points": "43"
         },
         {
           "position": "2",
@@ -2889,11 +2889,11 @@
         {
           "position": "23",
           "team": "הפ' קרית חיים ליבוביץ יעקב \"\"",
-          "games": "14",
+          "games": "15",
           "wins": "0",
           "draws": "0",
-          "losses": "14",
-          "goals": "226-2",
+          "losses": "15",
+          "goals": "252-2",
           "points": "0"
         }
       ],
