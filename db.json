@@ -331,10 +331,10 @@
           "team": "הפועל דלית אל כרמל",
           "games": "19",
           "wins": "14",
-          "draws": "2",
-          "losses": "3",
-          "goals": "20-60",
-          "points": "44"
+          "draws": "1",
+          "losses": "4",
+          "goals": "21-60",
+          "points": "43"
         },
         {
           "position": "4",
@@ -348,22 +348,22 @@
         },
         {
           "position": "5",
+          "team": "איחוד בני בקה",
+          "games": "19",
+          "wins": "11",
+          "draws": "5",
+          "losses": "3",
+          "goals": "22-38",
+          "points": "38"
+        },
+        {
+          "position": "6",
           "team": "מ.ס. צעירי חיפה",
           "games": "19",
           "wins": "11",
           "draws": "3",
           "losses": "5",
-          "goals": "17-44",
-          "points": "36"
-        },
-        {
-          "position": "6",
-          "team": "איחוד בני בקה",
-          "games": "19",
-          "wins": "10",
-          "draws": "6",
-          "losses": "3",
-          "goals": "22-37",
+          "goals": "18-45",
           "points": "36"
         },
         {
@@ -443,7 +443,7 @@
           "wins": "4",
           "draws": "2",
           "losses": "13",
-          "goals": "37-22",
+          "goals": "38-23",
           "points": "14"
         },
         {
@@ -970,7 +970,7 @@
           "homeTeam": "מ.כ. כרמל חיפה",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. כרמל חיפה - בית\"ר חיפה",
-          "result_score": "7-1",
+          "result_score": "9-1",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 2 לשעבר)"
         },
@@ -1119,12 +1119,12 @@
         {
           "position": "3",
           "team": "בית\"ר חיפה",
-          "games": "12",
-          "wins": "9",
+          "games": "13",
+          "wins": "10",
           "draws": "1",
           "losses": "2",
-          "goals": "23-53",
-          "points": "28"
+          "goals": "24-62",
+          "points": "31"
         },
         {
           "position": "4",
@@ -1139,12 +1139,12 @@
         {
           "position": "5",
           "team": "מכבי אחי נצרת",
-          "games": "12",
-          "wins": "8",
+          "games": "13",
+          "wins": "9",
           "draws": "0",
           "losses": "4",
-          "goals": "19-34",
-          "points": "24"
+          "goals": "19-36",
+          "points": "27"
         },
         {
           "position": "6",
@@ -1209,21 +1209,21 @@
         {
           "position": "12",
           "team": "מ.כ. כרמל חיפה",
-          "games": "12",
+          "games": "13",
           "wins": "2",
           "draws": "0",
-          "losses": "10",
-          "goals": "74-23",
+          "losses": "11",
+          "goals": "83-24",
           "points": "6"
         },
         {
           "position": "13",
           "team": "אתלטיקו שפרעם",
-          "games": "12",
+          "games": "13",
           "wins": "0",
           "draws": "0",
-          "losses": "12",
-          "goals": "93-5",
+          "losses": "13",
+          "goals": "95-5",
           "points": "0"
         }
       ],
