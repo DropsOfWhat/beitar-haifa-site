@@ -308,6 +308,16 @@
       "table": [
         {
           "position": "1",
+          "team": "מ.ס. טירת כרמל גל קובי",
+          "games": "19",
+          "wins": "15",
+          "draws": "2",
+          "losses": "2",
+          "goals": "12-52",
+          "points": "47"
+        },
+        {
+          "position": "2",
           "team": "הפועל איחוד בני ג'ת",
           "games": "19",
           "wins": "14",
@@ -317,24 +327,14 @@
           "points": "45"
         },
         {
-          "position": "2",
-          "team": "מ.ס. טירת כרמל גל קובי",
-          "games": "18",
-          "wins": "14",
-          "draws": "2",
-          "losses": "2",
-          "goals": "12-47",
-          "points": "44"
-        },
-        {
           "position": "3",
           "team": "הפועל דלית אל כרמל",
-          "games": "18",
+          "games": "19",
           "wins": "14",
-          "draws": "1",
+          "draws": "2",
           "losses": "3",
           "goals": "20-60",
-          "points": "43"
+          "points": "44"
         },
         {
           "position": "4",
@@ -349,71 +349,71 @@
         {
           "position": "5",
           "team": "מ.ס. צעירי חיפה",
-          "games": "18",
+          "games": "19",
           "wins": "11",
-          "draws": "2",
+          "draws": "3",
           "losses": "5",
           "goals": "17-44",
-          "points": "35"
+          "points": "36"
         },
         {
           "position": "6",
           "team": "איחוד בני בקה",
-          "games": "18",
+          "games": "19",
           "wins": "10",
-          "draws": "5",
+          "draws": "6",
           "losses": "3",
           "goals": "22-37",
-          "points": "35"
+          "points": "36"
         },
         {
           "position": "7",
           "team": "בית\"ר חיפה",
-          "games": "18",
-          "wins": "10",
+          "games": "19",
+          "wins": "11",
           "draws": "2",
           "losses": "6",
-          "goals": "28-42",
-          "points": "32"
+          "goals": "28-46",
+          "points": "35"
         },
         {
           "position": "8",
           "team": "מ.ס. צעירי כפר קנא",
-          "games": "18",
+          "games": "19",
           "wins": "7",
           "draws": "2",
-          "losses": "9",
-          "goals": "37-33",
+          "losses": "10",
+          "goals": "44-33",
           "points": "23"
         },
         {
           "position": "9",
           "team": "הפועל בני ערערה עארה",
-          "games": "18",
+          "games": "19",
           "wins": "6",
-          "draws": "4",
+          "draws": "5",
           "losses": "8",
           "goals": "31-16",
-          "points": "22"
+          "points": "23"
         },
         {
           "position": "10",
           "team": "מ.כ. צופי חיפה סמיר פרהוד",
-          "games": "18",
-          "wins": "4",
+          "games": "19",
+          "wins": "5",
           "draws": "5",
           "losses": "9",
-          "goals": "39-25",
-          "points": "17"
+          "goals": "39-32",
+          "points": "20"
         },
         {
           "position": "11",
           "team": "מ.כ. כבביר",
-          "games": "18",
+          "games": "19",
           "wins": "4",
           "draws": "5",
-          "losses": "9",
-          "goals": "51-30",
+          "losses": "10",
+          "goals": "56-30",
           "points": "17"
         },
         {
@@ -429,32 +429,32 @@
         {
           "position": "13",
           "team": "מכבי אחי איכסל",
-          "games": "18",
+          "games": "19",
           "wins": "4",
           "draws": "2",
-          "losses": "12",
-          "goals": "52-22",
+          "losses": "13",
+          "goals": "56-22",
           "points": "14"
         },
         {
           "position": "14",
           "team": "מ.ס. כדורגל משהד",
-          "games": "18",
+          "games": "19",
           "wins": "4",
-          "draws": "1",
+          "draws": "2",
           "losses": "13",
           "goals": "37-22",
-          "points": "13"
+          "points": "14"
         },
         {
           "position": "15",
           "team": "מ.ס. נתניה קולט כהן",
-          "games": "18",
+          "games": "19",
           "wins": "3",
-          "draws": "3",
+          "draws": "4",
           "losses": "12",
           "goals": "35-27",
-          "points": "12"
+          "points": "13"
         },
         {
           "position": "16",
@@ -970,7 +970,7 @@
           "homeTeam": "מ.כ. כרמל חיפה",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. כרמל חיפה - בית\"ר חיפה",
-          "result_score": "5-0",
+          "result_score": "7-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 2 לשעבר)"
         },
