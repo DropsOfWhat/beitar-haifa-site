@@ -333,18 +333,18 @@
           "wins": "14",
           "draws": "1",
           "losses": "4",
-          "goals": "21-60",
+          "goals": "23-60",
           "points": "43"
         },
         {
           "position": "4",
           "team": "מ.כ. אור עקיבא",
-          "games": "18",
-          "wins": "12",
+          "games": "19",
+          "wins": "13",
           "draws": "3",
           "losses": "3",
-          "goals": "27-64",
-          "points": "38"
+          "goals": "27-66",
+          "points": "41"
         },
         {
           "position": "5",
@@ -353,7 +353,7 @@
           "wins": "11",
           "draws": "5",
           "losses": "3",
-          "goals": "22-38",
+          "goals": "22-40",
           "points": "38"
         },
         {
@@ -361,10 +361,10 @@
           "team": "מ.ס. צעירי חיפה",
           "games": "19",
           "wins": "11",
-          "draws": "3",
-          "losses": "5",
-          "goals": "18-45",
-          "points": "36"
+          "draws": "2",
+          "losses": "6",
+          "goals": "19-45",
+          "points": "35"
         },
         {
           "position": "7",
@@ -378,22 +378,22 @@
         },
         {
           "position": "8",
+          "team": "הפועל בני ערערה עארה",
+          "games": "19",
+          "wins": "7",
+          "draws": "4",
+          "losses": "8",
+          "goals": "31-17",
+          "points": "25"
+        },
+        {
+          "position": "9",
           "team": "מ.ס. צעירי כפר קנא",
           "games": "19",
           "wins": "7",
           "draws": "2",
           "losses": "10",
           "goals": "44-33",
-          "points": "23"
-        },
-        {
-          "position": "9",
-          "team": "הפועל בני ערערה עארה",
-          "games": "19",
-          "wins": "6",
-          "draws": "5",
-          "losses": "8",
-          "goals": "31-16",
           "points": "23"
         },
         {
@@ -418,16 +418,26 @@
         },
         {
           "position": "12",
-          "team": "הפועל רמות מנשה מגידו",
-          "games": "18",
-          "wins": "4",
-          "draws": "3",
-          "losses": "11",
-          "goals": "40-25",
-          "points": "15"
+          "team": "מ.ס. כדורגל משהד",
+          "games": "19",
+          "wins": "5",
+          "draws": "1",
+          "losses": "13",
+          "goals": "38-24",
+          "points": "16"
         },
         {
           "position": "13",
+          "team": "הפועל רמות מנשה מגידו",
+          "games": "19",
+          "wins": "4",
+          "draws": "3",
+          "losses": "12",
+          "goals": "42-25",
+          "points": "15"
+        },
+        {
+          "position": "14",
           "team": "מכבי אחי איכסל",
           "games": "19",
           "wins": "4",
@@ -437,24 +447,14 @@
           "points": "14"
         },
         {
-          "position": "14",
-          "team": "מ.ס. כדורגל משהד",
-          "games": "19",
-          "wins": "4",
-          "draws": "2",
-          "losses": "13",
-          "goals": "38-23",
-          "points": "14"
-        },
-        {
           "position": "15",
           "team": "מ.ס. נתניה קולט כהן",
           "games": "19",
           "wins": "3",
-          "draws": "4",
-          "losses": "12",
-          "goals": "35-27",
-          "points": "13"
+          "draws": "3",
+          "losses": "13",
+          "goals": "36-27",
+          "points": "12"
         },
         {
           "position": "16",
