@@ -739,22 +739,22 @@
         {
           "position": "2",
           "team": "הפועל חוף הכרמל / מ\"מ  \"\"",
-          "games": "13",
-          "wins": "9",
+          "games": "14",
+          "wins": "10",
           "draws": "1",
           "losses": "3",
-          "goals": "21-56",
-          "points": "28"
+          "goals": "23-62",
+          "points": "31"
         },
         {
           "position": "3",
           "team": "מכבי נווה שאנן יוסף שריקי \"\"",
-          "games": "13",
+          "games": "14",
           "wins": "8",
-          "draws": "2",
+          "draws": "3",
           "losses": "3",
           "goals": "21-49",
-          "points": "26"
+          "points": "27"
         },
         {
           "position": "4",
@@ -769,12 +769,12 @@
         {
           "position": "5",
           "team": "מ.כ. צופי חיפה",
-          "games": "13",
+          "games": "14",
           "wins": "6",
-          "draws": "2",
+          "draws": "3",
           "losses": "5",
           "goals": "35-35",
-          "points": "20"
+          "points": "21"
         },
         {
           "position": "6",
@@ -799,11 +799,11 @@
         {
           "position": "8",
           "team": "הפועל בני ג'סר א זרקא",
-          "games": "13",
+          "games": "14",
           "wins": "3",
           "draws": "1",
-          "losses": "9",
-          "goals": "48-26",
+          "losses": "10",
+          "goals": "54-28",
           "points": "10"
         },
         {
