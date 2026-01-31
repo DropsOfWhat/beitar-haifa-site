@@ -378,22 +378,22 @@
         },
         {
           "position": "8",
-          "team": "הפועל בני ערערה עארה",
-          "games": "19",
-          "wins": "7",
-          "draws": "4",
-          "losses": "8",
-          "goals": "31-17",
-          "points": "25"
-        },
-        {
-          "position": "9",
           "team": "מ.ס. צעירי כפר קנא",
           "games": "19",
           "wins": "7",
           "draws": "2",
           "losses": "10",
           "goals": "44-33",
+          "points": "23"
+        },
+        {
+          "position": "9",
+          "team": "הפועל בני ערערה עארה",
+          "games": "19",
+          "wins": "6",
+          "draws": "5",
+          "losses": "8",
+          "goals": "32-17",
           "points": "23"
         },
         {
@@ -451,10 +451,10 @@
           "team": "מ.ס. נתניה קולט כהן",
           "games": "19",
           "wins": "3",
-          "draws": "3",
-          "losses": "13",
-          "goals": "36-27",
-          "points": "12"
+          "draws": "4",
+          "losses": "12",
+          "goals": "36-28",
+          "points": "13"
         },
         {
           "position": "16",
@@ -1440,7 +1440,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "הפועל מטה אשר",
           "opponent": "בית\"ר חיפה - הפועל מטה אשר",
-          "result_score": "",
+          "result_score": "0-1",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
@@ -2693,7 +2693,7 @@
           "wins": "13",
           "draws": "1",
           "losses": "1",
-          "goals": "14-104",
+          "goals": "14-105",
           "points": "40"
         },
         {
@@ -2763,7 +2763,7 @@
           "wins": "9",
           "draws": "0",
           "losses": "7",
-          "goals": "53-83",
+          "goals": "54-83",
           "points": "27"
         },
         {
