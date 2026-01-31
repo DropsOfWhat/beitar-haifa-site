@@ -2689,12 +2689,12 @@
         {
           "position": "3",
           "team": "מ.ס. שפרעם",
-          "games": "14",
-          "wins": "12",
+          "games": "15",
+          "wins": "13",
           "draws": "1",
           "losses": "1",
-          "goals": "14-101",
-          "points": "37"
+          "goals": "14-104",
+          "points": "40"
         },
         {
           "position": "4",
@@ -2728,12 +2728,12 @@
         },
         {
           "position": "7",
-          "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
+          "team": "איחוד בני עכו",
           "games": "15",
           "wins": "9",
           "draws": "1",
           "losses": "5",
-          "goals": "34-69",
+          "goals": "25-48",
           "points": "28"
         },
         {
@@ -2748,26 +2748,36 @@
         },
         {
           "position": "9",
-          "team": "מכבי ע.ק. אתא",
+          "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
           "games": "15",
           "wins": "9",
-          "draws": "0",
-          "losses": "6",
-          "goals": "50-83",
-          "points": "27"
+          "draws": "1",
+          "losses": "5",
+          "goals": "34-69",
+          "points": "28"
         },
         {
           "position": "10",
-          "team": "איחוד בני עכו",
-          "games": "14",
-          "wins": "8",
-          "draws": "1",
-          "losses": "5",
-          "goals": "25-42",
-          "points": "25"
+          "team": "מכבי ע.ק. אתא",
+          "games": "16",
+          "wins": "9",
+          "draws": "0",
+          "losses": "7",
+          "goals": "53-83",
+          "points": "27"
         },
         {
           "position": "11",
+          "team": "מ.כ. כרמל חיפה",
+          "games": "16",
+          "wins": "7",
+          "draws": "4",
+          "losses": "5",
+          "goals": "31-63",
+          "points": "25"
+        },
+        {
+          "position": "12",
           "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
           "games": "15",
           "wins": "8",
@@ -2777,24 +2787,14 @@
           "points": "24"
         },
         {
-          "position": "12",
-          "team": "מ.כ. כרמל חיפה",
+          "position": "13",
+          "team": "מ.ס. צעירי חיפה",
           "games": "15",
           "wins": "7",
           "draws": "3",
           "losses": "5",
-          "goals": "30-62",
+          "goals": "27-38",
           "points": "24"
-        },
-        {
-          "position": "13",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "14",
-          "wins": "7",
-          "draws": "2",
-          "losses": "5",
-          "goals": "26-37",
-          "points": "23"
         },
         {
           "position": "14",
@@ -2828,23 +2828,23 @@
         },
         {
           "position": "17",
-          "team": "הפועל ד.א. כרמל",
-          "games": "14",
+          "team": "מ.כ. כבביר",
+          "games": "16",
           "wins": "3",
-          "draws": "0",
-          "losses": "11",
-          "goals": "70-45",
-          "points": "9"
+          "draws": "1",
+          "losses": "12",
+          "goals": "82-23",
+          "points": "10"
         },
         {
           "position": "18",
-          "team": "מ.כ. כבביר",
+          "team": "הפועל ד.א. כרמל",
           "games": "15",
           "wins": "3",
-          "draws": "0",
-          "losses": "12",
-          "goals": "81-22",
-          "points": "9"
+          "draws": "1",
+          "losses": "11",
+          "goals": "71-46",
+          "points": "10"
         },
         {
           "position": "19",
@@ -2869,11 +2869,11 @@
         {
           "position": "21",
           "team": "מ.כ. שפרעם",
-          "games": "15",
+          "games": "16",
           "wins": "2",
           "draws": "0",
-          "losses": "13",
-          "goals": "89-22",
+          "losses": "14",
+          "goals": "95-22",
           "points": "6"
         },
         {
