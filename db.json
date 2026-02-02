@@ -2768,6 +2768,16 @@
         },
         {
           "position": "11",
+          "team": "הפועל חיפה 2",
+          "games": "15",
+          "wins": "8",
+          "draws": "1",
+          "losses": "6",
+          "goals": "25-63",
+          "points": "25"
+        },
+        {
+          "position": "12",
           "team": "מ.כ. כרמל חיפה",
           "games": "16",
           "wins": "7",
@@ -2777,17 +2787,17 @@
           "points": "25"
         },
         {
-          "position": "12",
+          "position": "13",
           "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
-          "games": "15",
+          "games": "16",
           "wins": "8",
           "draws": "0",
-          "losses": "7",
-          "goals": "51-58",
+          "losses": "8",
+          "goals": "59-58",
           "points": "24"
         },
         {
-          "position": "13",
+          "position": "14",
           "team": "מ.ס. צעירי חיפה",
           "games": "15",
           "wins": "7",
@@ -2795,16 +2805,6 @@
           "losses": "5",
           "goals": "27-38",
           "points": "24"
-        },
-        {
-          "position": "14",
-          "team": "הפועל חיפה 2",
-          "games": "14",
-          "wins": "7",
-          "draws": "1",
-          "losses": "6",
-          "goals": "25-55",
-          "points": "22"
         },
         {
           "position": "15",
