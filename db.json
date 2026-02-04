@@ -2620,7 +2620,7 @@
           "homeTeam": "הפועל חוף הכרמל / מ\"מ",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "הפועל חוף הכרמל / מ\"מ - בית\"ר חיפה",
-          "result_score": "",
+          "result_score": "3-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןקיבוץ החותרים"
         },
@@ -2888,23 +2888,23 @@
         },
         {
           "position": "19",
-          "team": "הפועל חוף הכרמל / מ\"מ",
-          "games": "14",
+          "team": "בית\"ר חיפה",
+          "games": "15",
           "wins": "3",
-          "draws": "0",
+          "draws": "1",
           "losses": "11",
-          "goals": "59-15",
-          "points": "9"
+          "goals": "59-37",
+          "points": "10"
         },
         {
           "position": "20",
-          "team": "בית\"ר חיפה",
-          "games": "14",
-          "wins": "2",
-          "draws": "1",
-          "losses": "11",
-          "goals": "59-34",
-          "points": "7"
+          "team": "הפועל חוף הכרמל / מ\"מ",
+          "games": "15",
+          "wins": "3",
+          "draws": "0",
+          "losses": "12",
+          "goals": "62-15",
+          "points": "9"
         },
         {
           "position": "21",
