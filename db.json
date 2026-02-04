@@ -2759,31 +2759,31 @@
         {
           "position": "6",
           "team": "בית\"ר נהריה 2 \"\"",
-          "games": "14",
-          "wins": "9",
+          "games": "15",
+          "wins": "10",
           "draws": "1",
           "losses": "4",
-          "goals": "22-68",
-          "points": "28"
+          "goals": "23-82",
+          "points": "31"
         },
         {
           "position": "7",
-          "team": "איחוד בני עכו",
-          "games": "15",
-          "wins": "9",
-          "draws": "1",
-          "losses": "5",
-          "goals": "25-48",
-          "points": "28"
-        },
-        {
-          "position": "8",
           "team": "הפועל טירת כרמל",
           "games": "16",
           "wins": "9",
           "draws": "1",
           "losses": "6",
           "goals": "32-32",
+          "points": "28"
+        },
+        {
+          "position": "8",
+          "team": "איחוד בני עכו",
+          "games": "15",
+          "wins": "9",
+          "draws": "1",
+          "losses": "5",
+          "goals": "25-48",
           "points": "28"
         },
         {
@@ -2859,11 +2859,11 @@
         {
           "position": "16",
           "team": "מ.כ. מכבי נהריה \"\"",
-          "games": "14",
+          "games": "15",
           "wins": "4",
           "draws": "0",
-          "losses": "10",
-          "goals": "98-23",
+          "losses": "11",
+          "goals": "112-24",
           "points": "12"
         },
         {
