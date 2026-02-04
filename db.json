@@ -2288,6 +2288,16 @@
         },
         {
           "position": "5",
+          "team": "בית\"ר טוברוק אורן",
+          "games": "18",
+          "wins": "12",
+          "draws": "0",
+          "losses": "6",
+          "goals": "23-41",
+          "points": "36"
+        },
+        {
+          "position": "6",
           "team": "בית\"ר חיפה",
           "games": "18",
           "wins": "11",
@@ -2297,7 +2307,7 @@
           "points": "35"
         },
         {
-          "position": "6",
+          "position": "7",
           "team": "מכבי עמק חפר אברהם \"\"",
           "games": "18",
           "wins": "10",
@@ -2305,16 +2315,6 @@
           "losses": "3",
           "goals": "25-39",
           "points": "35"
-        },
-        {
-          "position": "7",
-          "team": "בית\"ר טוברוק אורן",
-          "games": "17",
-          "wins": "11",
-          "draws": "0",
-          "losses": "6",
-          "goals": "23-38",
-          "points": "33"
         },
         {
           "position": "8",
@@ -2429,11 +2429,11 @@
         {
           "position": "19",
           "team": "הפ' בני אעבלין",
-          "games": "17",
+          "games": "18",
           "wins": "0",
           "draws": "1",
-          "losses": "16",
-          "goals": "47-10",
+          "losses": "17",
+          "goals": "50-10",
           "points": "1"
         }
       ],
