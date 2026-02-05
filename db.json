@@ -1138,22 +1138,22 @@
         },
         {
           "position": "4",
+          "team": "מכבי אחי נצרת",
+          "games": "14",
+          "wins": "10",
+          "draws": "0",
+          "losses": "4",
+          "goals": "21-40",
+          "points": "30"
+        },
+        {
+          "position": "5",
           "team": "הפ' בית שאן מסילות",
           "games": "12",
           "wins": "9",
           "draws": "0",
           "losses": "3",
           "goals": "16-48",
-          "points": "27"
-        },
-        {
-          "position": "5",
-          "team": "מכבי אחי נצרת",
-          "games": "13",
-          "wins": "9",
-          "draws": "0",
-          "losses": "4",
-          "goals": "19-37",
           "points": "27"
         },
         {
@@ -1209,11 +1209,11 @@
         {
           "position": "11",
           "team": "מ.כ. הפועל גלבוע \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "3",
           "draws": "1",
-          "losses": "8",
-          "goals": "42-31",
+          "losses": "9",
+          "goals": "45-33",
           "points": "10"
         },
         {
@@ -2060,7 +2060,7 @@
           "homeTeam": "מ.כ. גליל גולן \"\"",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מ.כ. גליל גולן \"\" - בית\"ר חיפה",
-          "result_score": "1-1",
+          "result_score": "3-2",
           "home_away": "Unknown",
           "stadium": "אצטדיוןקרית שמונה סינטטי חדש"
         },
