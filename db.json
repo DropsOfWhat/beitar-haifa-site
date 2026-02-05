@@ -1749,11 +1749,11 @@
         {
           "position": "10",
           "team": "הפועל עכו \"\"",
-          "games": "17",
+          "games": "18",
           "wins": "7",
           "draws": "2",
-          "losses": "8",
-          "goals": "29-33",
+          "losses": "9",
+          "goals": "31-33",
           "points": "23"
         },
         {
@@ -1768,6 +1768,16 @@
         },
         {
           "position": "12",
+          "team": "בית\"ר חיפה",
+          "games": "18",
+          "wins": "6",
+          "draws": "3",
+          "losses": "9",
+          "goals": "27-18",
+          "points": "21"
+        },
+        {
+          "position": "13",
           "team": "עירוני נשר",
           "games": "18",
           "wins": "5",
@@ -1777,7 +1787,7 @@
           "points": "20"
         },
         {
-          "position": "13",
+          "position": "14",
           "team": "מכבי אחי נצרת",
           "games": "18",
           "wins": "6",
@@ -1787,7 +1797,7 @@
           "points": "20"
         },
         {
-          "position": "14",
+          "position": "15",
           "team": "הפועל חדרה מערב",
           "games": "18",
           "wins": "5",
@@ -1795,16 +1805,6 @@
           "losses": "8",
           "goals": "34-18",
           "points": "20"
-        },
-        {
-          "position": "15",
-          "team": "בית\"ר חיפה",
-          "games": "17",
-          "wins": "5",
-          "draws": "3",
-          "losses": "9",
-          "goals": "27-16",
-          "points": "18"
         },
         {
           "position": "16",
