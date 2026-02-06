@@ -1130,11 +1130,11 @@
           "position": "2",
           "team": "מכבי עין מאהל אדהם",
           "games": "14",
-          "wins": "11",
-          "draws": "1",
+          "wins": "10",
+          "draws": "2",
           "losses": "2",
-          "goals": "23-59",
-          "points": "34"
+          "goals": "23-58",
+          "points": "32"
         },
         {
           "position": "3",
@@ -1168,22 +1168,22 @@
         },
         {
           "position": "6",
+          "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
+          "games": "13",
+          "wins": "6",
+          "draws": "2",
+          "losses": "5",
+          "goals": "19-36",
+          "points": "20"
+        },
+        {
+          "position": "7",
           "team": "מכבי אחי איכסל",
           "games": "12",
           "wins": "6",
           "draws": "1",
           "losses": "5",
           "goals": "24-36",
-          "points": "19"
-        },
-        {
-          "position": "7",
-          "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
-          "games": "13",
-          "wins": "6",
-          "draws": "1",
-          "losses": "6",
-          "goals": "20-36",
           "points": "19"
         },
         {
