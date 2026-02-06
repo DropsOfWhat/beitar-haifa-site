@@ -1129,12 +1129,12 @@
         {
           "position": "2",
           "team": "מכבי עין מאהל אדהם",
-          "games": "13",
-          "wins": "10",
+          "games": "14",
+          "wins": "11",
           "draws": "1",
           "losses": "2",
-          "goals": "21-56",
-          "points": "31"
+          "goals": "23-59",
+          "points": "34"
         },
         {
           "position": "3",
@@ -1179,11 +1179,11 @@
         {
           "position": "7",
           "team": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
-          "games": "12",
+          "games": "13",
           "wins": "6",
           "draws": "1",
-          "losses": "5",
-          "goals": "17-34",
+          "losses": "6",
+          "goals": "20-36",
           "points": "19"
         },
         {
@@ -1229,22 +1229,22 @@
         {
           "position": "12",
           "team": "מ.כ. כרמל חיפה",
-          "games": "13",
+          "games": "14",
           "wins": "2",
-          "draws": "0",
+          "draws": "1",
           "losses": "11",
-          "goals": "83-24",
-          "points": "6"
+          "goals": "86-27",
+          "points": "7"
         },
         {
           "position": "13",
           "team": "אתלטיקו שפרעם",
-          "games": "13",
+          "games": "14",
           "wins": "0",
-          "draws": "0",
+          "draws": "1",
           "losses": "13",
-          "goals": "96-5",
-          "points": "0"
+          "goals": "99-8",
+          "points": "1"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3340&season_id=27",
