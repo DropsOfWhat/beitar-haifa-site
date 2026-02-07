@@ -410,11 +410,11 @@
           "position": "11",
           "team": "מ.ס. כדורגל משהד",
           "games": "20",
-          "wins": "5",
-          "draws": "2",
+          "wins": "6",
+          "draws": "1",
           "losses": "13",
-          "goals": "38-24",
-          "points": "17"
+          "goals": "39-27",
+          "points": "19"
         },
         {
           "position": "12",
@@ -461,10 +461,10 @@
           "team": "הפועל יפיע",
           "games": "20",
           "wins": "2",
-          "draws": "2",
-          "losses": "16",
-          "goals": "89-15",
-          "points": "8"
+          "draws": "1",
+          "losses": "17",
+          "goals": "92-16",
+          "points": "7"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3586&season_id=27",
@@ -2728,6 +2728,16 @@
         },
         {
           "position": "2",
+          "team": "הפועל מטה אשר",
+          "games": "16",
+          "wins": "14",
+          "draws": "0",
+          "losses": "2",
+          "goals": "14-83",
+          "points": "42"
+        },
+        {
+          "position": "3",
           "team": "מ.כ. קרית חיים \"\"",
           "games": "15",
           "wins": "14",
@@ -2737,7 +2747,7 @@
           "points": "42"
         },
         {
-          "position": "3",
+          "position": "4",
           "team": "מ.ס. שפרעם",
           "games": "15",
           "wins": "13",
@@ -2745,16 +2755,6 @@
           "losses": "1",
           "goals": "14-105",
           "points": "40"
-        },
-        {
-          "position": "4",
-          "team": "הפועל מטה אשר",
-          "games": "15",
-          "wins": "13",
-          "draws": "0",
-          "losses": "2",
-          "goals": "13-78",
-          "points": "39"
         },
         {
           "position": "5",
@@ -2808,6 +2808,16 @@
         },
         {
           "position": "10",
+          "team": "הפועל חיפה 2",
+          "games": "16",
+          "wins": "9",
+          "draws": "1",
+          "losses": "6",
+          "goals": "25-71",
+          "points": "28"
+        },
+        {
+          "position": "11",
           "team": "מכבי ע.ק. אתא",
           "games": "17",
           "wins": "9",
@@ -2815,16 +2825,6 @@
           "losses": "8",
           "goals": "57-84",
           "points": "27"
-        },
-        {
-          "position": "11",
-          "team": "הפועל חיפה 2",
-          "games": "15",
-          "wins": "8",
-          "draws": "1",
-          "losses": "6",
-          "goals": "25-63",
-          "points": "25"
         },
         {
           "position": "12",
@@ -2879,11 +2879,11 @@
         {
           "position": "17",
           "team": "מ.כ. כבביר",
-          "games": "16",
+          "games": "17",
           "wins": "3",
           "draws": "1",
-          "losses": "12",
-          "goals": "82-23",
+          "losses": "13",
+          "goals": "90-23",
           "points": "10"
         },
         {
@@ -2919,11 +2919,11 @@
         {
           "position": "21",
           "team": "מ.כ. שפרעם",
-          "games": "16",
+          "games": "17",
           "wins": "2",
           "draws": "0",
-          "losses": "14",
-          "goals": "95-22",
+          "losses": "15",
+          "goals": "100-23",
           "points": "6"
         },
         {
