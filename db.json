@@ -319,12 +319,12 @@
         {
           "position": "2",
           "team": "מ.ס. טירת כרמל גל קובי",
-          "games": "19",
+          "games": "20",
           "wins": "15",
-          "draws": "2",
+          "draws": "3",
           "losses": "2",
-          "goals": "12-52",
-          "points": "47"
+          "goals": "13-53",
+          "points": "48"
         },
         {
           "position": "3",
@@ -408,6 +408,16 @@
         },
         {
           "position": "11",
+          "team": "מ.ס. כדורגל משהד",
+          "games": "20",
+          "wins": "5",
+          "draws": "2",
+          "losses": "13",
+          "goals": "38-24",
+          "points": "17"
+        },
+        {
+          "position": "12",
           "team": "מ.כ. כבביר",
           "games": "20",
           "wins": "4",
@@ -415,16 +425,6 @@
           "losses": "11",
           "goals": "58-31",
           "points": "17"
-        },
-        {
-          "position": "12",
-          "team": "מ.ס. כדורגל משהד",
-          "games": "19",
-          "wins": "5",
-          "draws": "1",
-          "losses": "13",
-          "goals": "38-24",
-          "points": "16"
         },
         {
           "position": "13",
@@ -449,22 +449,22 @@
         {
           "position": "15",
           "team": "מ.ס. נתניה קולט כהן",
-          "games": "19",
+          "games": "20",
           "wins": "3",
-          "draws": "4",
+          "draws": "5",
           "losses": "12",
-          "goals": "36-28",
-          "points": "13"
+          "goals": "37-29",
+          "points": "14"
         },
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "19",
+          "games": "20",
           "wins": "2",
-          "draws": "1",
+          "draws": "2",
           "losses": "16",
           "goals": "89-15",
-          "points": "7"
+          "points": "8"
         }
       ],
       "gameUrl": "https://www.football.org.il/team-details/team-games/?team_id=3586&season_id=27",
