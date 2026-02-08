@@ -1128,6 +1128,16 @@
         },
         {
           "position": "2",
+          "team": "בית\"ר חיפה",
+          "games": "14",
+          "wins": "11",
+          "draws": "1",
+          "losses": "2",
+          "goals": "24-67",
+          "points": "34"
+        },
+        {
+          "position": "3",
           "team": "מכבי עין מאהל אדהם",
           "games": "14",
           "wins": "10",
@@ -1135,16 +1145,6 @@
           "losses": "2",
           "goals": "23-58",
           "points": "32"
-        },
-        {
-          "position": "3",
-          "team": "בית\"ר חיפה",
-          "games": "13",
-          "wins": "10",
-          "draws": "1",
-          "losses": "2",
-          "goals": "24-62",
-          "points": "31"
         },
         {
           "position": "4",
@@ -1179,11 +1179,11 @@
         {
           "position": "7",
           "team": "מכבי אחי איכסל",
-          "games": "12",
+          "games": "13",
           "wins": "6",
           "draws": "1",
-          "losses": "5",
-          "goals": "24-36",
+          "losses": "6",
+          "goals": "29-36",
           "points": "19"
         },
         {
