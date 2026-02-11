@@ -2778,6 +2778,16 @@
         },
         {
           "position": "3",
+          "team": "מ.ס. שפרעם",
+          "games": "16",
+          "wins": "14",
+          "draws": "1",
+          "losses": "1",
+          "goals": "15-109",
+          "points": "43"
+        },
+        {
+          "position": "4",
           "team": "הפועל מטה אשר",
           "games": "16",
           "wins": "14",
@@ -2785,16 +2795,6 @@
           "losses": "2",
           "goals": "14-83",
           "points": "42"
-        },
-        {
-          "position": "4",
-          "team": "מ.ס. שפרעם",
-          "games": "15",
-          "wins": "13",
-          "draws": "1",
-          "losses": "1",
-          "goals": "14-105",
-          "points": "40"
         },
         {
           "position": "5",
@@ -2889,31 +2889,31 @@
         {
           "position": "14",
           "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
-          "games": "16",
+          "games": "17",
           "wins": "8",
           "draws": "0",
-          "losses": "8",
-          "goals": "59-58",
+          "losses": "9",
+          "goals": "63-59",
           "points": "24"
         },
         {
           "position": "15",
           "team": "מ.כ. צופי חיפה",
-          "games": "15",
-          "wins": "5",
+          "games": "16",
+          "wins": "6",
           "draws": "2",
           "losses": "8",
-          "goals": "54-36",
-          "points": "17"
+          "goals": "56-49",
+          "points": "20"
         },
         {
           "position": "16",
           "team": "מ.כ. מכבי נהריה \"\"",
-          "games": "15",
+          "games": "16",
           "wins": "4",
           "draws": "0",
-          "losses": "11",
-          "goals": "112-24",
+          "losses": "12",
+          "goals": "125-26",
           "points": "12"
         },
         {
