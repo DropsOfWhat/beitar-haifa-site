@@ -349,15 +349,25 @@
         {
           "position": "4",
           "team": "מ.כ. אור עקיבא",
-          "games": "20",
+          "games": "21",
           "wins": "14",
           "draws": "3",
-          "losses": "3",
-          "goals": "28-68",
+          "losses": "4",
+          "goals": "30-68",
           "points": "44"
         },
         {
           "position": "5",
+          "team": "בית\"ר חיפה",
+          "games": "21",
+          "wins": "13",
+          "draws": "2",
+          "losses": "6",
+          "goals": "29-52",
+          "points": "41"
+        },
+        {
+          "position": "6",
           "team": "איחוד בני בקה",
           "games": "20",
           "wins": "12",
@@ -367,24 +377,14 @@
           "points": "41"
         },
         {
-          "position": "6",
-          "team": "בית\"ר חיפה",
-          "games": "20",
-          "wins": "12",
-          "draws": "2",
-          "losses": "6",
-          "goals": "29-50",
-          "points": "38"
-        },
-        {
           "position": "7",
           "team": "מ.ס. צעירי חיפה",
-          "games": "20",
-          "wins": "11",
+          "games": "21",
+          "wins": "12",
           "draws": "2",
           "losses": "7",
-          "goals": "21-46",
-          "points": "35"
+          "goals": "21-50",
+          "points": "38"
         },
         {
           "position": "8",
@@ -469,11 +469,11 @@
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "20",
+          "games": "21",
           "wins": "2",
           "draws": "1",
-          "losses": "17",
-          "goals": "92-16",
+          "losses": "18",
+          "goals": "96-16",
           "points": "7"
         }
       ],
@@ -799,12 +799,12 @@
         {
           "position": "3",
           "team": "מכבי נווה שאנן יוסף שריקי \"\"",
-          "games": "14",
-          "wins": "8",
+          "games": "15",
+          "wins": "9",
           "draws": "3",
           "losses": "3",
-          "goals": "21-49",
-          "points": "27"
+          "goals": "22-53",
+          "points": "30"
         },
         {
           "position": "4",
@@ -839,11 +839,11 @@
         {
           "position": "7",
           "team": "מ.כ. כבביר",
-          "games": "15",
+          "games": "16",
           "wins": "5",
           "draws": "1",
-          "losses": "9",
-          "goals": "40-26",
+          "losses": "10",
+          "goals": "44-27",
           "points": "16"
         },
         {
