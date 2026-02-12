@@ -318,22 +318,22 @@
       "table": [
         {
           "position": "1",
+          "team": "מ.ס. טירת כרמל גל קובי",
+          "games": "21",
+          "wins": "16",
+          "draws": "3",
+          "losses": "2",
+          "goals": "13-56",
+          "points": "51"
+        },
+        {
+          "position": "2",
           "team": "הפועל איחוד בני ג'ת",
           "games": "20",
           "wins": "15",
           "draws": "3",
           "losses": "2",
           "goals": "21-52",
-          "points": "48"
-        },
-        {
-          "position": "2",
-          "team": "מ.ס. טירת כרמל גל קובי",
-          "games": "20",
-          "wins": "15",
-          "draws": "3",
-          "losses": "2",
-          "goals": "13-53",
           "points": "48"
         },
         {
@@ -389,11 +389,11 @@
         {
           "position": "8",
           "team": "מ.ס. צעירי כפר קנא",
-          "games": "20",
+          "games": "21",
           "wins": "7",
           "draws": "3",
-          "losses": "10",
-          "goals": "46-35",
+          "losses": "11",
+          "goals": "49-35",
           "points": "24"
         },
         {
