@@ -779,12 +779,12 @@
         {
           "position": "1",
           "team": "בית\"ר חיפה",
-          "games": "14",
-          "wins": "13",
+          "games": "15",
+          "wins": "14",
           "draws": "1",
           "losses": "0",
-          "goals": "10-91",
-          "points": "40"
+          "goals": "11-95",
+          "points": "43"
         },
         {
           "position": "2",
@@ -829,11 +829,11 @@
         {
           "position": "6",
           "team": "מכבי עוספיא",
-          "games": "15",
+          "games": "16",
           "wins": "6",
           "draws": "2",
-          "losses": "7",
-          "goals": "27-28",
+          "losses": "8",
+          "goals": "31-29",
           "points": "20"
         },
         {
@@ -2710,7 +2710,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. צופי חיפה",
           "opponent": "בית\"ר חיפה - מ.כ. צופי חיפה",
-          "result_score": "0-1",
+          "result_score": "2-2",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אבי רן"
         },
