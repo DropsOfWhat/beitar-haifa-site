@@ -1219,12 +1219,12 @@
         {
           "position": "7",
           "team": "מכבי אחי איכסל",
-          "games": "14",
-          "wins": "6",
+          "games": "15",
+          "wins": "7",
           "draws": "2",
           "losses": "6",
-          "goals": "29-36",
-          "points": "19"
+          "goals": "29-47",
+          "points": "22"
         },
         {
           "position": "8",
@@ -1279,11 +1279,11 @@
         {
           "position": "13",
           "team": "אתלטיקו שפרעם",
-          "games": "14",
+          "games": "15",
           "wins": "0",
           "draws": "1",
-          "losses": "13",
-          "goals": "99-8",
+          "losses": "14",
+          "goals": "110-8",
           "points": "1"
         }
       ],
@@ -2799,12 +2799,12 @@
         {
           "position": "4",
           "team": "הפועל מטה אשר",
-          "games": "16",
-          "wins": "14",
+          "games": "17",
+          "wins": "15",
           "draws": "0",
           "losses": "2",
-          "goals": "14-83",
-          "points": "42"
+          "goals": "14-91",
+          "points": "45"
         },
         {
           "position": "5",
@@ -2979,11 +2979,11 @@
         {
           "position": "22",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "16",
+          "games": "17",
           "wins": "1",
           "draws": "2",
-          "losses": "13",
-          "goals": "99-16",
+          "losses": "14",
+          "goals": "107-16",
           "points": "5"
         },
         {
