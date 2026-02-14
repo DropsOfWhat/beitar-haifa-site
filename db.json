@@ -2710,7 +2710,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. צופי חיפה",
           "opponent": "בית\"ר חיפה - מ.כ. צופי חיפה",
-          "result_score": "2-2",
+          "result_score": "3-5",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אבי רן"
         },
@@ -2909,15 +2909,25 @@
         {
           "position": "15",
           "team": "מ.כ. צופי חיפה",
-          "games": "16",
+          "games": "17",
           "wins": "6",
           "draws": "2",
-          "losses": "8",
-          "goals": "56-49",
+          "losses": "9",
+          "goals": "61-52",
           "points": "20"
         },
         {
           "position": "16",
+          "team": "בית\"ר חיפה",
+          "games": "17",
+          "wins": "4",
+          "draws": "1",
+          "losses": "12",
+          "goals": "67-42",
+          "points": "13"
+        },
+        {
+          "position": "17",
           "team": "מ.כ. מכבי נהריה \"\"",
           "games": "16",
           "wins": "4",
@@ -2927,7 +2937,7 @@
           "points": "12"
         },
         {
-          "position": "17",
+          "position": "18",
           "team": "מ.כ. כבביר",
           "games": "17",
           "wins": "3",
@@ -2937,23 +2947,13 @@
           "points": "10"
         },
         {
-          "position": "18",
+          "position": "19",
           "team": "הפועל ד.א. כרמל",
           "games": "16",
           "wins": "3",
           "draws": "1",
           "losses": "12",
           "goals": "78-46",
-          "points": "10"
-        },
-        {
-          "position": "19",
-          "team": "בית\"ר חיפה",
-          "games": "16",
-          "wins": "3",
-          "draws": "1",
-          "losses": "12",
-          "goals": "64-37",
           "points": "10"
         },
         {
