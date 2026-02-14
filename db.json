@@ -318,16 +318,6 @@
       "table": [
         {
           "position": "1",
-          "team": "הפועל איחוד בני ג'ת",
-          "games": "21",
-          "wins": "16",
-          "draws": "3",
-          "losses": "2",
-          "goals": "21-54",
-          "points": "51"
-        },
-        {
-          "position": "2",
           "team": "מ.ס. טירת כרמל גל קובי",
           "games": "21",
           "wins": "16",
@@ -335,6 +325,16 @@
           "losses": "2",
           "goals": "13-56",
           "points": "51"
+        },
+        {
+          "position": "2",
+          "team": "הפועל איחוד בני ג'ת",
+          "games": "20",
+          "wins": "15",
+          "draws": "3",
+          "losses": "2",
+          "goals": "21-52",
+          "points": "48"
         },
         {
           "position": "3",
@@ -399,11 +399,11 @@
         {
           "position": "9",
           "team": "הפועל בני ערערה עארה",
-          "games": "21",
+          "games": "20",
           "wins": "6",
           "draws": "6",
-          "losses": "9",
-          "goals": "36-19",
+          "losses": "8",
+          "goals": "34-19",
           "points": "24"
         },
         {
@@ -2779,22 +2779,22 @@
         {
           "position": "2",
           "team": "מ.כ. קרית חיים \"\"",
-          "games": "16",
-          "wins": "14",
+          "games": "17",
+          "wins": "15",
           "draws": "1",
           "losses": "1",
-          "goals": "12-135",
-          "points": "43"
+          "goals": "14-140",
+          "points": "46"
         },
         {
           "position": "3",
           "team": "מ.ס. שפרעם",
-          "games": "16",
-          "wins": "14",
+          "games": "17",
+          "wins": "15",
           "draws": "1",
           "losses": "1",
-          "goals": "15-111",
-          "points": "43"
+          "goals": "15-121",
+          "points": "46"
         },
         {
           "position": "4",
@@ -2889,11 +2889,11 @@
         {
           "position": "13",
           "team": "מ.כ. כרמל חיפה",
-          "games": "16",
+          "games": "17",
           "wins": "7",
           "draws": "4",
-          "losses": "5",
-          "goals": "31-63",
+          "losses": "6",
+          "goals": "36-65",
           "points": "25"
         },
         {
@@ -2949,11 +2949,11 @@
         {
           "position": "19",
           "team": "מ.כ. כבביר",
-          "games": "17",
+          "games": "18",
           "wins": "3",
           "draws": "1",
-          "losses": "13",
-          "goals": "90-23",
+          "losses": "14",
+          "goals": "100-23",
           "points": "10"
         },
         {
