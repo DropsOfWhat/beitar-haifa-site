@@ -2140,7 +2140,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.ס. בני יפיע",
           "opponent": "בית\"ר חיפה - מ.ס. בני יפיע",
-          "result_score": "1-6",
+          "result_score": "1-8",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
@@ -2828,6 +2828,16 @@
         },
         {
           "position": "7",
+          "team": "הפועל טירת כרמל",
+          "games": "18",
+          "wins": "10",
+          "draws": "2",
+          "losses": "6",
+          "goals": "35-50",
+          "points": "32"
+        },
+        {
+          "position": "8",
           "team": "איחוד בני עכו",
           "games": "17",
           "wins": "10",
@@ -2835,16 +2845,6 @@
           "losses": "5",
           "goals": "29-61",
           "points": "32"
-        },
-        {
-          "position": "8",
-          "team": "הפועל טירת כרמל",
-          "games": "17",
-          "wins": "10",
-          "draws": "1",
-          "losses": "6",
-          "goals": "32-47",
-          "points": "31"
         },
         {
           "position": "9",
@@ -2938,22 +2938,22 @@
         },
         {
           "position": "18",
+          "team": "הפועל ד.א. כרמל",
+          "games": "17",
+          "wins": "3",
+          "draws": "2",
+          "losses": "12",
+          "goals": "81-49",
+          "points": "11"
+        },
+        {
+          "position": "19",
           "team": "מ.כ. כבביר",
           "games": "17",
           "wins": "3",
           "draws": "1",
           "losses": "13",
           "goals": "90-23",
-          "points": "10"
-        },
-        {
-          "position": "19",
-          "team": "הפועל ד.א. כרמל",
-          "games": "16",
-          "wins": "3",
-          "draws": "1",
-          "losses": "12",
-          "goals": "78-46",
           "points": "10"
         },
         {
