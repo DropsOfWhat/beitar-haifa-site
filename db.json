@@ -318,6 +318,16 @@
       "table": [
         {
           "position": "1",
+          "team": "הפועל איחוד בני ג'ת",
+          "games": "21",
+          "wins": "16",
+          "draws": "3",
+          "losses": "2",
+          "goals": "21-54",
+          "points": "51"
+        },
+        {
+          "position": "2",
           "team": "מ.ס. טירת כרמל גל קובי",
           "games": "21",
           "wins": "16",
@@ -325,16 +335,6 @@
           "losses": "2",
           "goals": "13-56",
           "points": "51"
-        },
-        {
-          "position": "2",
-          "team": "הפועל איחוד בני ג'ת",
-          "games": "20",
-          "wins": "15",
-          "draws": "3",
-          "losses": "2",
-          "goals": "21-52",
-          "points": "48"
         },
         {
           "position": "3",
@@ -399,11 +399,11 @@
         {
           "position": "9",
           "team": "הפועל בני ערערה עארה",
-          "games": "20",
+          "games": "21",
           "wins": "6",
           "draws": "6",
-          "losses": "8",
-          "goals": "34-19",
+          "losses": "9",
+          "goals": "36-19",
           "points": "24"
         },
         {
@@ -2140,7 +2140,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.ס. בני יפיע",
           "opponent": "בית\"ר חיפה - מ.ס. בני יפיע",
-          "result_score": "1-8",
+          "result_score": "2-8",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
