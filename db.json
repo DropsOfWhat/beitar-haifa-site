@@ -2769,12 +2769,12 @@
         {
           "position": "1",
           "team": "מ.ס.קרית ים \"דניאל\" \"\"",
-          "games": "17",
-          "wins": "15",
+          "games": "18",
+          "wins": "16",
           "draws": "1",
           "losses": "1",
-          "goals": "13-119",
-          "points": "46"
+          "goals": "13-120",
+          "points": "49"
         },
         {
           "position": "2",
@@ -2828,6 +2828,16 @@
         },
         {
           "position": "7",
+          "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
+          "games": "17",
+          "wins": "11",
+          "draws": "1",
+          "losses": "5",
+          "goals": "35-77",
+          "points": "34"
+        },
+        {
+          "position": "8",
           "team": "הפועל טירת כרמל",
           "games": "18",
           "wins": "10",
@@ -2837,7 +2847,7 @@
           "points": "32"
         },
         {
-          "position": "8",
+          "position": "9",
           "team": "איחוד בני עכו",
           "games": "17",
           "wins": "10",
@@ -2847,23 +2857,13 @@
           "points": "32"
         },
         {
-          "position": "9",
-          "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
-          "games": "16",
-          "wins": "10",
-          "draws": "1",
-          "losses": "5",
-          "goals": "35-72",
-          "points": "31"
-        },
-        {
           "position": "10",
           "team": "הפועל חיפה 2",
-          "games": "16",
+          "games": "17",
           "wins": "9",
           "draws": "1",
-          "losses": "6",
-          "goals": "25-71",
+          "losses": "7",
+          "goals": "26-71",
           "points": "28"
         },
         {
@@ -2899,11 +2899,11 @@
         {
           "position": "14",
           "team": "מכבי ס.מעלות תרשיחא 12 \"\"",
-          "games": "17",
+          "games": "18",
           "wins": "8",
           "draws": "0",
-          "losses": "9",
-          "goals": "65-59",
+          "losses": "10",
+          "goals": "70-59",
           "points": "24"
         },
         {
