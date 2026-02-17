@@ -1249,22 +1249,22 @@
         {
           "position": "8",
           "team": "מ.כ. נהלל יזרעאל",
-          "games": "14",
+          "games": "15",
           "wins": "6",
           "draws": "0",
-          "losses": "8",
-          "goals": "44-34",
+          "losses": "9",
+          "goals": "48-37",
           "points": "18"
         },
         {
           "position": "9",
           "team": "מ.ס. חיפה רובי שפירא",
-          "games": "14",
-          "wins": "4",
+          "games": "15",
+          "wins": "5",
           "draws": "2",
           "losses": "8",
-          "goals": "50-34",
-          "points": "13"
+          "goals": "53-38",
+          "points": "16"
         },
         {
           "position": "10",
@@ -2888,6 +2888,16 @@
         },
         {
           "position": "11",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "17",
+          "wins": "8",
+          "draws": "4",
+          "losses": "5",
+          "goals": "29-46",
+          "points": "28"
+        },
+        {
+          "position": "12",
           "team": "מכבי ע.ק. אתא",
           "games": "17",
           "wins": "9",
@@ -2895,16 +2905,6 @@
           "losses": "8",
           "goals": "57-84",
           "points": "27"
-        },
-        {
-          "position": "12",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "16",
-          "wins": "7",
-          "draws": "4",
-          "losses": "5",
-          "goals": "29-40",
-          "points": "25"
         },
         {
           "position": "13",
@@ -2949,11 +2949,11 @@
         {
           "position": "17",
           "team": "מ.כ. מכבי נהריה \"\"",
-          "games": "16",
+          "games": "17",
           "wins": "4",
           "draws": "0",
-          "losses": "12",
-          "goals": "125-26",
+          "losses": "13",
+          "goals": "131-26",
           "points": "12"
         },
         {
