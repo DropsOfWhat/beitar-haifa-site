@@ -368,6 +368,16 @@
         },
         {
           "position": "6",
+          "team": "מ.ס. צעירי חיפה",
+          "games": "22",
+          "wins": "13",
+          "draws": "2",
+          "losses": "7",
+          "goals": "21-51",
+          "points": "41"
+        },
+        {
+          "position": "7",
           "team": "בית\"ר חיפה",
           "games": "21",
           "wins": "13",
@@ -375,16 +385,6 @@
           "losses": "6",
           "goals": "29-54",
           "points": "41"
-        },
-        {
-          "position": "7",
-          "team": "מ.ס. צעירי חיפה",
-          "games": "21",
-          "wins": "12",
-          "draws": "2",
-          "losses": "7",
-          "goals": "21-50",
-          "points": "38"
         },
         {
           "position": "8",
@@ -409,11 +409,11 @@
         {
           "position": "10",
           "team": "מ.כ. צופי חיפה סמיר פרהוד",
-          "games": "21",
+          "games": "22",
           "wins": "5",
           "draws": "6",
-          "losses": "10",
-          "goals": "43-33",
+          "losses": "11",
+          "goals": "44-33",
           "points": "21"
         },
         {
