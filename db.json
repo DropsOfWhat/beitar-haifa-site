@@ -339,15 +339,25 @@
         {
           "position": "3",
           "team": "הפועל דלית אל כרמל",
-          "games": "21",
+          "games": "22",
           "wins": "14",
-          "draws": "3",
+          "draws": "4",
           "losses": "4",
           "goals": "23-60",
-          "points": "45"
+          "points": "46"
         },
         {
           "position": "4",
+          "team": "איחוד בני בקה",
+          "games": "22",
+          "wins": "13",
+          "draws": "6",
+          "losses": "3",
+          "goals": "24-45",
+          "points": "45"
+        },
+        {
+          "position": "5",
           "team": "מ.כ. אור עקיבא",
           "games": "21",
           "wins": "14",
@@ -357,17 +367,17 @@
           "points": "44"
         },
         {
-          "position": "5",
-          "team": "איחוד בני בקה",
-          "games": "21",
+          "position": "6",
+          "team": "בית\"ר חיפה",
+          "games": "22",
           "wins": "13",
-          "draws": "5",
-          "losses": "3",
-          "goals": "24-45",
-          "points": "44"
+          "draws": "3",
+          "losses": "6",
+          "goals": "29-54",
+          "points": "42"
         },
         {
-          "position": "6",
+          "position": "7",
           "team": "מ.ס. צעירי חיפה",
           "games": "22",
           "wins": "13",
@@ -377,24 +387,14 @@
           "points": "41"
         },
         {
-          "position": "7",
-          "team": "בית\"ר חיפה",
-          "games": "21",
-          "wins": "13",
-          "draws": "2",
-          "losses": "6",
-          "goals": "29-54",
-          "points": "41"
-        },
-        {
           "position": "8",
           "team": "מ.ס. צעירי כפר קנא",
-          "games": "21",
+          "games": "22",
           "wins": "7",
-          "draws": "3",
+          "draws": "4",
           "losses": "11",
           "goals": "49-35",
-          "points": "24"
+          "points": "25"
         },
         {
           "position": "9",
@@ -418,6 +418,16 @@
         },
         {
           "position": "11",
+          "team": "מ.כ. כבביר",
+          "games": "22",
+          "wins": "5",
+          "draws": "6",
+          "losses": "11",
+          "goals": "60-36",
+          "points": "21"
+        },
+        {
+          "position": "12",
           "team": "מ.ס. כדורגל משהד",
           "games": "21",
           "wins": "6",
@@ -427,44 +437,34 @@
           "points": "20"
         },
         {
-          "position": "12",
-          "team": "מ.כ. כבביר",
-          "games": "21",
-          "wins": "5",
-          "draws": "5",
-          "losses": "11",
-          "goals": "58-34",
-          "points": "20"
-        },
-        {
           "position": "13",
           "team": "הפועל רמות מנשה מגידו",
-          "games": "21",
+          "games": "22",
           "wins": "4",
-          "draws": "4",
+          "draws": "5",
           "losses": "13",
-          "goals": "46-26",
-          "points": "16"
+          "goals": "48-28",
+          "points": "17"
         },
         {
           "position": "14",
-          "team": "מכבי אחי איכסל",
-          "games": "21",
+          "team": "מ.ס. נתניה קולט כהן",
+          "games": "22",
           "wins": "4",
-          "draws": "3",
-          "losses": "14",
-          "goals": "59-22",
-          "points": "15"
+          "draws": "5",
+          "losses": "13",
+          "goals": "40-35",
+          "points": "17"
         },
         {
           "position": "15",
-          "team": "מ.ס. נתניה קולט כהן",
-          "games": "21",
-          "wins": "3",
-          "draws": "5",
-          "losses": "13",
-          "goals": "40-30",
-          "points": "14"
+          "team": "מכבי אחי איכסל",
+          "games": "22",
+          "wins": "4",
+          "draws": "3",
+          "losses": "15",
+          "goals": "64-22",
+          "points": "15"
         },
         {
           "position": "16",
