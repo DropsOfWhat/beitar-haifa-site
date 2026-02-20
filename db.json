@@ -338,6 +338,16 @@
         },
         {
           "position": "3",
+          "team": "איחוד בני בקה",
+          "games": "22",
+          "wins": "14",
+          "draws": "5",
+          "losses": "3",
+          "goals": "25-48",
+          "points": "47"
+        },
+        {
+          "position": "4",
           "team": "הפועל דלית אל כרמל",
           "games": "22",
           "wins": "14",
@@ -345,16 +355,6 @@
           "losses": "4",
           "goals": "23-60",
           "points": "46"
-        },
-        {
-          "position": "4",
-          "team": "איחוד בני בקה",
-          "games": "22",
-          "wins": "13",
-          "draws": "6",
-          "losses": "3",
-          "goals": "24-45",
-          "points": "45"
         },
         {
           "position": "5",
@@ -391,10 +391,10 @@
           "team": "מ.ס. צעירי כפר קנא",
           "games": "22",
           "wins": "7",
-          "draws": "4",
-          "losses": "11",
-          "goals": "49-35",
-          "points": "25"
+          "draws": "3",
+          "losses": "12",
+          "goals": "52-36",
+          "points": "24"
         },
         {
           "position": "9",
