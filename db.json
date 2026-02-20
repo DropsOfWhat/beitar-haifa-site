@@ -2809,12 +2809,12 @@
         {
           "position": "2",
           "team": "מ.כ. קרית חיים \"\"",
-          "games": "17",
-          "wins": "15",
+          "games": "18",
+          "wins": "16",
           "draws": "1",
           "losses": "1",
-          "goals": "14-140",
-          "points": "46"
+          "goals": "14-157",
+          "points": "49"
         },
         {
           "position": "3",
@@ -2859,12 +2859,12 @@
         {
           "position": "7",
           "team": "מכבי נווה שאנן ז'אק בז'ה \"\"",
-          "games": "17",
-          "wins": "11",
+          "games": "18",
+          "wins": "12",
           "draws": "1",
           "losses": "5",
-          "goals": "35-77",
-          "points": "34"
+          "goals": "36-86",
+          "points": "37"
         },
         {
           "position": "8",
@@ -2948,6 +2948,16 @@
         },
         {
           "position": "16",
+          "team": "הפועל ד.א. כרמל",
+          "games": "18",
+          "wins": "4",
+          "draws": "2",
+          "losses": "12",
+          "goals": "81-63",
+          "points": "14"
+        },
+        {
+          "position": "17",
           "team": "בית\"ר חיפה",
           "games": "17",
           "wins": "4",
@@ -2957,23 +2967,13 @@
           "points": "13"
         },
         {
-          "position": "17",
-          "team": "הפועל ד.א. כרמל",
-          "games": "17",
-          "wins": "3",
-          "draws": "2",
-          "losses": "12",
-          "goals": "81-49",
-          "points": "11"
-        },
-        {
           "position": "18",
           "team": "מ.כ. כבביר",
-          "games": "18",
+          "games": "19",
           "wins": "3",
           "draws": "1",
-          "losses": "14",
-          "goals": "100-23",
+          "losses": "15",
+          "goals": "109-24",
           "points": "10"
         },
         {
@@ -2989,21 +2989,21 @@
         {
           "position": "20",
           "team": "מ.כ. מכבי נהריה \"\"",
-          "games": "17",
+          "games": "18",
           "wins": "3",
           "draws": "0",
-          "losses": "14",
-          "goals": "132-23",
+          "losses": "15",
+          "goals": "149-23",
           "points": "9"
         },
         {
           "position": "21",
           "team": "מ.כ. שפרעם",
-          "games": "18",
+          "games": "19",
           "wins": "3",
           "draws": "0",
-          "losses": "15",
-          "goals": "100-34",
+          "losses": "16",
+          "goals": "114-34",
           "points": "9"
         },
         {
