@@ -2808,12 +2808,12 @@
       "table": [
         {
           "position": "1",
-          "team": "מ.ס.קרית ים \"דניאל\" \"\"",
+          "team": "מ.ס. שפרעם",
           "games": "18",
           "wins": "16",
           "draws": "1",
           "losses": "1",
-          "goals": "13-120",
+          "goals": "15-125",
           "points": "49"
         },
         {
@@ -2828,6 +2828,16 @@
         },
         {
           "position": "3",
+          "team": "מ.ס.קרית ים \"דניאל\" \"\"",
+          "games": "19",
+          "wins": "16",
+          "draws": "1",
+          "losses": "2",
+          "goals": "17-120",
+          "points": "49"
+        },
+        {
+          "position": "4",
           "team": "הפועל מטה אשר",
           "games": "18",
           "wins": "16",
@@ -2835,16 +2845,6 @@
           "losses": "2",
           "goals": "15-99",
           "points": "48"
-        },
-        {
-          "position": "4",
-          "team": "מ.ס. שפרעם",
-          "games": "17",
-          "wins": "15",
-          "draws": "1",
-          "losses": "1",
-          "goals": "15-121",
-          "points": "46"
         },
         {
           "position": "5",
@@ -2859,12 +2859,12 @@
         {
           "position": "6",
           "team": "בית\"ר נהריה 2 \"\"",
-          "games": "17",
-          "wins": "12",
+          "games": "18",
+          "wins": "13",
           "draws": "1",
           "losses": "4",
-          "goals": "24-90",
-          "points": "37"
+          "goals": "24-95",
+          "points": "40"
         },
         {
           "position": "7",
@@ -2889,11 +2889,11 @@
         {
           "position": "9",
           "team": "איחוד בני עכו",
-          "games": "17",
+          "games": "18",
           "wins": "10",
           "draws": "2",
-          "losses": "5",
-          "goals": "29-61",
+          "losses": "6",
+          "goals": "34-61",
           "points": "32"
         },
         {
