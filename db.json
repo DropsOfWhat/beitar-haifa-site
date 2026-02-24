@@ -2998,6 +2998,16 @@
         },
         {
           "position": "18",
+          "team": "מ.ס. קרית חיים \"\"",
+          "games": "18",
+          "wins": "3",
+          "draws": "2",
+          "losses": "13",
+          "goals": "105-25",
+          "points": "11"
+        },
+        {
+          "position": "19",
           "team": "מ.כ. כבביר",
           "games": "19",
           "wins": "3",
@@ -3007,7 +3017,7 @@
           "points": "10"
         },
         {
-          "position": "19",
+          "position": "20",
           "team": "הפועל חוף הכרמל / מ\"מ",
           "games": "18",
           "wins": "3",
@@ -3017,7 +3027,7 @@
           "points": "9"
         },
         {
-          "position": "20",
+          "position": "21",
           "team": "מ.כ. מכבי נהריה \"\"",
           "games": "18",
           "wins": "3",
@@ -3027,7 +3037,7 @@
           "points": "9"
         },
         {
-          "position": "21",
+          "position": "22",
           "team": "מ.כ. שפרעם",
           "games": "19",
           "wins": "3",
@@ -3037,23 +3047,13 @@
           "points": "9"
         },
         {
-          "position": "22",
-          "team": "מ.ס. קרית חיים \"\"",
-          "games": "17",
-          "wins": "2",
-          "draws": "2",
-          "losses": "13",
-          "goals": "104-17",
-          "points": "8"
-        },
-        {
           "position": "23",
           "team": "הפ' קרית חיים ליבוביץ יעקב \"\"",
-          "games": "17",
+          "games": "18",
           "wins": "0",
           "draws": "0",
-          "losses": "17",
-          "goals": "278-2",
+          "losses": "18",
+          "goals": "286-3",
           "points": "0"
         }
       ],
