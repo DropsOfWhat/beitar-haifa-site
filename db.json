@@ -1188,6 +1188,16 @@
       "table": [
         {
           "position": "1",
+          "team": "בית\"ר חיפה",
+          "games": "16",
+          "wins": "13",
+          "draws": "1",
+          "losses": "2",
+          "goals": "24-73",
+          "points": "40"
+        },
+        {
+          "position": "2",
           "team": "הפועל עפולה",
           "games": "16",
           "wins": "12",
@@ -1195,16 +1205,6 @@
           "losses": "2",
           "goals": "17-77",
           "points": "38"
-        },
-        {
-          "position": "2",
-          "team": "בית\"ר חיפה",
-          "games": "15",
-          "wins": "12",
-          "draws": "1",
-          "losses": "2",
-          "goals": "24-68",
-          "points": "37"
         },
         {
           "position": "3",
@@ -1259,11 +1259,11 @@
         {
           "position": "8",
           "team": "מ.כ. נהלל יזרעאל",
-          "games": "15",
+          "games": "16",
           "wins": "6",
           "draws": "0",
-          "losses": "9",
-          "goals": "48-37",
+          "losses": "10",
+          "goals": "53-37",
           "points": "18"
         },
         {
