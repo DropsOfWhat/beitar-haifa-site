@@ -338,6 +338,16 @@
         },
         {
           "position": "3",
+          "team": "מ.כ. אור עקיבא",
+          "games": "22",
+          "wins": "15",
+          "draws": "3",
+          "losses": "4",
+          "goals": "32-71",
+          "points": "47"
+        },
+        {
+          "position": "4",
           "team": "איחוד בני בקה",
           "games": "22",
           "wins": "14",
@@ -347,7 +357,7 @@
           "points": "47"
         },
         {
-          "position": "4",
+          "position": "5",
           "team": "הפועל דלית אל כרמל",
           "games": "22",
           "wins": "14",
@@ -355,16 +365,6 @@
           "losses": "4",
           "goals": "24-61",
           "points": "46"
-        },
-        {
-          "position": "5",
-          "team": "מ.כ. אור עקיבא",
-          "games": "21",
-          "wins": "14",
-          "draws": "3",
-          "losses": "4",
-          "goals": "32-68",
-          "points": "44"
         },
         {
           "position": "6",
@@ -469,11 +469,11 @@
         {
           "position": "16",
           "team": "הפועל יפיע",
-          "games": "21",
+          "games": "22",
           "wins": "2",
           "draws": "1",
-          "losses": "18",
-          "goals": "96-16",
+          "losses": "19",
+          "goals": "99-16",
           "points": "7"
         }
       ],
