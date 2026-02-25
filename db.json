@@ -1208,6 +1208,16 @@
         },
         {
           "position": "3",
+          "team": "מכבי אחי נצרת",
+          "games": "15",
+          "wins": "11",
+          "draws": "0",
+          "losses": "4",
+          "goals": "21-43",
+          "points": "33"
+        },
+        {
+          "position": "4",
           "team": "מכבי עין מאהל אדהם",
           "games": "14",
           "wins": "10",
@@ -1217,23 +1227,13 @@
           "points": "32"
         },
         {
-          "position": "4",
-          "team": "מכבי אחי נצרת",
-          "games": "14",
-          "wins": "10",
-          "draws": "0",
-          "losses": "4",
-          "goals": "21-40",
-          "points": "30"
-        },
-        {
           "position": "5",
           "team": "הפ' בית שאן מסילות",
-          "games": "12",
+          "games": "13",
           "wins": "9",
           "draws": "0",
-          "losses": "3",
-          "goals": "16-48",
+          "losses": "4",
+          "goals": "19-48",
           "points": "27"
         },
         {
