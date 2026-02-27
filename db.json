@@ -240,7 +240,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. כבביר",
           "opponent": "בית\"ר חיפה - מ.כ. כבביר",
-          "result_score": "0-5",
+          "result_score": "0-6",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
@@ -318,6 +318,16 @@
       "table": [
         {
           "position": "1",
+          "team": "הפועל איחוד בני ג'ת",
+          "games": "20",
+          "wins": "15",
+          "draws": "3",
+          "losses": "2",
+          "goals": "19-46",
+          "points": "48"
+        },
+        {
+          "position": "2",
           "team": "מ.ס. טירת כרמל גל קובי",
           "games": "21",
           "wins": "15",
@@ -325,16 +335,6 @@
           "losses": "3",
           "goals": "14-55",
           "points": "48"
-        },
-        {
-          "position": "2",
-          "team": "הפועל איחוד בני ג'ת",
-          "games": "19",
-          "wins": "15",
-          "draws": "2",
-          "losses": "2",
-          "goals": "19-46",
-          "points": "47"
         },
         {
           "position": "3",
@@ -349,15 +349,25 @@
         {
           "position": "4",
           "team": "איחוד בני בקה",
-          "games": "19",
+          "games": "20",
           "wins": "11",
-          "draws": "5",
+          "draws": "6",
           "losses": "3",
           "goals": "22-36",
-          "points": "38"
+          "points": "39"
         },
         {
           "position": "5",
+          "team": "בית\"ר חיפה",
+          "games": "20",
+          "wins": "11",
+          "draws": "3",
+          "losses": "6",
+          "goals": "28-46",
+          "points": "36"
+        },
+        {
+          "position": "6",
           "team": "מ.כ. אור עקיבא",
           "games": "18",
           "wins": "11",
@@ -367,34 +377,24 @@
           "points": "35"
         },
         {
-          "position": "6",
+          "position": "7",
           "team": "מ.ס. צעירי חיפה",
-          "games": "19",
+          "games": "20",
           "wins": "11",
           "draws": "1",
-          "losses": "7",
-          "goals": "20-37",
+          "losses": "8",
+          "goals": "22-37",
           "points": "34"
-        },
-        {
-          "position": "7",
-          "team": "בית\"ר חיפה",
-          "games": "19",
-          "wins": "10",
-          "draws": "3",
-          "losses": "6",
-          "goals": "28-40",
-          "points": "33"
         },
         {
           "position": "8",
           "team": "הפועל בני ערערה עארה",
-          "games": "20",
-          "wins": "5",
+          "games": "21",
+          "wins": "6",
           "draws": "6",
           "losses": "9",
-          "goals": "37-17",
-          "points": "21"
+          "goals": "37-19",
+          "points": "24"
         },
         {
           "position": "9",
@@ -428,32 +428,32 @@
         },
         {
           "position": "12",
-          "team": "מ.כ. כבביר",
-          "games": "18",
-          "wins": "2",
-          "draws": "6",
-          "losses": "10",
-          "goals": "54-18",
-          "points": "12"
+          "team": "הפועל רמות מנשה מגידו",
+          "games": "20",
+          "wins": "3",
+          "draws": "5",
+          "losses": "12",
+          "goals": "46-24",
+          "points": "14"
         },
         {
           "position": "13",
-          "team": "הפועל רמות מנשה מגידו",
+          "team": "מ.כ. כבביר",
           "games": "19",
           "wins": "2",
-          "draws": "5",
-          "losses": "12",
-          "goals": "46-23",
-          "points": "11"
+          "draws": "6",
+          "losses": "11",
+          "goals": "60-18",
+          "points": "12"
         },
         {
           "position": "14",
           "team": "מ.ס. נתניה קולט כהן",
-          "games": "18",
+          "games": "19",
           "wins": "2",
           "draws": "5",
-          "losses": "11",
-          "goals": "37-27",
+          "losses": "12",
+          "goals": "38-27",
           "points": "11"
         },
         {
@@ -1100,7 +1100,7 @@
           "homeTeam": "מכבי נווה שאנן אינג' יוסף ינון \"\"",
           "awayTeam": "בית\"ר חיפה",
           "opponent": "מכבי נווה שאנן אינג' יוסף ינון \"\" - בית\"ר חיפה",
-          "result_score": "2-1",
+          "result_score": "3-1",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אבי רן"
         },
