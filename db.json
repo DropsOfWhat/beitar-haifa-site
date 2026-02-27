@@ -240,7 +240,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. כבביר",
           "opponent": "בית\"ר חיפה - מ.כ. כבביר",
-          "result_score": "",
+          "result_score": "0-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אגרטק (אתוס 1 לשעבר)"
         },
@@ -2780,7 +2780,7 @@
           "homeTeam": "בית\"ר חיפה",
           "awayTeam": "מ.כ. קרית חיים \"\"",
           "opponent": "בית\"ר חיפה - מ.כ. קרית חיים \"\"",
-          "result_score": "0-0",
+          "result_score": "3-0",
           "home_away": "Unknown",
           "stadium": "אצטדיוןחיפה אבי רן"
         },
@@ -2828,22 +2828,22 @@
       "table": [
         {
           "position": "1",
+          "team": "מ.כ. קרית חיים \"\"",
+          "games": "19",
+          "wins": "17",
+          "draws": "1",
+          "losses": "1",
+          "goals": "14-160",
+          "points": "52"
+        },
+        {
+          "position": "2",
           "team": "מ.ס. שפרעם",
           "games": "18",
           "wins": "16",
           "draws": "1",
           "losses": "1",
           "goals": "17-126",
-          "points": "49"
-        },
-        {
-          "position": "2",
-          "team": "מ.כ. קרית חיים \"\"",
-          "games": "18",
-          "wins": "16",
-          "draws": "1",
-          "losses": "1",
-          "goals": "14-157",
           "points": "49"
         },
         {
@@ -2979,31 +2979,31 @@
         {
           "position": "16",
           "team": "הפועל ד.א. כרמל",
-          "games": "18",
-          "wins": "4",
+          "games": "19",
+          "wins": "5",
           "draws": "2",
           "losses": "12",
-          "goals": "81-63",
-          "points": "14"
+          "goals": "82-71",
+          "points": "17"
         },
         {
           "position": "17",
           "team": "בית\"ר חיפה",
-          "games": "18",
+          "games": "19",
           "wins": "4",
           "draws": "1",
-          "losses": "13",
-          "goals": "73-42",
+          "losses": "14",
+          "goals": "76-42",
           "points": "13"
         },
         {
           "position": "18",
           "team": "מ.ס. קרית חיים \"\"",
-          "games": "18",
+          "games": "19",
           "wins": "3",
           "draws": "2",
-          "losses": "13",
-          "goals": "105-25",
+          "losses": "14",
+          "goals": "113-26",
           "points": "11"
         },
         {
